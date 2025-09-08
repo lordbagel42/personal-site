@@ -1,5 +1,6 @@
 <main>
 	<h1>currently in development!</h1>
+	<h2>contact me at raygenrrupe@gmail.com</h2>
 </main>
 
 <style>
