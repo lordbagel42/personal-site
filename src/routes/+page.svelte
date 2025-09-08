@@ -1,6 +1,8 @@
 <main>
-	<h1>currently in development!</h1>
-	<h2>contact me at raygenrrupe@gmail.com</h2>
+	<div style="display: flex; flex-direction: column; align-items: center;">
+		<h1>currently in development!</h1>
+		<h2>contact me at raygenrrupe@gmail.com</h2>
+	</div>
 </main>
 
 <style>
