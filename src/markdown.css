@@ -1,21 +1,35 @@
 @reference "./app.css";
 
 article.markdown h1 {
-	@apply scroll-m-20 text-3xl font-extrabold tracking-tight text-balance;
+	@apply scroll-m-20 text-6xl font-extrabold tracking-tight text-balance;
 }
 
 article.markdown h2 {
-	@apply mt-8 scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight transition-colors first:mt-0;
+	@apply mt-8 scroll-m-20 border-b pb-2 text-5xl font-semibold tracking-tight transition-colors first:mt-0;
 }
 
 article.markdown h3 {
-	@apply mt-6 scroll-m-20 text-xl font-semibold tracking-tight;
+	@apply mt-6 scroll-m-20 text-3xl font-semibold tracking-tight;
+}
+
+article.markdown h4 {
+	@apply mt-4 scroll-m-20 text-xl font-semibold tracking-tight;
+}
+
+article.markdown h5 {
+	@apply mt-4 scroll-m-20 text-base font-semibold tracking-tight;
+}
+
+article.markdown h6 {
+	@apply mt-4 scroll-m-20 text-sm font-medium tracking-tight;
 }
 
 article.markdown p {
 	@apply leading-7 [&:not(:first-child)]:mt-4;
 }
-
+article.markdown hr {
+	@apply my-4 border-b;
+}
 article.markdown a {
 	@apply font-medium text-primary underline underline-offset-4;
 }
@@ -25,7 +39,7 @@ article.markdown blockquote {
 }
 
 article.markdown ul {
-	@apply my-4 ml-6 list-disc [&>li]:mt-2;
+	@apply my-4 ml-8 list-disc [&>li]:mt-2;
 }
 
 article.markdown table {
@@ -51,4 +65,30 @@ article.markdown td {
 article.markdown div:has(table),
 article.markdown .table-wrapper {
 	@apply my-4 w-full overflow-y-auto;
+}
+article.markdown ol {
+	@apply my-4 ml-8 list-decimal [&>li]:mt-2;
+}
+article.markdown .footnotes {
+	@apply mt-12 border-t pt-4;
+}
+
+article.markdown .footnotes ol {
+	@apply pl-4;
+}
+
+article.markdown .footnotes li {
+	@apply mt-0 text-sm text-muted-foreground;
+}
+
+article.markdown .footnotes li p {
+	@apply inline;
+}
+
+article.markdown .footnotes a {
+	@apply inline-block no-underline;
+}
+
+article.markdown sup a {
+	@apply rounded-md bg-muted px-1.5 py-0.5 font-mono text-xs text-muted-foreground no-underline;
 }

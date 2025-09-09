@@ -20,7 +20,7 @@
 	class:backdrop-blur-[20px]={fixed}
 	class:rounded-xl={fixed}
 	style="
-    width: {fixed ? '20%' : '100%'};
+    width: {fixed ? '35%' : '100%'};
     left: {fixed ? '50%' : '0'};
     transform: {fixed ? 'translateX(-50%)' : 'translateX(0)'};
   "
