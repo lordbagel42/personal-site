@@ -1,0 +1,3 @@
+[submodule "src/lib/blog-md"]
+	path = src/lib/blog-md
+	url = git@github.com:lordbagel42/blog-md
