@@ -1,0 +1,54 @@
+@reference "./app.css";
+
+article.markdown h1 {
+	@apply scroll-m-20 text-3xl font-extrabold tracking-tight text-balance;
+}
+
+article.markdown h2 {
+	@apply mt-8 scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight transition-colors first:mt-0;
+}
+
+article.markdown h3 {
+	@apply mt-6 scroll-m-20 text-xl font-semibold tracking-tight;
+}
+
+article.markdown p {
+	@apply leading-7 [&:not(:first-child)]:mt-4;
+}
+
+article.markdown a {
+	@apply font-medium text-primary underline underline-offset-4;
+}
+
+article.markdown blockquote {
+	@apply mt-4 border-l-2 pl-6 italic;
+}
+
+article.markdown ul {
+	@apply my-4 ml-6 list-disc [&>li]:mt-2;
+}
+
+article.markdown table {
+	@apply w-full;
+}
+
+article.markdown thead tr {
+	@apply m-0 border-t p-0 even:bg-muted;
+}
+
+article.markdown th {
+	@apply border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right;
+}
+
+article.markdown tbody tr {
+	@apply m-0 border-t p-0 even:bg-muted;
+}
+
+article.markdown td {
+	@apply border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right;
+}
+
+article.markdown div:has(table),
+article.markdown .table-wrapper {
+	@apply my-4 w-full overflow-y-auto;
+}
