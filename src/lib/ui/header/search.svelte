@@ -18,7 +18,7 @@
 
 <button
 	onclick={() => (open = !open)}
-	class="flex items-center gap-2 rounded-xl border-t border-l border-gray-800 bg-gray-600 px-4 py-2 text-gray-300 transition-colors hover:text-blue-500"
+	class="flex items-center gap-2 rounded-xl border-t border-l border-gray-800 bg-secondary px-4 py-2 text-gray-300 transition-colors hover:text-blue-500"
 >
 	<svg
 		xmlns="http://www.w3.org/2000/svg"

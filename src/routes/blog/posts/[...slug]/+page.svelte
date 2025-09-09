@@ -28,10 +28,16 @@
 			<Badge variant="secondary">#{category}</Badge>
 		{/each}
 	</div>
-
+	<!-- 
 	<Card class="rounded-2xl shadow-md">
 		<CardContent class="prose prose-neutral dark:prose-invert max-w-none py-6">
 			<data.content />
 		</CardContent>
-	</Card>
+	</Card> -->
+
+	<div class="rounded-2xl">
+		<div class="prose prose-neutral dark:prose-invert max-w-none py-6">
+			<data.content />
+		</div>
+	</div>
 </article>
