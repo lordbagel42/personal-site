@@ -92,3 +92,7 @@ article.markdown .footnotes a {
 article.markdown sup a {
 	@apply rounded-md bg-muted px-1.5 py-0.5 font-mono text-xs text-muted-foreground no-underline;
 }
+
+article.markdown .shiki {
+	@apply rounded-md bg-muted p-4;
+}
