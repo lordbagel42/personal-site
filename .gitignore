@@ -25,4 +25,3 @@ vite.config.ts.timestamp-*
 .dev.vars*
 !.dev.vars.example
 .env*
-dev_server.log
