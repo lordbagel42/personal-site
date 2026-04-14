@@ -1,0 +1,173 @@
+
+> personal-site@0.0.1 dev /app
+> vite dev
+
+5:07:02 PM [vite] (client) Forced re-optimization of dependencies
+
+  VITE v7.1.5  ready in 2866 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+5:08:21 PM [vite-plugin-svelte] /app/src/lib/blog-md/test/test.md:211:77 This element is implicitly closed by the following `</a>`, which can cause an unexpected DOM structure. Add an explicit `</ins>` to avoid surprises.
+https://svelte.dev/e/element_implicitly_closed
+5:08:21 PM [vite-plugin-svelte] /app/src/lib/blog-md/test/test.md:213:78 This element is implicitly closed by the following `</a>`, which can cause an unexpected DOM structure. Add an explicit `</mark>` to avoid surprises.
+https://svelte.dev/e/element_implicitly_closed
+{
+  '/src/lib/blog-md/Welcome.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/index.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/test.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  }
+}
+5:09:06 PM [vite] (client) ✨ new dependencies optimized: @internationalized/date
+5:09:06 PM [vite] (client) ✨ optimized dependencies changed. reloading
+{
+  '/src/lib/blog-md/Welcome.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/index.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/test.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  }
+}
+{
+  '/src/lib/blog-md/Welcome.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/index.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/test.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  }
+}
+5:15:48 PM [vite] (client) hmr update /src/app.css
+5:15:48 PM [vite] (ssr) page reload src/lib/blog-md/.obsidian/plugins/obsidian-git/main.js
+{
+  '/src/lib/blog-md/Welcome.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/index.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/test.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  }
+}
+6:36:54 PM [vite-plugin-svelte] /app/src/lib/blog-md/test/test.md:211:77 This element is implicitly closed by the following `</a>`, which can cause an unexpected DOM structure. Add an explicit `</ins>` to avoid surprises.
+https://svelte.dev/e/element_implicitly_closed
+6:36:54 PM [vite-plugin-svelte] /app/src/lib/blog-md/test/test.md:213:78 This element is implicitly closed by the following `</a>`, which can cause an unexpected DOM structure. Add an explicit `</mark>` to avoid surprises.
+https://svelte.dev/e/element_implicitly_closed
+{
+  '/src/lib/blog-md/Welcome.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/index.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/test.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  }
+}
+{
+  '/src/lib/blog-md/Welcome.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/index.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/test.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  }
+}
+{
+  '/src/lib/blog-md/Welcome.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/index.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/test.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  }
+}
+{
+  '/src/lib/blog-md/Welcome.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/index.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/test.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  }
+}
+{
+  '/src/lib/blog-md/Welcome.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/index.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/test.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  }
+}
+6:54:48 PM [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+6:54:48 PM [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+6:54:48 PM [vite] (client) page reload .svelte-kit/generated/client/nodes/2.js
+6:54:48 PM [vite] (client) page reload .svelte-kit/generated/client/nodes/3.js
+6:54:48 PM [vite] (client) page reload .svelte-kit/generated/client/nodes/4.js
+6:54:48 PM [vite] (client) page reload .svelte-kit/generated/client/app.js
+6:54:48 PM [vite] (client) page reload .svelte-kit/generated/client/matchers.js
+6:54:48 PM [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
+6:54:48 PM [vite] (client) page reload .svelte-kit/generated/root.js
+6:54:48 PM [vite] (ssr) page reload .svelte-kit/generated/root.js
+6:54:48 PM [vite] (ssr) page reload .svelte-kit/generated/root.svelte
+{
+  '/src/lib/blog-md/Welcome.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/index.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  },
+  '/src/lib/blog-md/test/test.md': [Object: null prototype] [Module] {
+    metadata: [Getter],
+    default: [Getter]
+  }
+}

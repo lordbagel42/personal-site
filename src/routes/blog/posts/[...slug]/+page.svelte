@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
-	import { Card, CardContent } from '$lib/components/ui/card';
 	import { Badge } from '$lib/components/ui/badge';
 	import '../../../../markdown.css';
 
@@ -11,33 +10,43 @@
 	<title>{data.meta.title}</title>
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
+	<meta property="og:description" content={data.meta.description} />
 </svelte:head>
 
-<article class="markdown mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-	<hgroup class="mb-6">
-		<h1 class="mb-2 text-4xl font-bold tracking-tight text-foreground">
+<article class="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
+	<header class="mb-12 border-b pb-12">
+		<div class="mb-6 flex flex-wrap gap-2">
+			{#each data.meta.categories as category}
+				<Badge variant="outline" class="text-[10px] tracking-widest uppercase">
+					{category}
+				</Badge>
+			{/each}
+		</div>
+
+		<h1 class="mb-4 text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl">
 			{data.meta.title}
 		</h1>
-		<p class="text-sm text-muted-foreground">
-			Published on {formatDate(data.meta.date)}
+
+		<p class="mb-6 text-xl text-muted-foreground">
+			{data.meta.description}
 		</p>
-	</hgroup>
 
-	<div class="mb-8 flex flex-wrap gap-2">
-		{#each data.meta.categories as category}
-			<Badge variant="secondary">#{category}</Badge>
-		{/each}
-	</div>
-	<!-- 
-	<Card class="rounded-2xl shadow-md">
-		<CardContent class="prose prose-neutral dark:prose-invert max-w-none py-6">
-			<data.content />
-		</CardContent>
-	</Card> -->
-
-	<div class="rounded-2xl">
-		<div class="prose prose-neutral dark:prose-invert max-w-none py-6">
-			<data.content />
+		<div class="flex items-center gap-3 text-sm text-muted-foreground">
+			<time datetime={data.meta.date}>
+				{formatDate(data.meta.date, 'long')}
+			</time>
+			<span>•</span>
+			<span>Skilled Programmer</span>
 		</div>
+	</header>
+
+	<div class="markdown prose prose-neutral dark:prose-invert max-w-none">
+		<data.content />
 	</div>
+
+	<footer class="mt-16 border-t pt-8">
+		<a href="/blog" class="text-sm font-medium text-primary hover:underline">
+			← Back to all posts
+		</a>
+	</footer>
 </article>

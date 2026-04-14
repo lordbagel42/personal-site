@@ -1,21 +1,49 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
+	import * as Card from '$lib/components/ui/card';
+	import { Badge } from '$lib/components/ui/badge';
 
 	let { data } = $props();
 </script>
 
 <svelte:head>
-	<title>Test</title>
+	<title>Blog | {data.posts.length} Posts</title>
 </svelte:head>
 
-<section>
-	<ul class="posts">
+<div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+	<hgroup class="mb-10">
+		<h1 class="text-4xl font-bold tracking-tight text-foreground">Blog</h1>
+		<p class="mt-2 text-lg text-muted-foreground">
+			Thoughts, tutorials, and miscellaneous writings.
+		</p>
+	</hgroup>
+
+	<div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
 		{#each data.posts as post}
-			<li class="post">
-				<a href="blog/posts/{post.slug}" class="title">{post.title}</a>
-				<p class="date">{formatDate(post.date)}</p>
-				<p class="description">{post.description}</p>
-			</li>
+			<Card.Root class="flex flex-col overflow-hidden transition-all hover:shadow-md">
+				<Card.Header>
+					<div class="mb-2 flex items-center gap-2">
+						{#each post.categories as category}
+							<Badge variant="secondary" class="text-[10px] tracking-wider uppercase">
+								{category}
+							</Badge>
+						{/each}
+					</div>
+					<Card.Title>
+						<a href="/blog/posts/{post.slug}" class="transition-colors hover:text-primary">
+							{post.title}
+						</a>
+					</Card.Title>
+					<Card.Description class="line-clamp-2">
+						{post.description}
+					</Card.Description>
+				</Card.Header>
+				<Card.Footer class="mt-auto border-t bg-muted/50 py-3">
+					<p class="text-xs text-muted-foreground">
+						{formatDate(post.date)}
+					</p>
+				</Card.Footer>
+			</Card.Root>
 		{/each}
-	</ul>
-</section>
+	</div>
+</div>
