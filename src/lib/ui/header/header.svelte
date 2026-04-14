@@ -7,35 +7,29 @@
 	let scrollY = $state(0);
 	let fixed = $derived(scrollY > 0);
 
-	const headerHeight = 64; // Adjust to match your header's actual height in px
+	const headerHeight = 64;
 </script>
 
 <svelte:window bind:scrollY />
 
 <header
-	class="fixed top-0 right-0 left-0 z-20 border-2 bg-transparent p-4 text-[18px] text-current transition-all duration-300 ease-in-out"
-	class:top-2={fixed}
-	class:text-blue-600={fixed}
-	class:shadow-lg={fixed}
-	class:backdrop-blur-[20px]={fixed}
-	class:rounded-xl={fixed}
-	style="
-    width: {fixed ? '35%' : '100%'};
-    left: {fixed ? '50%' : '0'};
-    transform: {fixed ? 'translateX(-50%)' : 'translateX(0)'};
-  "
+	class="fixed top-0 right-0 left-0 z-20 border-b bg-background/80 p-4 backdrop-blur-md transition-all duration-300 ease-in-out"
+	class:shadow-sm={fixed}
 >
-	<div class="flex w-full items-center justify-between px-4">
-		<div class="flex items-center gap-2">
-			<a href="/">sylviethedev</a>
+	<div class="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+		<div class="flex items-center gap-8">
+			<Logo />
+			<div class="hidden md:block">
+				<Menu />
+			</div>
 		</div>
-		<Search />
+		<div class="flex items-center gap-4">
+			<Search />
+			<div class="hidden sm:block">
+				<Socials />
+			</div>
+		</div>
 	</div>
 </header>
 
-<!-- Spacer to prevent content from being overlapped -->
 <div style="height: {headerHeight}px;"></div>
-
-<main>
-	<!-- Your page content goes here -->
-</main>
