@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
+	import * as config from '$lib/config';
 	import { Badge } from '$lib/components/ui/badge';
+	import { resolve } from '$app/paths';
 	import '../../../../markdown.css';
 
 	let { data } = $props();
@@ -16,7 +18,7 @@
 <article class="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
 	<header class="mb-12 border-b pb-12">
 		<div class="mb-6 flex flex-wrap gap-2">
-			{#each data.meta.categories as category}
+			{#each data.meta.categories as category (category)}
 				<Badge variant="outline" class="text-[10px] tracking-widest uppercase">
 					{category}
 				</Badge>
@@ -36,7 +38,7 @@
 				{formatDate(data.meta.date, 'long')}
 			</time>
 			<span>•</span>
-			<span>Skilled Programmer</span>
+			<span>{config.author}</span>
 		</div>
 	</header>
 
@@ -45,7 +47,7 @@
 	</div>
 
 	<footer class="mt-16 border-t pt-8">
-		<a href="/blog" class="text-sm font-medium text-primary hover:underline">
+		<a href={resolve('/blog')} class="text-sm font-medium text-primary hover:underline">
 			← Back to all posts
 		</a>
 	</footer>

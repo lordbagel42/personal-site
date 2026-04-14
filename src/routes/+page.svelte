@@ -1,15 +1,15 @@
 <script lang="ts">
 	import * as config from '$lib/config';
 	import { formatDate } from '$lib/utils';
-	import * as Card from '$lib/components/ui/card';
 	import { Badge } from '$lib/components/ui/badge';
-	import { ArrowRight, Terminal, Code2, Cpu } from 'lucide-svelte';
+	import { ArrowRight, Terminal, Code2, Cpu } from '@lucide/svelte';
+	import { resolve } from '$app/paths';
 
 	let { data } = $props();
 </script>
 
 <svelte:head>
-	<title>{config.title} | Skilled Programmer</title>
+	<title>{config.title} | {config.description}</title>
 	<meta name="description" content={config.description} />
 </svelte:head>
 
@@ -23,7 +23,7 @@
 						class="relative rounded-full px-3 py-1 text-sm leading-6 text-muted-foreground ring-1 ring-border transition-all hover:ring-foreground/20"
 					>
 						Available for interesting projects. <a
-							href="mailto:hello@example.com"
+							href="mailto:{config.email}"
 							class="font-semibold text-primary"
 							><span class="absolute inset-0" aria-hidden="true"></span>Contact me
 							<span aria-hidden="true">&rarr;</span></a
@@ -39,17 +39,19 @@
 				</p>
 				<div class="mt-10 flex items-center justify-center gap-x-6">
 					<a
-						href="/blog"
+						href={resolve('/blog')}
 						class="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
 					>
 						Read the blog
 					</a>
+					<!-- eslint-disable svelte/no-navigation-without-resolve -- external URL -->
 					<a
-						href="https://github.com"
+						href={config.github}
 						class="text-sm leading-6 font-semibold text-foreground transition-colors hover:text-primary"
 					>
 						View projects <span aria-hidden="true">→</span>
 					</a>
+					<!-- eslint-enable svelte/no-navigation-without-resolve -->
 				</div>
 			</div>
 		</div>
@@ -128,7 +130,7 @@
 			<div
 				class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 			>
-				{#each data.posts as post}
+				{#each data.posts as post (post.slug)}
 					<article
 						class="group flex flex-col items-start justify-between rounded-2xl border border-border p-6 transition-all hover:bg-muted/20"
 					>
@@ -136,7 +138,7 @@
 							<time datetime={post.date} class="text-muted-foreground">
 								{formatDate(post.date)}
 							</time>
-							{#each post.categories as category}
+							{#each post.categories as category (category)}
 								<Badge
 									variant="outline"
 									class="transition-colors group-hover:bg-primary group-hover:text-primary-foreground"
@@ -149,7 +151,7 @@
 							<h3
 								class="mt-3 text-lg leading-6 font-semibold text-foreground transition-colors group-hover:text-primary"
 							>
-								<a href="/blog/posts/{post.slug}">
+								<a href={resolve('/blog/posts/[...slug]', { slug: post.slug })}>
 									<span class="absolute inset-0"></span>
 									{post.title}
 								</a>
@@ -161,7 +163,10 @@
 						<div class="mt-8 flex items-center gap-x-4">
 							<div class="text-sm leading-6">
 								<p class="font-semibold text-foreground">
-									<a href="/blog/posts/{post.slug}" class="group/link flex items-center gap-1">
+									<a
+										href={resolve('/blog/posts/[...slug]', { slug: post.slug })}
+										class="group/link flex items-center gap-1"
+									>
 										Read more <ArrowRight
 											class="size-4 transition-transform group-hover/link:translate-x-1"
 										/>
@@ -174,7 +179,7 @@
 			</div>
 			<div class="mt-16 flex justify-center">
 				<a
-					href="/blog"
+					href={resolve('/blog')}
 					class="text-sm leading-6 font-semibold text-foreground transition-colors hover:text-primary"
 				>
 					View all posts <span aria-hidden="true">→</span>

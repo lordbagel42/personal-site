@@ -6,8 +6,6 @@ async function getPosts() {
 
 	const paths = import.meta.glob('/src/lib/blog-md/**/*.md', { eager: true });
 
-	console.log(paths);
-
 	for (const path in paths) {
 		const file = paths[path];
 		const slug = path.split('/src/lib/blog-md/').at(1)?.replace('.md', '');

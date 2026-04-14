@@ -1,8 +1,13 @@
+<script lang="ts">
+	import * as config from '$lib/config';
+</script>
+
+<!-- eslint-disable svelte/no-navigation-without-resolve -- all links here are external URLs -->
 <div class="flex items-center gap-4">
 	<a
-		href="https://github.com"
+		href={config.github}
 		target="_blank"
-		rel="noreferrer"
+		rel="noopener noreferrer"
 		class="text-muted-foreground transition-colors hover:text-primary"
 	>
 		<svg
@@ -23,9 +28,9 @@
 		<span class="sr-only">GitHub</span>
 	</a>
 	<a
-		href="https://twitter.com"
+		href={config.twitter}
 		target="_blank"
-		rel="noreferrer"
+		rel="noopener noreferrer"
 		class="text-muted-foreground transition-colors hover:text-primary"
 	>
 		<svg
@@ -46,3 +51,4 @@
 		<span class="sr-only">Twitter</span>
 	</a>
 </div>
+<!-- eslint-enable svelte/no-navigation-without-resolve -->
