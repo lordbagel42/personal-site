@@ -1,0 +1,18 @@
+[
+  {
+    "id": "03",
+    "desktop": {
+      "overflow": false,
+      "title": "Raygen Rupe — Things with motors",
+      "buttons": [
+        "Take the panels off"
+      ],
+      "images": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  }
+]

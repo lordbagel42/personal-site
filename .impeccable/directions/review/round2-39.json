@@ -1,0 +1,94 @@
+[
+  {
+    "id": "39",
+    "desktop": {
+      "overflow": false,
+      "width": 1440,
+      "height": 4528,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Making",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Writing code",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Passing it on",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Showing up",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "A few ways in.",
+        "Ideas, made physical.",
+        "My ideas tend tohave moving parts.",
+        "Making thingswork better.",
+        "Leave thedoor open.",
+        "A whole lotof Hack Club.",
+        "Stillbecoming."
+      ],
+      "missingFragments": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390,
+      "height": 5142,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Making",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Writing code",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Passing it on",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Showing up",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "A few ways in.",
+        "Ideas, made physical.",
+        "My ideas tend tohave moving parts.",
+        "Making thingswork better.",
+        "Leave thedoor open.",
+        "A whole lotof Hack Club.",
+        "Stillbecoming."
+      ],
+      "missingFragments": []
+    },
+    "errors": []
+  }
+]

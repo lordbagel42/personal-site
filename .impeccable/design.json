@@ -1,0 +1,352 @@
+{
+	"schemaVersion": 2,
+	"generatedAt": "2026-09-20T07:15:15.821460+00:00",
+	"title": "Design System: Raygen Rupe",
+	"extensions": {
+		"colorMeta": {
+			"ink": {
+				"role": "neutral",
+				"displayName": "Aubergine Ink",
+				"tonalRamp": [
+					"oklch(15.00% 0.0215 307.12)",
+					"oklch(26.43% 0.0215 307.12)",
+					"oklch(37.86% 0.0215 307.12)",
+					"oklch(49.29% 0.0215 307.12)",
+					"oklch(60.71% 0.0215 307.12)",
+					"oklch(72.14% 0.0215 307.12)",
+					"oklch(83.57% 0.0215 307.12)",
+					"oklch(95.00% 0.0215 307.12)"
+				]
+			},
+			"cream": {
+				"role": "neutral",
+				"displayName": "Warm Cream",
+				"tonalRamp": [
+					"oklch(15.00% 0.0178 92.69)",
+					"oklch(26.43% 0.0178 92.69)",
+					"oklch(37.86% 0.0178 92.69)",
+					"oklch(49.29% 0.0178 92.69)",
+					"oklch(60.71% 0.0178 92.69)",
+					"oklch(72.14% 0.0178 92.69)",
+					"oklch(83.57% 0.0178 92.69)",
+					"oklch(95.00% 0.0178 92.69)"
+				]
+			},
+			"lilac": {
+				"role": "primary",
+				"displayName": "Lilac",
+				"tonalRamp": [
+					"oklch(15.00% 0.0709 308.83)",
+					"oklch(26.43% 0.0709 308.83)",
+					"oklch(37.86% 0.0709 308.83)",
+					"oklch(49.29% 0.0709 308.83)",
+					"oklch(60.71% 0.0709 308.83)",
+					"oklch(72.14% 0.0709 308.83)",
+					"oklch(83.57% 0.0709 308.83)",
+					"oklch(95.00% 0.0709 308.83)"
+				]
+			},
+			"soft": {
+				"role": "neutral",
+				"displayName": "Soft Lavender",
+				"tonalRamp": [
+					"oklch(15.00% 0.0253 315.45)",
+					"oklch(26.43% 0.0253 315.45)",
+					"oklch(37.86% 0.0253 315.45)",
+					"oklch(49.29% 0.0253 315.45)",
+					"oklch(60.71% 0.0253 315.45)",
+					"oklch(72.14% 0.0253 315.45)",
+					"oklch(83.57% 0.0253 315.45)",
+					"oklch(95.00% 0.0253 315.45)"
+				]
+			},
+			"line": {
+				"role": "neutral",
+				"displayName": "Quiet Purple Rule",
+				"tonalRamp": [
+					"oklch(15.00% 0.0318 315.97)",
+					"oklch(26.43% 0.0318 315.97)",
+					"oklch(37.86% 0.0318 315.97)",
+					"oklch(49.29% 0.0318 315.97)",
+					"oklch(60.71% 0.0318 315.97)",
+					"oklch(72.14% 0.0318 315.97)",
+					"oklch(83.57% 0.0318 315.97)",
+					"oklch(95.00% 0.0318 315.97)"
+				]
+			},
+			"raised": {
+				"role": "neutral",
+				"displayName": "Raised Aubergine",
+				"tonalRamp": [
+					"oklch(15.00% 0.0293 305.71)",
+					"oklch(26.43% 0.0293 305.71)",
+					"oklch(37.86% 0.0293 305.71)",
+					"oklch(49.29% 0.0293 305.71)",
+					"oklch(60.71% 0.0293 305.71)",
+					"oklch(72.14% 0.0293 305.71)",
+					"oklch(83.57% 0.0293 305.71)",
+					"oklch(95.00% 0.0293 305.71)"
+				]
+			},
+			"community": {
+				"role": "neutral",
+				"displayName": "Community Purple",
+				"tonalRamp": [
+					"oklch(15.00% 0.0487 312.87)",
+					"oklch(26.43% 0.0487 312.87)",
+					"oklch(37.86% 0.0487 312.87)",
+					"oklch(49.29% 0.0487 312.87)",
+					"oklch(60.71% 0.0487 312.87)",
+					"oklch(72.14% 0.0487 312.87)",
+					"oklch(83.57% 0.0487 312.87)",
+					"oklch(95.00% 0.0487 312.87)"
+				]
+			},
+			"community-line": {
+				"role": "neutral",
+				"displayName": "Community Rule",
+				"tonalRamp": [
+					"oklch(15.00% 0.0548 312.61)",
+					"oklch(26.43% 0.0548 312.61)",
+					"oklch(37.86% 0.0548 312.61)",
+					"oklch(49.29% 0.0548 312.61)",
+					"oklch(60.71% 0.0548 312.61)",
+					"oklch(72.14% 0.0548 312.61)",
+					"oklch(83.57% 0.0548 312.61)",
+					"oklch(95.00% 0.0548 312.61)"
+				]
+			},
+			"community-muted": {
+				"role": "neutral",
+				"displayName": "Community Metadata",
+				"tonalRamp": [
+					"oklch(15.00% 0.0409 315.55)",
+					"oklch(26.43% 0.0409 315.55)",
+					"oklch(37.86% 0.0409 315.55)",
+					"oklch(49.29% 0.0409 315.55)",
+					"oklch(60.71% 0.0409 315.55)",
+					"oklch(72.14% 0.0409 315.55)",
+					"oklch(83.57% 0.0409 315.55)",
+					"oklch(95.00% 0.0409 315.55)"
+				]
+			},
+			"control-line": {
+				"role": "neutral",
+				"displayName": "Control Lavender",
+				"tonalRamp": [
+					"oklch(15.00% 0.0614 309.61)",
+					"oklch(26.43% 0.0614 309.61)",
+					"oklch(37.86% 0.0614 309.61)",
+					"oklch(49.29% 0.0614 309.61)",
+					"oklch(60.71% 0.0614 309.61)",
+					"oklch(72.14% 0.0614 309.61)",
+					"oklch(83.57% 0.0614 309.61)",
+					"oklch(95.00% 0.0614 309.61)"
+				]
+			},
+			"code-block": {
+				"role": "neutral",
+				"displayName": "Code Block Surface",
+				"tonalRamp": [
+					"oklch(15.00% 0.0300 305.52)",
+					"oklch(26.43% 0.0300 305.52)",
+					"oklch(37.86% 0.0300 305.52)",
+					"oklch(49.29% 0.0300 305.52)",
+					"oklch(60.71% 0.0300 305.52)",
+					"oklch(72.14% 0.0300 305.52)",
+					"oklch(83.57% 0.0300 305.52)",
+					"oklch(95.00% 0.0300 305.52)"
+				]
+			},
+			"inline-code": {
+				"role": "neutral",
+				"displayName": "Inline Code Surface",
+				"tonalRamp": [
+					"oklch(15.00% 0.0366 305.75)",
+					"oklch(26.43% 0.0366 305.75)",
+					"oklch(37.86% 0.0366 305.75)",
+					"oklch(49.29% 0.0366 305.75)",
+					"oklch(60.71% 0.0366 305.75)",
+					"oklch(72.14% 0.0366 305.75)",
+					"oklch(83.57% 0.0366 305.75)",
+					"oklch(95.00% 0.0366 305.75)"
+				]
+			}
+		},
+		"typographyMeta": {
+			"display": {
+				"displayName": "Layered Identity",
+				"purpose": "Homepage first-name lettering; the surface owns the surname variant."
+			},
+			"headline": {
+				"displayName": "Section Headline",
+				"purpose": "The project heading role, with composition-specific related section scales."
+			},
+			"title": {
+				"displayName": "Story Title",
+				"purpose": "Community story headings."
+			},
+			"body": {
+				"displayName": "Body",
+				"purpose": "Base interface and project copy; narratives use larger related sizes."
+			},
+			"reading": {
+				"displayName": "Article Reading",
+				"purpose": "Source-defined future article body; visually verify with the first published article."
+			},
+			"navigation": {
+				"displayName": "Navigation",
+				"purpose": "Compact shared header destinations."
+			},
+			"action": {
+				"displayName": "Panel Action",
+				"purpose": "The native machine inspection control."
+			}
+		},
+		"shadows": [],
+		"motion": [
+			{
+				"name": "reveal-ease",
+				"value": "cubic-bezier(0.16, 1, 0.3, 1)",
+				"purpose": "Panel wipe, icon turn, image hover, and link-arrow response."
+			},
+			{
+				"name": "panel-wipe",
+				"value": "900ms",
+				"purpose": "Clip exterior render away to reveal the aligned interior."
+			},
+			{
+				"name": "panel-icon",
+				"value": "600ms",
+				"purpose": "Rotate the control SVG for its pressed state."
+			},
+			{
+				"name": "project-art",
+				"value": "650ms",
+				"purpose": "Small project image hover translation."
+			},
+			{
+				"name": "link-arrow",
+				"value": "250ms",
+				"purpose": "Small directional hover feedback."
+			}
+		],
+		"breakpoints": [
+			{
+				"name": "narrow-navigation",
+				"value": "360px"
+			},
+			{
+				"name": "compact-header-footer",
+				"value": "440px"
+			},
+			{
+				"name": "single-projects-and-writing",
+				"value": "600px"
+			},
+			{
+				"name": "single-narrative-and-page-small",
+				"value": "720px"
+			},
+			{
+				"name": "project-and-writing-reflow",
+				"value": "850px"
+			},
+			{
+				"name": "page-medium",
+				"value": "1100px"
+			},
+			{
+				"name": "wide-hero",
+				"value": "1700px"
+			}
+		]
+	},
+	"components": [
+		{
+			"name": "Panel Toggle",
+			"kind": "button",
+			"refersTo": "panel-toggle",
+			"description": "The native outlined control for inspecting the aligned SERV0 panel renders. Preview shows its resting state; the production button supplies the state change.",
+			"html": "<button class=\"ds-panel\" type=\"button\" aria-pressed=\"false\">Remove the panels<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" aria-hidden=\"true\"><path d=\"M12 4v16M4 12h16\" /></svg></button>",
+			"css": ".ds-panel{display:flex;align-items:center;gap:30px;border:1px solid var(--site-control-line,#8d789e);border-radius:0;background:var(--ink,#140f19);color:var(--cream,#f0ecdf);padding:15px 20px;font:400 12px/1.4 var(--font-body,Manrope,sans-serif);min-height:48px;cursor:pointer}.ds-panel svg{width:17px;height:17px;transition:transform 600ms cubic-bezier(.16,1,.3,1)}.ds-panel:hover{background:var(--lilac,#c6addc);color:var(--ink,#140f19)}.ds-panel:focus-visible{outline:2px solid var(--lilac,#c6addc);outline-offset:5px;}.ds-panel[aria-pressed=\"true\"] svg{transform:rotate(45deg)}@media(prefers-reduced-motion:reduce){.ds-panel svg{transition:none}}"
+		},
+		{
+			"name": "Main Navigation",
+			"kind": "nav",
+			"refersTo": "navigation",
+			"description": "Direct text navigation shared by the homepage, Writing, and recovery pages.",
+			"html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"/#projects\">Projects</a><a class=\"ds-about\" href=\"/#letter\">About me</a><a class=\"ds-people\" href=\"/#people\">My people</a><a href=\"/blog\" aria-current=\"page\">Writing</a></nav>",
+			"css": ".ds-nav{display:flex;align-items:center;gap:32px;background:var(--ink,#140f19);color:var(--cream,#f0ecdf);padding:27px var(--pad,42px);font:650 12px/1.7 var(--font-body,Manrope,sans-serif)}.ds-nav a{display:inline-flex;align-items:center;min-height:44px;color:inherit;white-space:nowrap;text-decoration:none;text-underline-offset:5px}.ds-nav a:hover,.ds-nav a[aria-current]{color:var(--lilac,#c6addc)}.ds-nav a[aria-current]{text-decoration:underline}.ds-nav a:focus-visible{outline:2px solid var(--lilac,#c6addc);outline-offset:5px;}@media(max-width:720px){.ds-nav{gap:22px}.ds-nav .ds-people{display:none}}@media(max-width:440px){.ds-nav{gap:16px;padding-inline:22px}}@media(max-width:360px){.ds-nav .ds-about{display:none}}"
+		},
+		{
+			"name": "Project Repository Record",
+			"kind": "custom",
+			"refersTo": "project-record",
+			"description": "A quiet metadata and repository line under the project description.",
+			"html": "<div class=\"ds-project-record\"><p>CoreXY \u00b7 Servo motors<br />Designed in Onshape</p><a href=\"https://github.com/lordbagel42/Serv0\">Explore SERV0<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" aria-hidden=\"true\"><path d=\"M3 12h18m-6-6 6 6-6 6\" /></svg></a></div>",
+			"css": ".ds-project-record{display:flex;align-items:end;justify-content:space-between;gap:24px;padding:23px 0 0;border-top:1px solid var(--line,#524657);color:var(--soft,#c5baca);font:13px/1.7 var(--font-body,Manrope,sans-serif)}.ds-project-record p{margin:0}.ds-project-record a{display:inline-flex;align-items:center;gap:14px;white-space:nowrap;color:var(--cream,#f0ecdf);text-decoration:underline;text-underline-offset:5px}.ds-project-record svg{width:17px;height:17px;flex:none}.ds-project-record a:hover{text-decoration-thickness:2px}.ds-project-record a:focus-visible{outline:2px solid var(--lilac,#c6addc);outline-offset:5px;}@media(max-width:440px){.ds-project-record{gap:18px;font-size:12px}.ds-project-record a{gap:8px}}"
+		},
+		{
+			"name": "Community Story Row",
+			"kind": "custom",
+			"refersTo": "story-row",
+			"description": "An open title and reading column, divided by a quiet rule rather than enclosed in a card.",
+			"html": "<article class=\"ds-story\"><div class=\"ds-story-title\"><h3>The makerspace.</h3><p>One Stone \u00b7 Boise<br />2025\u20132027</p></div><div class=\"ds-story-copy\"><p>I\u2019m the student point of contact for the makerspace at One Stone. I develop and teach student safety protocols, and teach people how to use the tooling.</p></div></article>",
+			"css": ".ds-story{display:grid;grid-template-columns:43% 57%;padding:58px 0;border-bottom:1px solid #746080;background:var(--secondary,#372740);color:var(--cream,#f0ecdf);font-family:var(--font-body,Manrope,sans-serif)}.ds-story-title{padding-right:50px}.ds-story h3{font:550 43px/1.05 var(--font-display,Archivo,sans-serif);letter-spacing:-.035em;margin:0 0 16px}.ds-story-title p{font-size:12px;line-height:1.75;color:#cdbbd5;margin:0}.ds-story-copy{padding-right:35px}.ds-story-copy p{font-size:19px;line-height:1.8;letter-spacing:-.014em;margin:0}@media(max-width:720px){.ds-story{display:block;padding:37px 0}.ds-story-title{padding:0;margin-bottom:23px}.ds-story h3{font-size:37px}.ds-story-copy{padding:0}.ds-story-copy p{font-size:18px}}"
+		},
+		{
+			"name": "Writing Empty State",
+			"kind": "custom",
+			"refersTo": "writing-empty",
+			"description": "The truthful present Writing state, connecting readers back to actual projects.",
+			"html": "<section class=\"ds-empty\"><h2>Still taking shape.</h2><div><p>No posts just yet. Eventually, this will be a place for longer notes on the things I make and learn along the way.</p><a href=\"/#projects\">See what I\u2019m building<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" aria-hidden=\"true\"><path d=\"M3 12h18m-6-6 6 6-6 6\" /></svg></a></div></section>",
+			"css": ".ds-empty{display:grid;grid-template-columns:1fr 1fr;gap:60px;border-top:1px solid var(--line,#524657);padding:46px 0 58px;color:var(--soft,#c5baca);font-family:var(--font-body,Manrope,sans-serif)}.ds-empty h2{font:550 clamp(30px,3vw,44px)/1.1 var(--font-display,Archivo,sans-serif);letter-spacing:-.03em;color:var(--cream,#f0ecdf);margin:0}.ds-empty p{font-size:17px;line-height:1.8;margin:0}.ds-empty a{display:inline-flex;align-items:center;gap:24px;margin-top:27px;font-size:15px;min-height:32px;color:var(--cream,#f0ecdf);text-decoration:underline;text-underline-offset:5px}.ds-empty svg{width:22px;height:22px;transition:transform 250ms cubic-bezier(.16,1,.3,1)}.ds-empty a:hover svg{transform:translateX(4px)}.ds-empty a:hover{text-decoration-thickness:2px}.ds-empty a:focus-visible{outline:2px solid var(--lilac,#c6addc);outline-offset:5px;}@media(max-width:600px){.ds-empty{display:block;padding:33px 0 40px}.ds-empty h2{font-size:32px;margin-bottom:24px}.ds-empty p{font-size:16px}}@media(prefers-reduced-motion:reduce){.ds-empty svg{transition:none}}"
+		},
+		{
+			"name": "Article Code Block",
+			"kind": "custom",
+			"refersTo": "code-block",
+			"description": "Source-defined code treatment for future articles; published article rendering has not yet been visually reviewed.",
+			"html": "<pre class=\"ds-code\"><code>const making = true;</code></pre>",
+			"css": ".ds-code{background:#211a29;color:var(--cream,#f0ecdf);font:16.56px/1.8 var(--font-body,Manrope,sans-serif);padding:25px 28px;margin:2em 0;overflow-x:auto;tab-size:2;border-radius:4px}.ds-code code{display:block;min-width:max-content;font-family:SFMono-Regular,Consolas,\"Liberation Mono\",monospace;font-size:.84em}@media(max-width:600px){.ds-code{padding:18px;font-size:14.08px}}"
+		}
+	],
+	"narrative": {
+		"northStar": "A Hand in the Making",
+		"overview": "Aubergine fields, cream lettering, and lilac emphasis give Raygen's real machines\nroom to feel large and tangible. Archivo supplies the broad, tightly set display\nvoice; Manrope keeps the personal writing open and conversational. Original\nproject renders and official community artwork carry the detail and color.\n\nScale, overlap, and changes in section tone create the identity. Spacious reading\nsections connect machines, software, and people without turning the site into a\nuniform collection of cards. Motion responds to scrolling or a direct action;\ncontent remains readable before enhancement.",
+		"keyCharacteristics": [
+			"Oversized display lettering balanced by direct, personal copy.",
+			"Dark purple fields, cream text, and lilac emphasis.",
+			"Real project imagery and unmodified community branding.",
+			"Open, asymmetric compositions with thin dividers.",
+			"Bounded functional motion and a complete static reading flow."
+		],
+		"rules": [
+			{
+				"name": "The Original Artwork Rule",
+				"body": "Preserve the colors and proportions of real project renders and official community assets.",
+				"section": "colors"
+			},
+			{
+				"name": "The Readable Without Motion Rule",
+				"body": "Keep identity, project links, and the full personal story readable without JavaScript or animation.",
+				"section": "components"
+			}
+		],
+		"dos": [
+			"Do use aubergine, cream, and lilac consistently across shared surfaces.",
+			"Do preserve authentic artwork, proportions, and adjacent provenance records.",
+			"Do use scale, open space, tonal fields, and thin dividers to organize content.",
+			"Do connect motion to scrolling or a meaningful direct action.",
+			"Do retain keyboard access, reduced-motion behavior, and static readability."
+		],
+		"donts": [
+			"Don't treat the rejected charcoal/sage design or other archived concepts as current visual authority.",
+			"Don't replace real machines or official community branding with invented artwork.",
+			"Don't apply the oversized overlapping homepage name to ordinary reading content.",
+			"Don't introduce a generic rounded-card grid or decorative badge system.",
+			"Don't make essential content visibility depend on animation."
+		]
+	}
+}

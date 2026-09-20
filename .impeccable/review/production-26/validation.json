@@ -1,0 +1,221 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "home": {
+        "overflow": false,
+        "brokenImages": [],
+        "missingFragments": [],
+        "heading": "RAYGEN Rupe",
+        "mainCount": 1,
+        "headerCount": 1,
+        "title": "Raygen Rupe — A hand in the making",
+        "canonical": "https://raygen.dev/",
+        "projects": [
+          "SERV0",
+          "DAVID",
+          "Monstrosity"
+        ],
+        "bodyBackground": "rgb(20, 15, 25)"
+      },
+      "writing": {
+        "overflow": false,
+        "brokenImages": [],
+        "missingFragments": [],
+        "heading": "An unfinishedthought.",
+        "mainCount": 1,
+        "headerCount": 1,
+        "title": "Writing — Raygen Rupe",
+        "canonical": "https://raygen.dev/blog",
+        "projects": [],
+        "bodyBackground": "rgb(20, 15, 25)"
+      },
+      "error": {
+        "overflow": false,
+        "brokenImages": [],
+        "missingFragments": [],
+        "heading": "Nothing here.\nYet.",
+        "mainCount": 1,
+        "headerCount": 1,
+        "title": "404 — Raygen Rupe",
+        "projects": [],
+        "bodyBackground": "rgb(20, 15, 25)"
+      },
+      "reduced": {
+        "drift": "0px",
+        "transition": "0s"
+      },
+      "interaction": "panel pointer+keyboard, same-page anchor, writing navigation and return, 404 recovery",
+      "errors": []
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1024,
+      "home": {
+        "overflow": false,
+        "brokenImages": [],
+        "missingFragments": [],
+        "heading": "RAYGEN Rupe",
+        "mainCount": 1,
+        "headerCount": 1,
+        "title": "Raygen Rupe — A hand in the making",
+        "canonical": "https://raygen.dev/",
+        "projects": [
+          "SERV0",
+          "DAVID",
+          "Monstrosity"
+        ],
+        "bodyBackground": "rgb(20, 15, 25)"
+      },
+      "writing": {
+        "overflow": false,
+        "brokenImages": [],
+        "missingFragments": [],
+        "heading": "An unfinishedthought.",
+        "mainCount": 1,
+        "headerCount": 1,
+        "title": "Writing — Raygen Rupe",
+        "canonical": "https://raygen.dev/blog",
+        "projects": [],
+        "bodyBackground": "rgb(20, 15, 25)"
+      },
+      "error": {
+        "overflow": false,
+        "brokenImages": [],
+        "missingFragments": [],
+        "heading": "Nothing here.\nYet.",
+        "mainCount": 1,
+        "headerCount": 1,
+        "title": "404 — Raygen Rupe",
+        "projects": [],
+        "bodyBackground": "rgb(20, 15, 25)"
+      },
+      "reduced": {
+        "drift": "0px",
+        "transition": "0s"
+      },
+      "interaction": "panel pointer+keyboard, same-page anchor, writing navigation and return, 404 recovery",
+      "errors": []
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "home": {
+        "overflow": false,
+        "brokenImages": [],
+        "missingFragments": [],
+        "heading": "RAYGEN Rupe",
+        "mainCount": 1,
+        "headerCount": 1,
+        "title": "Raygen Rupe — A hand in the making",
+        "canonical": "https://raygen.dev/",
+        "projects": [
+          "SERV0",
+          "DAVID",
+          "Monstrosity"
+        ],
+        "bodyBackground": "rgb(20, 15, 25)"
+      },
+      "writing": {
+        "overflow": false,
+        "brokenImages": [],
+        "missingFragments": [],
+        "heading": "An unfinishedthought.",
+        "mainCount": 1,
+        "headerCount": 1,
+        "title": "Writing — Raygen Rupe",
+        "canonical": "https://raygen.dev/blog",
+        "projects": [],
+        "bodyBackground": "rgb(20, 15, 25)"
+      },
+      "error": {
+        "overflow": false,
+        "brokenImages": [],
+        "missingFragments": [],
+        "heading": "Nothing here.\nYet.",
+        "mainCount": 1,
+        "headerCount": 1,
+        "title": "404 — Raygen Rupe",
+        "projects": [],
+        "bodyBackground": "rgb(20, 15, 25)"
+      },
+      "reduced": {
+        "drift": "0px",
+        "transition": "0s"
+      },
+      "interaction": "panel pointer+keyboard, same-page anchor, writing navigation and return, 404 recovery",
+      "errors": []
+    },
+    {
+      "name": "narrow",
+      "width": 320,
+      "height": 740,
+      "home": {
+        "overflow": false,
+        "brokenImages": [],
+        "missingFragments": [],
+        "heading": "RAYGEN Rupe",
+        "mainCount": 1,
+        "headerCount": 1,
+        "title": "Raygen Rupe — A hand in the making",
+        "canonical": "https://raygen.dev/",
+        "projects": [
+          "SERV0",
+          "DAVID",
+          "Monstrosity"
+        ],
+        "bodyBackground": "rgb(20, 15, 25)"
+      },
+      "writing": {
+        "overflow": false,
+        "brokenImages": [],
+        "missingFragments": [],
+        "heading": "An unfinishedthought.",
+        "mainCount": 1,
+        "headerCount": 1,
+        "title": "Writing — Raygen Rupe",
+        "canonical": "https://raygen.dev/blog",
+        "projects": [],
+        "bodyBackground": "rgb(20, 15, 25)"
+      },
+      "error": {
+        "overflow": false,
+        "brokenImages": [],
+        "missingFragments": [],
+        "heading": "Nothing here.\nYet.",
+        "mainCount": 1,
+        "headerCount": 1,
+        "title": "404 — Raygen Rupe",
+        "projects": [],
+        "bodyBackground": "rgb(20, 15, 25)"
+      },
+      "reduced": {
+        "drift": "0px",
+        "transition": "0s"
+      },
+      "interaction": "panel pointer+keyboard, same-page anchor, writing navigation and return, 404 recovery",
+      "errors": []
+    }
+  ],
+  "noJavaScript": "all three projects and identity server-rendered",
+  "api": "empty published list",
+  "rss": "valid empty feed",
+  "draftChecks": [
+    {
+      "slug": "Welcome",
+      "status": 404
+    },
+    {
+      "slug": "test/index",
+      "status": 404
+    },
+    {
+      "slug": "test/test",
+      "status": 404
+    }
+  ]
+}

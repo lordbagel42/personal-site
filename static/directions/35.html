@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#211a2c">
+<title>Raygen Rupe — Still becoming</title>
+<style>
+@font-face{font-family:Archivo;src:url('/fonts/archivo.woff2') format('woff2');font-weight:100 900;font-display:swap}
+@font-face{font-family:Manrope;src:url('/fonts/manrope.woff2') format('woff2');font-weight:200 800;font-display:swap}
+:root{color-scheme:dark;--bg:#211a2c;--ink:#eee9dd;--lavender:#c6aae8;--muted:#c6b8cf;--line:#695674;--pad:42px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scrollbar-color:#a48eba var(--bg);scroll-padding-top:35px}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 Manrope,sans-serif}img{display:block;max-width:100%;height:auto}a{color:inherit;text-underline-offset:.25em;text-decoration-thickness:1px}a:hover{text-decoration-thickness:2px}a:focus-visible{outline:2px solid var(--lavender);outline-offset:7px}::selection{background:var(--lavender);color:#211a2c}h1,h2,h3,p,figure{margin:0}h1,h2,h3{font-family:Archivo,sans-serif;letter-spacing:-.04em}svg{display:block}.skip{position:absolute;z-index:20;top:-100px;left:25px;background:var(--ink);color:var(--bg);padding:10px 16px}.skip:focus{top:16px}
+.cover{position:relative;isolation:isolate;height:1000px;min-height:850px;overflow:hidden;padding:27px var(--pad) 0;background:#211a2c}.nav{display:flex;align-items:center;justify-content:space-between;position:relative;z-index:5;font-size:13px;line-height:1.4}.nav a{text-decoration:none}.nav a:hover{text-decoration:underline}.nav nav{display:flex;gap:30px}.nav-home{font-weight:750}.cover-intro{font-size:19px;line-height:1.55;max-width:540px;text-align:center;margin:42px auto 0;position:relative;z-index:4}.name{font-size:22.1vw;line-height:.79;font-weight:800;color:var(--lavender);position:absolute;inset:204px 25px auto;white-space:nowrap;z-index:0}.cover-object{position:absolute;width:72%;max-width:1120px;right:-4%;top:305px;z-index:1;transform:rotate(-8deg);animation:resolve 1.2s cubic-bezier(.16,1,.3,1) both}.name-last{position:absolute;left:34px;top:588px;z-index:2;font:800 25vw/.85 Archivo,sans-serif;letter-spacing:-.04em;color:var(--ink)}.cover-note{position:absolute;left:var(--pad);top:488px;z-index:3;width:200px;color:var(--muted);font-size:13px;line-height:1.7}.cover-note span{display:block;color:var(--ink);margin-bottom:5px}.cover-foot{position:absolute;bottom:30px;left:var(--pad);right:var(--pad);z-index:3;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;padding-top:20px;gap:30px;font-size:13px}.cover-foot a{display:flex;align-items:center;gap:30px;text-decoration:none}.cover-foot a:hover{text-decoration:underline}.cover-foot svg{width:24px;height:24px;flex:none}.cover-foot p{color:var(--muted)}
+.story{display:grid;grid-template-columns:47% 53%;position:relative;border-top:1px solid var(--line);background:#241c31}.story-visual{display:none}.chapters{grid-column:1/-1}.chapter{position:relative;padding:100px var(--pad) 110px;scroll-margin-top:30px}.chapter+.chapter{border-top:1px solid var(--line)}.chapter h2{font-size:clamp(54px,5.2vw,82px);font-weight:600;line-height:1.03;text-wrap:balance;max-width:700px;margin-bottom:35px}.chapter p{font-size:18px;line-height:1.8;max-width:650px}.chapter p+p{margin-top:24px}.chapter p strong{font-weight:700;color:#e2c7fc}.inline-art{max-width:620px;margin:40px auto 0}.inline-art img{max-height:550px;object-fit:contain;margin:auto}.inline-art figcaption{font-size:12px;color:var(--muted);margin-top:25px}.chapter-link{font-size:14px;display:inline-block;margin-top:29px}.project-list{margin:42px 0 0;padding:0;list-style:none}.project-list li{padding:24px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:155px minmax(0,1fr);gap:24px}.project-list h3{font-size:27px;font-weight:600;line-height:1.2}.project-list p{font-size:15px;line-height:1.7}.project-list a{display:inline-block;margin-top:10px;font-size:13px}.project-list time{display:block;font-size:12px;color:var(--muted);margin-top:10px}.text-link{white-space:nowrap}.letter{padding:110px var(--pad) 90px;background:#30213b;position:relative;overflow:hidden}.letter-inner{display:grid;grid-template-columns:42% 58%;gap:0}.letter h2{font-size:clamp(65px,9.7vw,155px);font-weight:600;line-height:.94;max-width:550px;color:#dabdec}.letter-copy{max-width:660px;padding-left:35px;padding-top:10px}.letter-copy p{font-size:24px;line-height:1.65}.letter-copy p+p{margin-top:30px}.letter-signature{display:flex;align-items:center;gap:18px;margin-top:36px;font-size:17px}.letter-signature img{width:52px;height:52px;border-radius:50%}.letter-links{display:flex;flex-wrap:wrap;gap:20px 35px;font-size:14px;margin-top:45px}.footer{display:flex;align-items:end;justify-content:space-between;padding-top:55px;margin-top:95px;border-top:1px solid #806487;gap:30px}.footer-name{font:600 55px/.95 Archivo,sans-serif;letter-spacing:-.04em}.footer p{font-size:12px;color:#cfbad6}.footer a{font-size:13px}
+@keyframes resolve{from{transform:translateY(24px) rotate(-4deg)}to{transform:translateY(0) rotate(-8deg)}}
+@media(min-width:901px){.has-scenes .story-visual{display:block;position:sticky;top:0;height:100vh;min-height:650px;align-self:start;grid-column:1;grid-row:1;overflow:hidden;background:#33233f;border-right:1px solid var(--line)}.has-scenes .chapters{grid-column:2;grid-row:1}.has-scenes .chapter{padding-left:55px;padding-right:55px;min-height:95vh;display:flex;flex-direction:column;justify-content:center}.has-scenes .chapter h2{font-size:clamp(48px,4.6vw,76px)}.has-scenes .inline-art{display:none}.scene-word{position:absolute;inset:9% 0 auto;text-align:center;font:700 7.1vw/.9 Archivo,sans-serif;letter-spacing:-.04em;color:#dac1ee;transition:transform .7s cubic-bezier(.16,1,.3,1)}.scene-art{position:absolute;inset:0;opacity:0;transform:translateY(28px);transition:opacity .5s ease,transform .8s cubic-bezier(.16,1,.3,1);pointer-events:none}.scene-art.is-current{opacity:1;transform:translateY(0)}.scene-art>img{position:absolute;left:5%;top:25%;width:90%;height:54%;object-fit:contain}.scene-art[data-scene="shop"]>img{left:20%;top:29%;width:60%;height:auto;border-radius:50%}.scene-art[data-scene="code"]>img{width:76%;left:12%;top:35%;height:auto}.scene-art[data-scene="code"] .stars{left:21%;width:58%;height:auto;top:53%}.scene-art[data-scene="people"]>img{top:33%;height:auto;width:90%}.scene-art[data-scene="people"] .flag{top:60%;width:35%;height:auto;left:33%}.scene-caption{position:absolute;left:32px;right:32px;bottom:135px;font-size:13px;line-height:1.7;max-width:360px;color:#dfcce9}.scene-navigation{display:flex;position:absolute;bottom:35px;left:32px;right:32px;gap:0;border-top:1px solid #8e729c;padding-top:20px;justify-content:space-between}.scene-navigation a{font-size:12px;text-decoration:none;color:#c9b5d2;padding:6px 0}.scene-navigation a[aria-current="true"]{color:#fff2e5;text-decoration:underline;text-decoration-thickness:2px}.scene-navigation a:hover{color:#fff2e5}.story-visual[data-current="shop"]{background:#33233f}.story-visual[data-current="machines"]{background:#282033}.story-visual[data-current="code"]{background:#34213b}.story-visual[data-current="people"]{background:#3a253e}}
+@media(min-width:1700px){.cover{height:1120px}.name{font-size:360px;left:4%}.name-last{font-size:405px;top:650px}.cover-object{right:3%;top:330px}.cover-intro{margin-top:55px}.cover-note{top:545px}}
+@media(max-width:1100px) and (min-width:901px){.cover{height:900px}.name{top:230px}.cover-object{top:340px;width:84%;right:-12%}.name-last{top:585px}.cover-note{top:460px;width:175px}.has-scenes .chapter{padding:75px 32px}.chapter p{font-size:16px}.project-list li{display:block}.project-list p{margin-top:15px}}
+@media(max-width:900px){:root{--pad:26px}.cover{height:880px;min-height:0}.name{font-size:22vw;top:215px;left:20px}.name-last{font-size:29vw;left:20px;top:580px}.cover-object{top:310px;width:103%;right:-22%}.cover-note{top:432px;font-size:12px;max-width:150px}.cover-intro{max-width:470px}.story{display:block}.chapter{padding:75px var(--pad)}.chapter h2{font-size:70px;max-width:650px}.chapter p{max-width:680px}.inline-art{margin-top:48px}.inline-art.avatar-art{max-width:250px}.inline-art.brand-art{max-width:470px}.inline-art.brand-art .extra-art{max-width:250px;margin:35px auto 0}.inline-art .small-flag{width:160px;margin:35px auto 0}.letter{padding:80px var(--pad) 40px}.letter-inner{display:block}.letter h2{font-size:105px;max-width:650px}.letter-copy{padding:40px 0 0;max-width:680px}.letter-copy p{font-size:22px}.footer{margin-top:65px;padding-top:35px}.footer-name{font-size:42px}}
+@media(max-width:540px){:root{--pad:22px}.cover{height:844px;padding-top:23px}.nav{font-size:12px}.nav nav{gap:18px}.cover-intro{font-size:16px;max-width:325px;margin-top:40px;line-height:1.6}.name{font-size:22.1vw;top:223px;left:12px}.cover-object{top:340px;width:142%;right:-33%;max-width:none}.name-last{font-size:39vw;left:15px;top:588px}.cover-note{top:314px;left:22px;width:auto;max-width:none;font-size:12px}.cover-note span{display:inline;margin-right:10px}.cover-note br{display:none}.cover-foot{bottom:24px;padding-top:17px;align-items:start;font-size:12px;gap:20px}.cover-foot a{gap:15px;max-width:160px;line-height:1.6}.cover-foot p{max-width:130px;text-align:right}.cover-foot svg{width:18px;height:18px}.chapter{padding:60px 22px 65px}.chapter h2{font-size:53px;line-height:1.03;margin-bottom:27px}.chapter p{font-size:16px;line-height:1.8}.chapter p+p{margin-top:21px}.inline-art{margin-top:35px}.inline-art.avatar-art{max-width:220px}.inline-art figcaption{font-size:12px}.project-list{margin-top:30px}.project-list li{display:block;padding:25px 0}.project-list h3{font-size:29px}.project-list time{margin-top:7px}.project-list p{margin-top:15px;font-size:15px}.project-list a{font-size:13px}.chapter-link{margin-top:24px;font-size:13px}.letter{padding:65px 22px 30px}.letter h2{font-size:74px;line-height:.98}.letter-copy{padding-top:32px}.letter-copy p{font-size:19px;line-height:1.8}.letter-copy p+p{margin-top:23px}.letter-links{gap:18px 25px;font-size:13px}.footer{align-items:start;flex-wrap:wrap;gap:24px;margin-top:55px;padding-top:27px}.footer-name{font-size:36px;flex-basis:100%}.footer p{max-width:180px}.footer a{font-size:12px;margin-left:auto}.letter-signature{font-size:15px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#story">Skip to my story</a>
+<main>
+<section class="cover" id="top" aria-labelledby="name">
+  <header class="nav"><a class="nav-home" href="#top">Raygen Rupe</a><nav aria-label="Main navigation"><a href="#story">My story</a><a href="https://link.raygen.dev">Elsewhere</a></nav></header>
+  <p class="cover-intro">I build machines and software, teach makerspace tools, and put a lot of myself into Hack Club.</p>
+  <h1 class="name" id="name">raygen<span class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)"> Rupe</span></h1>
+  <img class="cover-object" src="/projects/monstrosity.png" alt="Monstrosity, my purple open-frame 3D printer with a double h-bot motion system" width="2282" height="1712" fetchpriority="high">
+  <p class="name-last" aria-hidden="true">rupe</p>
+  <p class="cover-note"><span>Monstrosity, 2025.</span>An idea, made physical.</p>
+  <div class="cover-foot"><a href="#story">A few things that<br>made me, me.<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v17m-7-6 7 7 7-7"/></svg></a><p>Engineer. Student.<br>Still becoming.</p></div>
+</section>
+<div class="story" id="story">
+  <aside class="story-visual" data-current="shop" aria-label="Story chapters">
+    <div class="scene-art is-current" data-scene="shop" aria-hidden="true"><p class="scene-word">a place<br>to start.</p><img src="/projects/raygen.png" alt="" width="377" height="377"><p class="scene-caption">A shop to take care of.<br>People to figure things out with.</p></div>
+    <div class="scene-art" data-scene="machines" aria-hidden="true"><p class="scene-word">idea into<br>object.</p><img src="/projects/monstrosity.png" alt="" width="2282" height="1712"><p class="scene-caption">Monstrosity.<br>A double h-bot, made in 2025.</p></div>
+    <div class="scene-art" data-scene="code" aria-hidden="true"><p class="scene-word">all the<br>in-between.</p><img src="/brand/stardance-logo.png" alt="" width="1649" height="629"><img class="stars" src="/brand/stardance-stars.png" alt="" width="411" height="147"><p class="scene-caption">Stardance, Hack Club.<br>Software that supports people making things.</p></div>
+    <div class="scene-art" data-scene="people" aria-hidden="true"><p class="scene-word">never<br>just me.</p><img src="/brand/outpost-logo.png" alt="" width="1775" height="595"><img class="flag" src="/brand/hack-club-flag-standalone.svg" alt=""><p class="scene-caption">Outpost, San Francisco.<br>Helping other ideas become real.</p></div>
+    <nav class="scene-navigation" aria-label="Jump to a chapter"><a href="#shop" aria-current="true">A place</a><a href="#machines">Machines</a><a href="#code">Software</a><a href="#people">People</a></nav>
+  </aside>
+  <div class="chapters">
+    <section class="chapter" id="shop" aria-labelledby="shop-title">
+      <h2 id="shop-title">A place to make.<br>Room for others.</h2>
+      <p>Making things is the core of who I am. But a workshop is more than the tools in it. It’s also the people learning how to use them.</p>
+      <p>At Centennial High, I was trusted to <strong>manage and run our VEX Robotics Competition shop</strong>. During 2023–2024, I helped bring the team to a local competition win.</p>
+      <p>Now, at One Stone, I’m the student point of contact for the makerspace. I develop and teach safety protocols, and help other students learn the tooling. Knowing how to make something feels even better when you can pass it on.</p>
+      <figure class="inline-art avatar-art"><img src="/projects/raygen.png" alt="My illustrated purple cat avatar" width="377" height="377" loading="lazy"><figcaption>A small stand-in for the person behind the machines.</figcaption></figure>
+    </section>
+    <section class="chapter" id="machines" aria-labelledby="machines-title">
+      <h2 id="machines-title">Then an idea<br>gets a body.</h2>
+      <p>I love building 3D printers. Onshape is where I work through the geometry; electronics and software are how I get it moving.</p>
+      <ul class="project-list">
+        <li><div><h3>Monstrosity</h3><time datetime="2025-09">2025</time></div><div><p>A double h-bot motion system. The first iteration took a 24-hour sprint, with another 12 hours to finalize it.</p><a href="https://link.raygen.dev/monstrosity">Inside Monstrosity</a></div></li>
+        <li><div><h3>DAVID</h3><time datetime="2026-03">2026</time></div><div><p>Three vertical rails and articulated arms. Designed and manufactured in under three weeks, then exhibited at Rocky Mountain RepRap Festival.</p><a href="https://link.raygen.dev/delteron">Inside DAVID</a></div></li>
+        <li><div><h3>SERV0</h3><time datetime="2026-05">2026–present</time></div><div><p>My custom Voron V0.2 variant, with servo control, steel panels, and CPAP cooling. Demonstrated at Open Sauce 2026.</p><a href="https://link.raygen.dev/serv0">Inside SERV0</a></div></li>
+      </ul>
+      <figure class="inline-art"><img src="/projects/monstrosity.png" alt="Monstrosity’s purple frame, exposed motors, and metal build plate" width="2282" height="1712" loading="lazy"><figcaption>Monstrosity — an open-source double h-bot printer.</figcaption></figure>
+    </section>
+    <section class="chapter" id="code" aria-labelledby="code-title">
+      <h2 id="code-title">And everything<br>around it.</h2>
+      <p>A machine is one kind of system. I like building the software around making, too. I work with Svelte and TypeScript, and I’ve contributed to Hack Club’s Stardance.</p>
+      <p>As an Assistant Developer, I made <strong>more than ten pull requests</strong> improving timelapse and hardware flows, working alongside a team of dozens.</p>
+      <p>I also spent two weeks interning with the Stardance hardware team. Different work, same instinct: understand how the pieces fit, then make them work better together.</p>
+      <a class="chapter-link" href="https://github.com/lordbagel42">Find me on GitHub</a>
+      <figure class="inline-art brand-art"><img src="/brand/stardance-logo.png" alt="Hack Club Stardance" width="1649" height="629" loading="lazy"><img class="extra-art" src="/brand/stardance-stars.png" alt="Stardance’s colorful star characters" width="411" height="147" loading="lazy"></figure>
+    </section>
+    <section class="chapter" id="people" aria-labelledby="people-title">
+      <h2 id="people-title">The best part<br>is who it brings.</h2>
+      <p>Hack Club is where I pour my heart and soul every day. It’s a big part of my life, not just a line in my projects.</p>
+      <p>At Outpost in San Francisco, I helped <strong>more than twenty teenagers</strong> design, engineer, and debug their projects during the hackathon.</p>
+      <p>My work also included resolving over half of the submitted helpdesk queries. Sometimes making progress means building a thing yourself. Sometimes it means helping someone else get unstuck.</p>
+      <a class="chapter-link" href="https://outpost.hackclub.com">About Outpost</a>
+      <figure class="inline-art brand-art"><img src="/brand/outpost-logo.png" alt="Hack Club Outpost — July 14–20 in San Francisco, California" width="1775" height="595" loading="lazy"><img class="small-flag" src="/brand/hack-club-flag-standalone.svg" alt="Hack Club" loading="lazy"></figure>
+    </section>
+  </div>
+</div>
+<section class="letter" id="letter" aria-labelledby="letter-title">
+  <div class="letter-inner"><h2 id="letter-title">I’m not<br>finished.</h2><div class="letter-copy"><p>This is a little of who I am so far. Machines I’ve made, places I’ve learned, and people I’ve had the chance to build alongside.</p><p>I want this corner of the internet to grow with me. One day there’ll be writing here, too. For now, there’s still a lot to make.</p><div class="letter-signature"><img src="/projects/raygen.png" alt="" width="377" height="377" loading="lazy"><span>Raygen</span></div><nav class="letter-links" aria-label="Find me elsewhere"><a href="https://link.raygen.dev">All my links</a><a href="https://rxresu.me/raygenrrupe/resume">My résumé</a><a href="mailto:raygenrrupe@gmail.com">Say hello</a></nav></div></div>
+  <footer class="footer"><span class="footer-name">Raygen Rupe</span><p>Made of things I’ve learned.<br>And things I haven’t yet.</p><a href="#top">Back to the beginning</a></footer>
+</section>
+</main>
+<script>
+(() => {
+  const chapters = [...document.querySelectorAll('.chapter')];
+  const stage = document.querySelector('.story-visual');
+  const scenes = [...document.querySelectorAll('.scene-art')];
+  const links = [...document.querySelectorAll('.scene-navigation a')];
+  if (!('IntersectionObserver' in window)) return;
+  document.documentElement.classList.add('has-scenes');
+  const visible = new Map();
+  function show(id) {
+    stage.dataset.current = id;
+    scenes.forEach(scene => scene.classList.toggle('is-current', scene.dataset.scene === id));
+    links.forEach(link => {
+      if (link.hash === '#' + id) link.setAttribute('aria-current', 'true');
+      else link.removeAttribute('aria-current');
+    });
+  }
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => visible.set(entry.target.id, entry.isIntersecting));
+    const current = chapters.find(chapter => visible.get(chapter.id));
+    if (current) show(current.id);
+  }, { rootMargin: '-40% 0px -45% 0px', threshold: 0 });
+  chapters.forEach(chapter => observer.observe(chapter));
+})();
+</script>
+</body>
+</html>

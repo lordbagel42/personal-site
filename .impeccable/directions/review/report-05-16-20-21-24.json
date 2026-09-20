@@ -1,0 +1,89 @@
+[
+  {
+    "id": "05",
+    "desktop": {
+      "overflow": false,
+      "title": "Raygen’s corner of the internet",
+      "buttons": [
+        "Take the panels off"
+      ],
+      "images": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "id": "16",
+    "desktop": {
+      "overflow": false,
+      "title": "Raygen Rupe — Working Matter",
+      "buttons": [
+        "Show the linkage diagram"
+      ],
+      "images": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "id": "20",
+    "desktop": {
+      "overflow": false,
+      "title": "Raygen Rupe — My own little corner",
+      "buttons": [
+        "Turn the portrait\n        CAD.Electronics.Things thatmove.I'm an engineer who loves making things. Especially 3D printers.Turn me back over",
+        "Take the panels off"
+      ],
+      "images": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "id": "21",
+    "desktop": {
+      "overflow": false,
+      "title": "Raygen Rupe — An unfinished thought",
+      "buttons": [
+        "Lift the panels ↗"
+      ],
+      "images": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "id": "24",
+    "desktop": {
+      "overflow": false,
+      "title": "Common Ground — Raygen Rupe",
+      "buttons": [
+        "Raygen RupeMakingthingsThe thing at the centerof everything else.",
+        "OnshapeWhere ideastake their shape.",
+        "SERV0CoreXY · Servo motors · CPAP cooling",
+        "ElectronicsComfortable withthe electrical side, too.",
+        "DAVIDThree rails.Articulated arms.A different kind of printer.",
+        "Heart & soulWhere I put a littleof myself every day.",
+        "Inside the hardware teamA two-week internship at Hack Club."
+      ],
+      "images": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  }
+]

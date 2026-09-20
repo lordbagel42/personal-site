@@ -1,0 +1,30 @@
+[
+  {
+    "id": "20",
+    "buttons": 2,
+    "successfulClicks": 2,
+    "changed": [
+      {
+        "label": "Turn the portrait to read about Raygen",
+        "changed": true
+      },
+      {
+        "label": "Take the panels off",
+        "changed": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "21",
+    "buttons": 1,
+    "successfulClicks": 1,
+    "changed": [
+      {
+        "label": "Lift the panels ↗",
+        "changed": true
+      }
+    ],
+    "errors": []
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "25",
+    "desktop": {
+      "overflow": false,
+      "title": "Raygen Rupe — Three ways in",
+      "buttons": [
+        "Remove the panels"
+      ],
+      "images": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  }
+]

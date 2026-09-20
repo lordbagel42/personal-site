@@ -1,4 +1,11 @@
 node_modules
+.clrun/
+
+# Local design captures and working artifacts
+/.impeccable/**/*.png
+/.impeccable/**/*.log
+/.impeccable/directions/revisions/
+/.impeccable/directions/review/resume-text.txt
 
 # Output
 .output

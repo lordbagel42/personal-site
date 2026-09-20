@@ -1,0 +1,154 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "documentHeight": 5587,
+    "parts": {
+      "projects": {
+        "left": 0,
+        "top": 1000,
+        "width": 1440,
+        "height": 1191.6875
+      },
+      "letter": {
+        "left": 0,
+        "top": 2191.6875,
+        "width": 1440,
+        "height": 714.96875
+      },
+      "software": {
+        "left": 0,
+        "top": 2906.65625,
+        "width": 1440,
+        "height": 996.5625
+      },
+      "people": {
+        "left": 0,
+        "top": 3903.21875,
+        "width": 1440,
+        "height": 1303.921875
+      },
+      "club-note": {
+        "left": 0,
+        "top": 5207.140625,
+        "width": 1440,
+        "height": 266.09375
+      }
+    }
+  },
+  {
+    "name": "tablet",
+    "width": 768,
+    "height": 1024,
+    "documentHeight": 5982,
+    "parts": {
+      "projects": {
+        "left": 0,
+        "top": 930,
+        "width": 768,
+        "height": 1469.453125
+      },
+      "letter": {
+        "left": 0,
+        "top": 2399.453125,
+        "width": 768,
+        "height": 756.875
+      },
+      "software": {
+        "left": 0,
+        "top": 3156.328125,
+        "width": 768,
+        "height": 997.609375
+      },
+      "people": {
+        "left": 0,
+        "top": 4153.9375,
+        "width": 768,
+        "height": 1414.1875
+      },
+      "club-note": {
+        "left": 0,
+        "top": 5568.125,
+        "width": 768,
+        "height": 300.09375
+      }
+    }
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "documentHeight": 8016,
+    "parts": {
+      "projects": {
+        "left": 0,
+        "top": 844,
+        "width": 390,
+        "height": 2479.65625
+      },
+      "letter": {
+        "left": 0,
+        "top": 3323.65625,
+        "width": 390,
+        "height": 972.96875
+      },
+      "software": {
+        "left": 0,
+        "top": 4296.625,
+        "width": 390,
+        "height": 1229.34375
+      },
+      "people": {
+        "left": 0,
+        "top": 5525.96875,
+        "width": 390,
+        "height": 1954.40625
+      },
+      "club-note": {
+        "left": 0,
+        "top": 7480.375,
+        "width": 390,
+        "height": 361.21875
+      }
+    }
+  },
+  {
+    "name": "narrow",
+    "width": 320,
+    "height": 740,
+    "documentHeight": 8914,
+    "parts": {
+      "projects": {
+        "left": 0,
+        "top": 844,
+        "width": 320,
+        "height": 2622.046875
+      },
+      "letter": {
+        "left": 0,
+        "top": 3466.046875,
+        "width": 320,
+        "height": 1070.140625
+      },
+      "software": {
+        "left": 0,
+        "top": 4536.1875,
+        "width": 320,
+        "height": 1440.953125
+      },
+      "people": {
+        "left": 0,
+        "top": 5977.140625,
+        "width": 320,
+        "height": 2258.171875
+      },
+      "club-note": {
+        "left": 0,
+        "top": 8235.3125,
+        "width": 320,
+        "height": 504.375
+      }
+    }
+  }
+]

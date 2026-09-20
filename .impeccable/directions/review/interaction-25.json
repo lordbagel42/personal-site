@@ -1,0 +1,323 @@
+[
+  {
+    "width": 1440,
+    "tests": [
+      {
+        "name": "Initial world is home",
+        "pass": true
+      },
+      {
+        "name": "Opening has no horizontal overflow",
+        "pass": true,
+        "details": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflow": false
+        }
+      },
+      {
+        "name": "MAKE keyboard navigation sets world and focuses heading",
+        "pass": true
+      },
+      {
+        "name": "MAKE has no horizontal overflow",
+        "pass": true,
+        "details": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflow": false
+        }
+      },
+      {
+        "name": "SERV0 panels reveal via keyboard with matching accessible state",
+        "pass": true,
+        "details": {
+          "targetedRetest": [
+            {
+              "pressed": "true",
+              "openHidden": "false",
+              "closedHidden": "true",
+              "openOpacity": "0.0710023",
+              "closedOpacity": "0.928998",
+              "label": "Put the panels back",
+              "focused": "reveal"
+            },
+            {
+              "pressed": "true",
+              "openHidden": "false",
+              "closedHidden": "true",
+              "openOpacity": "1",
+              "closedOpacity": "0",
+              "label": "Put the panels back",
+              "focused": "reveal"
+            },
+            {
+              "pressed": "true",
+              "openHidden": "false",
+              "closedHidden": "true",
+              "openOpacity": "1",
+              "closedOpacity": "0",
+              "label": "Put the panels back",
+              "focused": "reveal"
+            }
+          ],
+          "note": "Initial composite check was sampled after a fixed 450ms delay; targeted retest confirms completed state."
+        }
+      },
+      {
+        "name": "SERV0 panels restore via keyboard",
+        "pass": true
+      },
+      {
+        "name": "MAKE internal section link scrolls to printers and keeps branch",
+        "pass": true
+      },
+      {
+        "name": "Native details 1 opens with Space",
+        "pass": true
+      },
+      {
+        "name": "Native details 1 closes with Enter",
+        "pass": true
+      },
+      {
+        "name": "Native details 2 opens with Space",
+        "pass": true
+      },
+      {
+        "name": "Native details 2 closes with Enter",
+        "pass": true
+      },
+      {
+        "name": "Header returns to home and focuses title",
+        "pass": true
+      },
+      {
+        "name": "Browser Back restores prior MAKE internal section",
+        "pass": true
+      },
+      {
+        "name": "LEARN opens and focuses heading",
+        "pass": true
+      },
+      {
+        "name": "LEARN has no horizontal overflow",
+        "pass": true,
+        "details": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflow": false
+        }
+      },
+      {
+        "name": "LEARN internal section link scrolls to contributions",
+        "pass": true
+      },
+      {
+        "name": "Browser Back restores LEARN at top",
+        "pass": true
+      },
+      {
+        "name": "BELONG opens and focuses heading",
+        "pass": true
+      },
+      {
+        "name": "BELONG has no horizontal overflow",
+        "pass": true,
+        "details": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflow": false
+        }
+      },
+      {
+        "name": "Branch navigation switches BELONG to MAKE",
+        "pass": true
+      },
+      {
+        "name": "Browser Back restores previous branch",
+        "pass": true
+      },
+      {
+        "name": "Branch footer follows next thread",
+        "pass": true
+      },
+      {
+        "name": "All local images loaded",
+        "pass": true
+      },
+      {
+        "name": "No JavaScript errors",
+        "pass": true,
+        "details": []
+      }
+    ],
+    "captures": [
+      "25-make-desktop.png",
+      "25-learn-desktop.png",
+      "25-belong-desktop.png"
+    ]
+  },
+  {
+    "width": 390,
+    "tests": [
+      {
+        "name": "Initial world is home",
+        "pass": true
+      },
+      {
+        "name": "Opening has no horizontal overflow",
+        "pass": true,
+        "details": {
+          "width": 390,
+          "documentWidth": 390,
+          "overflow": false
+        }
+      },
+      {
+        "name": "MAKE keyboard navigation sets world and focuses heading",
+        "pass": true
+      },
+      {
+        "name": "MAKE has no horizontal overflow",
+        "pass": true,
+        "details": {
+          "width": 390,
+          "documentWidth": 390,
+          "overflow": false
+        }
+      },
+      {
+        "name": "SERV0 panels reveal via keyboard with matching accessible state",
+        "pass": true
+      },
+      {
+        "name": "SERV0 panels restore via keyboard",
+        "pass": true
+      },
+      {
+        "name": "MAKE internal section link scrolls to printers and keeps branch",
+        "pass": true
+      },
+      {
+        "name": "Native details 1 opens with Space",
+        "pass": true
+      },
+      {
+        "name": "Native details 1 closes with Enter",
+        "pass": true
+      },
+      {
+        "name": "Native details 2 opens with Space",
+        "pass": true
+      },
+      {
+        "name": "Native details 2 closes with Enter",
+        "pass": true
+      },
+      {
+        "name": "Header returns to home and focuses title",
+        "pass": true
+      },
+      {
+        "name": "Browser Back restores prior MAKE internal section",
+        "pass": true
+      },
+      {
+        "name": "LEARN opens and focuses heading",
+        "pass": true
+      },
+      {
+        "name": "LEARN has no horizontal overflow",
+        "pass": true,
+        "details": {
+          "width": 390,
+          "documentWidth": 390,
+          "overflow": false
+        }
+      },
+      {
+        "name": "LEARN internal section link scrolls to contributions",
+        "pass": true
+      },
+      {
+        "name": "Browser Back restores LEARN at top",
+        "pass": true
+      },
+      {
+        "name": "BELONG opens and focuses heading",
+        "pass": true
+      },
+      {
+        "name": "BELONG has no horizontal overflow",
+        "pass": true,
+        "details": {
+          "width": 390,
+          "documentWidth": 390,
+          "overflow": false
+        }
+      },
+      {
+        "name": "Branch navigation switches BELONG to MAKE",
+        "pass": true
+      },
+      {
+        "name": "Browser Back restores previous branch",
+        "pass": true
+      },
+      {
+        "name": "Branch footer follows next thread",
+        "pass": true
+      },
+      {
+        "name": "All local images loaded",
+        "pass": true
+      },
+      {
+        "name": "No JavaScript errors",
+        "pass": true,
+        "details": []
+      }
+    ],
+    "captures": [
+      "25-make-mobile.png",
+      "25-learn-mobile.png",
+      "25-belong-mobile.png"
+    ]
+  },
+  {
+    "width": 390,
+    "reducedMotion": true,
+    "tests": [
+      {
+        "name": "MAKE works with motion reduced",
+        "pass": true
+      },
+      {
+        "name": "LEARN works with motion reduced",
+        "pass": true
+      },
+      {
+        "name": "BELONG works with motion reduced",
+        "pass": true
+      },
+      {
+        "name": "Direct MAKE section deep link selects correct branch",
+        "pass": true
+      },
+      {
+        "name": "Reduced-motion SERV0 reveal has no transition",
+        "pass": true
+      },
+      {
+        "name": "Direct LEARN section deep link selects correct branch",
+        "pass": true
+      },
+      {
+        "name": "No reduced-motion JavaScript errors",
+        "pass": true,
+        "details": []
+      }
+    ]
+  }
+]

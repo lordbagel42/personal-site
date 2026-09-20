@@ -1,28 +1,22 @@
-// +page.ts
-import type { Post } from '$lib/types';
 import { error } from '@sveltejs/kit';
 import type { Component } from 'svelte';
+import type { PageLoad } from './$types';
 
 interface MarkdownModule {
 	default: Component;
-	metadata: Post;
 }
 
 const posts = import.meta.glob<MarkdownModule>('/src/lib/blog-md/**/*.md');
 
-export async function load({ params }: { params: { slug: string } }) {
-	const slug = params.slug; // can be nested like "test/test"
-	const path = `/src/lib/blog-md/${slug}.md`;
-
-	const loader = posts[path];
-	if (!loader) {
-		error(404, `Could not find ${slug}`);
-	}
+export const load: PageLoad = async ({ data }) => {
+	// The server first checks publication before any article content is loaded.
+	const loader = posts[`/src/lib/blog-md/${data.meta.slug}.md`];
+	if (!loader) error(404, 'This piece could not be found.');
 
 	const post = await loader();
 
 	return {
 		content: post.default,
-		meta: post.metadata
+		meta: data.meta
 	};
-}
+};

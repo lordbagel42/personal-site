@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1c1725"><title>Raygen Rupe — Made to move</title>
+<style>
+@font-face{font-family:Archivo;src:url('/fonts/archivo.woff2') format('woff2');font-display:swap} @font-face{font-family:Manrope;src:url('/fonts/manrope.woff2') format('woff2');font-display:swap}
+:root{--paper:#f2eee6;--muted:#b8b0c4;--ground:#1c1725;--line:#4a4059;--lime:#d9fa64;--lilac:#b69eea;--ink:#231c2e;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scrollbar-color:var(--lilac) var(--ground)}body{margin:0;background:var(--ground);color:var(--paper);font-family:Manrope,sans-serif}::selection{background:var(--lime);color:var(--ink)}a{color:inherit;text-decoration-thickness:1px;text-underline-offset:5px}button,input,a{touch-action:manipulation}button{font:inherit}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--lime);outline-offset:6px}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.5}
+header{height:88px;margin:0 4%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.identity{display:flex;gap:13px;align-items:center;text-decoration:none;font-size:18px;font-weight:700}.identity img{width:42px;height:42px}nav{display:flex;gap:30px;align-items:center;font-size:14px}.nav-icon{width:15px;height:15px;vertical-align:-2px;margin-left:8px}nav a{text-decoration:none}nav a:hover{text-decoration:underline}
+main{overflow:hidden}.intro{display:flex;justify-content:space-between;align-items:flex-end;margin:38px 4% 0;gap:40px}.intro h1{font-family:Archivo,sans-serif;font-size:clamp(42px,6.4vw,92px);font-weight:850;line-height:1;letter-spacing:-.04em;margin:0;text-wrap:balance}.intro h1 em{font-weight:500;font-style:normal;color:var(--lilac)}.intro p{font-size:15px;max-width:290px;line-height:1.6;margin:0 0 3px}.intro p strong{font-weight:700;color:var(--lime)}
+.playground{position:relative;margin:24px 4% 0;height:400px;isolation:isolate;overflow:hidden}.mechanism{display:block;width:100%;height:100%;overflow:visible;touch-action:none}.stage-note{position:absolute;top:36px;left:0;width:180px;pointer-events:none}.stage-note h2{font-size:17px;line-height:1.3;margin:0 0 10px;font-weight:600}.stage-note p{font-size:12px;color:var(--muted);line-height:1.65;margin:0}.stage-note svg{width:42px;height:42px;display:block;margin:22px 0;color:var(--lilac)}.play-label{position:absolute;right:20px;top:28px;font-size:12px;color:var(--muted);line-height:1.6}.play-label strong{display:block;color:var(--paper);font-weight:500}.coordinate{position:absolute;right:20px;bottom:30px;font:12px/1.8 ui-monospace,monospace;color:var(--muted);font-variant-numeric:tabular-nums}.coordinate span{color:var(--lime)}
+.handle{cursor:grab}.handle:active{cursor:grabbing}.handle:hover .handle-ring{stroke:var(--paper);stroke-width:3}.joint-detail{pointer-events:none}.machine-label{fill:var(--ink);font-family:Manrope,sans-serif;font-size:12px;font-weight:700;letter-spacing:1px}.orbit{stroke:#574762;fill:none;stroke-width:1}.axis{stroke:#756582;stroke-width:1}.annotation{fill:#b8b0c4;font-family:Manrope,sans-serif;font-size:11px}.drag-prompt{fill:var(--paper);font-family:Manrope,sans-serif;font-size:13px}.footprint{fill:#302639;stroke:#695773;stroke-width:1.5}
+.controls{margin:0 4%;display:grid;grid-template-columns:1fr 1fr auto;gap:38px;padding:23px 0 26px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);align-items:center}.control label{display:flex;justify-content:space-between;font-size:13px;font-weight:600;margin-bottom:15px}.control output{font:13px ui-monospace,monospace;color:var(--lime)}input[type=range]{display:block;width:100%;height:4px;accent-color:var(--lime);cursor:ew-resize}.reset{color:var(--paper);border:1px solid #6a5d79;padding:13px 17px;border-radius:6px;background:transparent;font-size:13px;display:flex;gap:10px;align-items:center}.reset svg{height:16px;width:16px}.reset:hover{border-color:var(--lime);color:var(--lime)}.sr-only{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.caption{margin:12px 4% 0;font-size:11px;color:var(--muted);text-align:right}
+.builds{margin:44px 4% 70px}.builds-title{display:flex;align-items:baseline;justify-content:space-between;gap:28px;margin-bottom:30px}.builds h2{font-family:Archivo,sans-serif;font-size:42px;letter-spacing:-.03em;margin:0;line-height:1.12}.builds-title p{margin:0;color:var(--muted);font-size:14px}.project-grid{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:24px}.project{min-width:0}.project-art{height:280px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#262031;border-radius:9px}.project-art img{object-fit:contain;width:100%;height:92%;transition:transform .3s ease-out}.project:hover .project-art img{transform:translateY(-5px)}.serv0 .project-art{background:#303533}.david .project-art{background:#353535}.david .project-art img{height:100%}.stardance .project-art{background:#34232c}.stardance .project-art img{width:79%;height:auto}.project h3{font-family:Archivo,sans-serif;font-size:22px;font-weight:650;margin:20px 0 9px;letter-spacing:-.02em}.project p{color:var(--muted);font-size:13px;line-height:1.7;margin:0;max-width:42ch}.about{border-top:1px solid var(--line);padding:36px 0 12px;display:flex;align-items:center;gap:30px;margin-top:56px}.about img{width:92px;height:auto;flex-shrink:0}.about p{font-size:18px;line-height:1.7;max-width:710px;margin:0}.about strong{color:var(--lime);font-weight:500}footer{margin:0 4%;padding:20px 0 28px;border-top:1px solid var(--line);display:flex;justify-content:space-between;color:var(--muted);font-size:12px}
+@media(min-width:1600px){.playground{height:500px}}@media(max-width:900px){.intro{align-items:flex-start;gap:20px}.intro p{max-width:240px;font-size:13px}.stage-note{width:135px}.stage-note p{font-size:11px}.playground{height:400px}.project-art{height:240px}.controls{gap:25px}.builds h2{font-size:34px}.builds-title p{max-width:200px}}
+@media(max-width:600px){header{height:75px;margin:0 6%}.identity{font-size:15px;gap:9px}.identity img{width:33px;height:33px}nav{gap:15px;font-size:12px}nav a:last-child{display:none}.intro{display:block;margin:30px 6% 0}.intro h1{font-size:49px;max-width:330px;line-height:1.03}.intro h1 em{display:block}.intro p{margin-top:22px;max-width:320px;font-size:14px}.playground{margin:8px 0 0;height:335px}.stage-note{left:6%;top:15px;width:140px}.stage-note h2{font-size:13px;margin-bottom:4px}.stage-note p{font-size:11px;max-width:130px}.stage-note svg{display:none}.play-label{display:none}.coordinate{bottom:7px;right:6%;font-size:10px}.mechanism{position:absolute;left:0;width:100%;height:calc(100% - 42px);top:0}.controls{margin:0 6%;grid-template-columns:1fr 1fr;gap:26px 20px;padding:22px 0}.control label{font-size:11px}.control output{font-size:11px}.reset{grid-column:1/-1;justify-self:start;padding:10px 12px;font-size:12px}.caption{margin:10px 6% 0;font-size:10px;text-align:left;line-height:1.6}.builds{margin:48px 6%}.builds-title{display:block;margin-bottom:24px}.builds h2{font-size:32px}.builds-title p{margin-top:12px;max-width:290px;font-size:13px}.project-grid{display:block}.project{margin-bottom:32px}.project-art{height:310px}.project h3{margin-top:17px}.about{align-items:flex-start;gap:18px;margin-top:35px;padding-top:28px}.about img{width:60px}.about p{font-size:14px}footer{margin:0 6%;font-size:11px}.annotation{font-size:13px}.drag-prompt{font-size:16px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.project-art img{transition:none}}
+</style>
+</head>
+<body>
+<header><a class="identity" href="#top"><img src="/projects/raygen.png" alt="Raygen’s purple cat avatar">Raygen Rupe</a><nav aria-label="Main navigation"><a href="#things">Things I make<svg class="nav-icon" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 3h10v10M13 3 3 13" stroke="currentColor" stroke-width="1.5"/></svg></a><a href="#about">A little about me</a></nav></header>
+<main id="top">
+<div class="intro"><h1>Made to <em>move.</em></h1><p>I’m Raygen. Engineer, printer builder,<br>and a big believer in <strong>trying things.</strong></p></div>
+<section class="playground" aria-label="Interactive two-joint arm playground" aria-describedby="play-help">
+<div class="stage-note"><h2>Go on. Give it a pull.</h2><p id="play-help">Drag the end of the arm, or play with the joint angles below.</p><svg viewBox="0 0 44 44" fill="none" aria-hidden="true"><path d="M3 5c0 22 12 31 33 27m-9-8 9 8-7 9" stroke="currentColor" stroke-width="1.5"/></svg></div>
+<div class="play-label"><strong>A small mechanical playground</strong>Two joints. Plenty of possibilities.</div>
+<svg id="machine" class="mechanism" viewBox="0 0 1200 500" role="img" aria-label="An interactive lime two-link arm with a fixed base, elbow joint and draggable endpoint">
+<defs><pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#56465f"/></pattern><clipPath id="field"><rect x="240" y="0" width="745" height="488"/></clipPath></defs>
+<g clip-path="url(#field)"><rect x="230" width="750" height="500" fill="url(#dots)" opacity=".65"/><circle class="orbit" cx="605" cy="411" r="370" stroke-dasharray="4 9"/><circle class="orbit" cx="605" cy="411" r="255"/><path class="axis" d="M225 411h760M605 7v475" stroke-dasharray="2 9"/><path class="axis" d="M590 41h30M590 156h30M590 296h30M235 396v30M350 396v30M860 396v30M975 396v30"/></g>
+<text class="annotation" x="964" y="438">x</text><text class="annotation" x="620" y="28">y</text>
+<path class="footprint" d="M544 442 567 404h76l23 38Z"/><path d="M539 451h132" stroke="#9a87aa" stroke-width="2"/><circle cx="553" cy="442" r="3" fill="#9a87aa"/><circle cx="657" cy="442" r="3" fill="#9a87aa"/>
+<g id="upper" transform="translate(605 411) rotate(-142)"><rect x="0" y="-25" width="245" height="50" rx="25" fill="#d9fa64"/><rect x="43" y="-10" width="159" height="20" rx="10" fill="#211a29"/><path d="M54-18h20M82-18h20M110-18h20M138-18h20M166-18h20" stroke="#8da73e" stroke-width="2"/><circle r="32" fill="#d9fa64"/><circle r="21" fill="#302739"/><circle r="11" fill="#af98c5"/><circle r="4" fill="#302739"/></g>
+<g id="lower" transform="translate(411.94 260.16) rotate(-38)"><rect x="0" y="-21" width="260" height="42" rx="21" fill="#b69eea"/><rect x="44" y="-8" width="170" height="16" rx="8" fill="#211a29"/><circle r="30" fill="#b69eea"/><circle r="19" fill="#302739"/><circle r="10" fill="#d9fa64"/><circle r="3" fill="#302739"/><text class="machine-label" x="102" y="-11">B</text></g>
+<g id="tip" class="handle" transform="translate(616.82 100.09)"><circle r="43" fill="transparent"/><circle class="handle-ring" r="29" fill="#1c1725" stroke="#b69eea" stroke-width="1.5"/><circle r="17" fill="#d9fa64"/><path d="M-7 0H7M0-7V7" stroke="#231c2e" stroke-width="1.5"/><path d="M25-29 43-50h90" stroke="#b8b0c4" fill="none"/><text class="drag-prompt" x="49" y="-58">Take it for a spin.</text></g>
+<text class="annotation" x="681" y="470">FIXED BASE</text><path d="m669 461-26-22" stroke="#b8b0c4" stroke-width="1"/>
+</svg>
+<div class="coordinate" aria-hidden="true">ENDPOINT<br>x <span id="coord-x">+12</span> &nbsp; y <span id="coord-y">+311</span></div>
+</section>
+<div class="controls">
+<div class="control"><label for="shoulder">Shoulder <output id="shoulder-value" for="shoulder">−142°</output></label><input id="shoulder" type="range" min="-180" max="0" step="1" value="-142" aria-label="Shoulder angle in degrees"></div>
+<div class="control"><label for="elbow">Elbow <output id="elbow-value" for="elbow">104°</output></label><input id="elbow" type="range" min="-150" max="150" step="1" value="104" aria-label="Elbow angle in degrees"></div>
+<button class="reset" id="reset" type="button"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 7a7 7 0 1 1-1 6M4 2v5h5" stroke="currentColor" stroke-width="1.5"/></svg>Reset the arm</button>
+</div>
+<p class="caption">An illustrative linkage, made for this page. Independent of the printers below.</p>
+<noscript><p style="margin:20px 4%;color:#d9fa64">The arm needs JavaScript to move. You can still explore everything I make below.</p></noscript>
+<section class="builds" id="things"><div class="builds-title"><h2>From playing around<br>to making real things.</h2><p>Some things that have kept my hands busy.</p></div>
+<div class="project-grid">
+<article class="project serv0"><div class="project-art"><img src="/projects/serv0-open.png" alt="SERV0’s turquoise and steel CoreXY printer assembly" loading="lazy"></div><h3>SERV0</h3><p>A compact CoreXY printer with servo motors and CPAP cooling. Designed in Onshape.</p></article>
+<article class="project david"><div class="project-art"><img src="/projects/david.png" alt="DAVID, a tall turquoise and yellow printer with three rails and articulated arms" loading="lazy"></div><h3>DAVID</h3><p>A Delteron 3D printer: three vertical linear rails, articulated arms, and a very different way to move.</p></article>
+<article class="project stardance"><div class="project-art"><img src="/brand/stardance-logo.png" alt="Stardance" loading="lazy"></div><h3>A little time at Stardance</h3><p>Two weeks with Hack Club’s hardware team. Contributions to review and certification tools, keyboard shortcuts, and timelapse tools.</p></article>
+</div>
+<div class="about" id="about"><img src="/brand/hack-club-flag-standalone.svg" alt="Hack Club"><p>I love making things. Usually that means Onshape, electronics, and another reason to build a 3D printer. <strong>Hack Club is where I pour my heart and soul every day.</strong></p></div>
+</section>
+</main>
+<footer><span>Raygen Rupe</span><a href="#top">Back to the playground ↑</a></footer>
+<script>
+(()=>{
+const svg=document.getElementById('machine'),shoulder=document.getElementById('shoulder'),elbow=document.getElementById('elbow');
+const upper=document.getElementById('upper'),lower=document.getElementById('lower'),tip=document.getElementById('tip');
+const base={x:605,y:411},lengthA=245,lengthB=260,rad=Math.PI/180;const compact=window.matchMedia('(max-width:600px)');let activePointer=null,bend=1;
+function draw(){
+ const a=Number(shoulder.value),b=Number(elbow.value),joint={x:base.x+lengthA*Math.cos(a*rad),y:base.y+lengthA*Math.sin(a*rad)};
+ const end={x:joint.x+lengthB*Math.cos((a+b)*rad),y:joint.y+lengthB*Math.sin((a+b)*rad)};
+ const left=Math.min(compact.matches?225:0,joint.x-45,end.x-55),right=Math.max(compact.matches?975:1200,joint.x+45,end.x+145),top=Math.min(compact.matches?-20:0,joint.y-45,end.y-100),bottom=Math.max(compact.matches?530:500,joint.y+45,end.y+65);
+ svg.setAttribute('viewBox',`${left} ${top} ${right-left} ${bottom-top}`);
+ upper.setAttribute('transform',`translate(${base.x} ${base.y}) rotate(${a})`);lower.setAttribute('transform',`translate(${joint.x} ${joint.y}) rotate(${a+b})`);tip.setAttribute('transform',`translate(${end.x} ${end.y})`);
+ document.getElementById('shoulder-value').value=`${a}°`;document.getElementById('elbow-value').value=`${b}°`;
+ shoulder.setAttribute('aria-valuetext',`${a} degrees`);elbow.setAttribute('aria-valuetext',`${b} degrees`);
+ const signed=n=>(n>=0?'+':'−')+Math.abs(Math.round(n));document.getElementById('coord-x').textContent=signed(end.x-base.x);document.getElementById('coord-y').textContent=signed(base.y-end.y);
+}
+function drag(event){
+ const matrix=svg.getScreenCTM();if(!matrix)return;
+ const p=new DOMPoint(event.clientX,event.clientY).matrixTransform(matrix.inverse()),dx=p.x-base.x,dy=p.y-base.y;
+ const cosB=Math.max(-1,Math.min(1,(dx*dx+dy*dy-lengthA*lengthA-lengthB*lengthB)/(2*lengthA*lengthB)));
+ const b=bend*Math.acos(cosB),a=Math.atan2(dy,dx)-Math.atan2(lengthB*Math.sin(b),lengthA+lengthB*Math.cos(b));
+ shoulder.value=Math.max(-180,Math.min(0,a/rad));elbow.value=Math.max(-150,Math.min(150,b/rad));draw();
+}
+tip.addEventListener('pointerdown',event=>{if(event.button!==0)return;activePointer=event.pointerId;bend=Number(elbow.value)<0?-1:1;tip.setPointerCapture(event.pointerId);event.preventDefault();});
+tip.addEventListener('pointermove',event=>{if(event.pointerId===activePointer)drag(event);});
+tip.addEventListener('pointerup',()=>{activePointer=null;});tip.addEventListener('pointercancel',()=>{activePointer=null;});tip.addEventListener('lostpointercapture',()=>{activePointer=null;});
+compact.addEventListener('change',draw);shoulder.addEventListener('input',draw);elbow.addEventListener('input',draw);document.getElementById('reset').addEventListener('click',()=>{shoulder.value=-142;elbow.value=104;draw();});draw();
+})();
+</script>
+</body>
+</html>

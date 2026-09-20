@@ -1,0 +1,50 @@
+[
+  {
+    "id": "10",
+    "buttons": 1,
+    "successfulClicks": 1,
+    "changed": [
+      {
+        "label": "Take the panels off",
+        "changed": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "11",
+    "buttons": 1,
+    "successfulClicks": 1,
+    "changed": [
+      {
+        "label": "Seat letters",
+        "changed": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "12",
+    "buttons": 4,
+    "successfulClicks": 4,
+    "changed": [
+      {
+        "label": "Remove the panels",
+        "changed": true
+      },
+      {
+        "label": "SERV0 CoreXY printer",
+        "changed": true
+      },
+      {
+        "label": "DAVID Delteron printer",
+        "changed": true
+      },
+      {
+        "label": "Stardance Hack Club internship",
+        "changed": true
+      }
+    ],
+    "errors": []
+  }
+]

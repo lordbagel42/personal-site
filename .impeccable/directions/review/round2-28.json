@@ -1,0 +1,138 @@
+[
+  {
+    "id": "28",
+    "desktop": {
+      "overflow": false,
+      "width": 1440,
+      "height": 4667,
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Explore the engineering piece: Monstrosity",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Explore the teaching piece: the person in the shop",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Explore the software piece",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Explore the community piece: Hack Club Outpost",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Making",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Coding",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Teaching",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Helping",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "Raygen Rupe — All These Pieces",
+        "A place to begin.",
+        "Some ideasneed motors.",
+        "Make roomfor thenext person.",
+        "Some ideasneed code.",
+        "And someneed a person.",
+        "All thesepieces, me."
+      ],
+      "missingFragments": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390,
+      "height": 5573,
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Explore the engineering piece: Monstrosity",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Explore the teaching piece: the person in the shop",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Explore the software piece",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Explore the community piece: Hack Club Outpost",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Making",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Coding",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Teaching",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Helping",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "Raygen Rupe — All These Pieces",
+        "A place to begin.",
+        "Some ideasneed motors.",
+        "Make roomfor thenext person.",
+        "Some ideasneed code.",
+        "And someneed a person.",
+        "All thesepieces, me."
+      ],
+      "missingFragments": []
+    },
+    "errors": []
+  }
+]

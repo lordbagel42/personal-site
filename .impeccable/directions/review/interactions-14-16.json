@@ -1,0 +1,66 @@
+[
+  {
+    "id": "14",
+    "buttons": 14,
+    "successfulClicks": 5,
+    "changed": [
+      {
+        "label": "Tidy up",
+        "changed": true
+      },
+      {
+        "label": "Read me",
+        "changed": true
+      },
+      {
+        "label": "Close project window",
+        "changed": true
+      },
+      {
+        "label": "Close about window",
+        "changed": true
+      },
+      {
+        "label": "Close Hack Club window",
+        "changed": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "15",
+    "buttons": 4,
+    "successfulClicks": 4,
+    "changed": [
+      {
+        "label": "Zoom out",
+        "changed": true
+      },
+      {
+        "label": "Zoom in",
+        "changed": true
+      },
+      {
+        "label": "Fit assembly in view",
+        "changed": false
+      },
+      {
+        "label": "Inspect toolhead",
+        "changed": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "16",
+    "buttons": 1,
+    "successfulClicks": 1,
+    "changed": [
+      {
+        "label": "Show the linkage diagram",
+        "changed": true
+      }
+    ],
+    "errors": []
+  }
+]

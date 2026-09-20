@@ -1,0 +1,546 @@
+[
+  {
+    "id": "33",
+    "desktop": {
+      "overflow": false,
+      "width": 1440,
+      "height": 5639,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "id": "voice-0",
+          "label": "With my hands",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "voice-1",
+          "label": "With code",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "voice-2",
+          "label": "By teaching",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "voice-3",
+          "label": "Together",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "Raygen Rupe",
+        "An idea, made physical.",
+        "A thought.Then a thing.",
+        "Things work betterwith people.",
+        "Make roomfor someoneelse.",
+        "A few wordswithout themoving letters."
+      ],
+      "missingFragments": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390,
+      "height": 6043,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "id": "voice-0",
+          "label": "With my hands",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "voice-1",
+          "label": "With code",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "voice-2",
+          "label": "By teaching",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "voice-3",
+          "label": "Together",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "Raygen Rupe",
+        "An idea, made physical.",
+        "A thought.Then a thing.",
+        "Things work betterwith people.",
+        "Make roomfor someoneelse.",
+        "A few wordswithout themoving letters."
+      ],
+      "missingFragments": []
+    },
+    "errors": []
+  },
+  {
+    "id": "34",
+    "desktop": {
+      "overflow": false,
+      "width": 1440,
+      "height": 5580,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "INPUT",
+          "id": "crank-angle",
+          "label": "",
+          "type": "range"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "reset-crank",
+          "label": "Reset",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "RAYGENRUPE",
+        "A small motion.A whole lot of possibility.",
+        "Making things is the thread that runs through pretty much everything I do.",
+        "Some ideas take up space.",
+        "And some ideas bring people together.",
+        "Still a work in motion."
+      ],
+      "missingFragments": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390,
+      "height": 5905,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "INPUT",
+          "id": "crank-angle",
+          "label": "",
+          "type": "range"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "reset-crank",
+          "label": "Reset",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "RAYGENRUPE",
+        "A small motion.A whole lot of possibility.",
+        "Making things is the thread that runs through pretty much everything I do.",
+        "Some ideas take up space.",
+        "And some ideas bring people together.",
+        "Still a work in motion."
+      ],
+      "missingFragments": []
+    },
+    "errors": []
+  },
+  {
+    "id": "35",
+    "desktop": {
+      "overflow": false,
+      "width": 1440,
+      "height": 5639,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [],
+      "headings": [
+        "raygen Rupe",
+        "A place to make.Room for others.",
+        "Then an ideagets a body.",
+        "And everythingaround it.",
+        "The best partis who it brings.",
+        "I’m notfinished."
+      ],
+      "missingFragments": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390,
+      "height": 6234,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [],
+      "headings": [
+        "raygen Rupe",
+        "A place to make.Room for others.",
+        "Then an ideagets a body.",
+        "And everythingaround it.",
+        "The best partis who it brings.",
+        "I’m notfinished."
+      ],
+      "missingFragments": []
+    },
+    "errors": []
+  },
+  {
+    "id": "36",
+    "desktop": {
+      "overflow": false,
+      "width": 1440,
+      "height": 4746,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Learn it",
+          "type": null
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Make it",
+          "type": null
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Pass it on",
+          "type": null
+        }
+      ],
+      "headings": [
+        "Figuring it outis only halfthe fun.",
+        "Understanding goes both ways.",
+        "I like the momentit makes sense.",
+        "Somethingyou can hold.",
+        "Some partsare software.",
+        "Pass thegood stuffaround."
+      ],
+      "missingFragments": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390,
+      "height": 5822,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Learn it",
+          "type": null
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Make it",
+          "type": null
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Pass it on",
+          "type": null
+        }
+      ],
+      "headings": [
+        "Figuring it outis only halfthe fun.",
+        "Understanding goes both ways.",
+        "I like the momentit makes sense.",
+        "Somethingyou can hold.",
+        "Some partsare software.",
+        "Pass thegood stuffaround."
+      ],
+      "missingFragments": []
+    },
+    "errors": []
+  },
+  {
+    "id": "37",
+    "desktop": {
+      "overflow": false,
+      "width": 1440,
+      "height": 5669,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "SERV0",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "DAVID",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Monstrosity",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "Raygen Rupe.",
+        "An idea,in motion.",
+        "Making itwork better.",
+        "Room forother makers.",
+        "And me."
+      ],
+      "missingFragments": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390,
+      "height": 6422,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "SERV0",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "DAVID",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Monstrosity",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "Raygen Rupe.",
+        "An idea,in motion.",
+        "Making itwork better.",
+        "Room forother makers.",
+        "And me."
+      ],
+      "missingFragments": []
+    },
+    "errors": []
+  },
+  {
+    "id": "38",
+    "desktop": {
+      "overflow": false,
+      "width": 1440,
+      "height": 5579,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "INPUT",
+          "id": "thread-progress",
+          "label": "",
+          "type": "range"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "MakingFrom an idea to an object",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "CodingThe parts you can’t hold",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "TeachingMore hands in the workshop",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "HelpingSomeone else’s next step",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "Raygen Rupe.",
+        "An idea,with moving parts.",
+        "Some thingsare madeof software.",
+        "Knowing how.Showing how.",
+        "Their idea.A hand from me.",
+        "More threads."
+      ],
+      "missingFragments": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390,
+      "height": 5799,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "INPUT",
+          "id": "thread-progress",
+          "label": "",
+          "type": "range"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "MakingFrom an idea to an object",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "CodingThe parts you can’t hold",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "TeachingMore hands in the workshop",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "HelpingSomeone else’s next step",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "Raygen Rupe.",
+        "An idea,with moving parts.",
+        "Some thingsare madeof software.",
+        "Knowing how.Showing how.",
+        "Their idea.A hand from me.",
+        "More threads."
+      ],
+      "missingFragments": []
+    },
+    "errors": []
+  },
+  {
+    "id": "39",
+    "desktop": {
+      "overflow": false,
+      "width": 1440,
+      "height": 4530,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Making",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Writing code",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Passing it on",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Showing up",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "A few ways in.",
+        "Ideas, made physical.",
+        "My ideas tend tohave moving parts.",
+        "Making thingswork better.",
+        "Leave thedoor open.",
+        "A whole lotof Hack Club.",
+        "Stillbecoming."
+      ],
+      "missingFragments": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390,
+      "height": 5155,
+      "overflowingElements": [],
+      "distortedImages": [],
+      "brokenImages": [],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Making",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Writing code",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Passing it on",
+          "type": "button"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Showing up",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "A few ways in.",
+        "Ideas, made physical.",
+        "My ideas tend tohave moving parts.",
+        "Making thingswork better.",
+        "Leave thedoor open.",
+        "A whole lotof Hack Club.",
+        "Stillbecoming."
+      ],
+      "missingFragments": []
+    },
+    "errors": []
+  }
+]

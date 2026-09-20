@@ -1,41 +1,104 @@
 <script lang="ts">
-	import Logo from './logo.svelte';
-	import Search from './search.svelte';
-	import Socials from './socials.svelte';
-	import Menu from './menu.svelte';
-
-	let scrollY = $state(0);
-	let fixed = $derived(scrollY > 0);
-
-	const headerHeight = 64; // Adjust to match your header's actual height in px
+	import { resolve } from '$app/paths';
+	import { page } from '$app/state';
+	const home = $derived(page.route.id === '/' && page.status < 400);
+	const writing = $derived(page.url.pathname.startsWith('/blog'));
 </script>
 
-<svelte:window bind:scrollY />
-
-<header
-	class="fixed top-0 right-0 left-0 z-20 border-2 bg-transparent p-4 text-[18px] text-current transition-all duration-300 ease-in-out"
-	class:top-2={fixed}
-	class:text-blue-600={fixed}
-	class:shadow-lg={fixed}
-	class:backdrop-blur-[20px]={fixed}
-	class:rounded-xl={fixed}
-	style="
-    width: {fixed ? '35%' : '100%'};
-    left: {fixed ? '50%' : '0'};
-    transform: {fixed ? 'translateX(-50%)' : 'translateX(0)'};
-  "
->
-	<div class="flex w-full items-center justify-between px-4">
-		<div class="flex items-center gap-2">
-			<a href="/">sylviethedev</a>
-		</div>
-		<Search />
-	</div>
+<header class="site-header" class:over-hero={home}>
+	<a class="identity" href={resolve('/')} aria-label="Raygen Rupe — home">
+		<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"
+			><path d="M3 17V3h7a4 4 0 0 1 0 8H3m7 0 7 6" /></svg
+		>
+		Raygen Rupe
+	</a>
+	<nav aria-label="Main navigation">
+		<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -- the route is resolved before adding its fragment -->
+		<a href={`${resolve('/')}#projects`}>Projects</a>
+		<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -- the route is resolved before adding its fragment -->
+		<a class="about-link" href={`${resolve('/')}#letter`}>About me</a>
+		<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -- the route is resolved before adding its fragment -->
+		<a class="people-link" href={`${resolve('/')}#people`}>My people</a>
+		<a href={resolve('/blog')} aria-current={writing ? 'page' : undefined}>Writing</a>
+	</nav>
 </header>
 
-<!-- Spacer to prevent content from being overlapped -->
-<div style="height: {headerHeight}px;"></div>
-
-<main>
-	<!-- Your page content goes here -->
-</main>
+<style>
+	.site-header {
+		position: relative;
+		z-index: 20;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 24px;
+		padding: 27px var(--pad);
+		color: var(--cream);
+		font-size: 12px;
+		font-weight: 650;
+		line-height: 1.7;
+	}
+	.over-hero {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+	a {
+		display: inline-flex;
+		align-items: center;
+		min-height: 44px;
+		margin-block: -12px;
+		text-decoration: none;
+		white-space: nowrap;
+	}
+	.identity {
+		gap: 10px;
+	}
+	.identity svg {
+		width: 18px;
+		height: 18px;
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		gap: 32px;
+	}
+	a:hover,
+	a[aria-current] {
+		color: var(--lilac);
+	}
+	a[aria-current] {
+		text-decoration: underline;
+	}
+	@media (max-width: 720px) {
+		.site-header {
+			gap: 18px;
+		}
+		nav {
+			gap: 22px;
+		}
+		.people-link {
+			display: none;
+		}
+	}
+	@media (max-width: 440px) {
+		.site-header {
+			gap: 12px;
+		}
+		.identity {
+			gap: 7px;
+		}
+		.identity svg {
+			width: 15px;
+			height: 15px;
+		}
+		nav {
+			gap: 16px;
+		}
+	}
+	@media (max-width: 360px) {
+		.about-link {
+			display: none;
+		}
+	}
+</style>

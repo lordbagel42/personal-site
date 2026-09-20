@@ -1,0 +1,88 @@
+[
+  {
+    "id": "05",
+    "desktop": {
+      "overflow": false,
+      "title": "Raygen’s corner of the internet",
+      "buttons": [
+        "Take the panels off"
+      ],
+      "images": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "id": "10",
+    "desktop": {
+      "overflow": false,
+      "title": "Raygen Rupe — Always making something",
+      "buttons": [
+        "Take the panels off"
+      ],
+      "images": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "id": "22",
+    "desktop": {
+      "overflow": false,
+      "title": "Raygen Rupe — Made to move",
+      "buttons": [
+        "Reset the arm"
+      ],
+      "images": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "id": "23",
+    "desktop": {
+      "overflow": false,
+      "title": "Raygen Rupe — Pen down",
+      "buttons": [
+        "Draw my name again"
+      ],
+      "images": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "id": "24",
+    "desktop": {
+      "overflow": false,
+      "title": "Common Ground — Raygen Rupe",
+      "buttons": [
+        "Raygen RupeMakingthingsThe thing at the centerof everything else.",
+        "OnshapeWhere ideastake their shape.",
+        "SERV0CoreXY · Servo motors · CPAP cooling",
+        "ElectronicsComfortable withthe electrical side, too.",
+        "DAVIDThree rails.Articulated arms.A different kind of printer.",
+        "Heart & soulWhere I put a littleof myself every day.",
+        "Inside the hardware teamA two-week internship at Hack Club."
+      ],
+      "images": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  }
+]

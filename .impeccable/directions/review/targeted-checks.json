@@ -1,0 +1,73 @@
+{
+  "results": [
+    {
+      "name": "11 slider keyboard",
+      "passed": true
+    },
+    {
+      "name": "11 assembly moves",
+      "passed": true
+    },
+    {
+      "name": "11 reset",
+      "passed": true
+    },
+    {
+      "name": "14 selects david",
+      "passed": true
+    },
+    {
+      "name": "14 selects stardance",
+      "passed": true
+    },
+    {
+      "name": "14 selects serv0",
+      "passed": true
+    },
+    {
+      "name": "14 reopens from dock",
+      "passed": true
+    },
+    {
+      "name": "14 window drag",
+      "passed": true
+    },
+    {
+      "name": "14 restores arrangement",
+      "passed": true
+    },
+    {
+      "name": "15 visible panels",
+      "passed": true
+    },
+    {
+      "name": "15 keyboard pan",
+      "passed": true
+    },
+    {
+      "name": "15 reset pan",
+      "passed": true
+    },
+    {
+      "name": "15 pointer pan",
+      "passed": true
+    },
+    {
+      "name": "18 opens maker",
+      "passed": true
+    },
+    {
+      "name": "18 opens club",
+      "passed": true
+    },
+    {
+      "name": "18 opens stardance",
+      "passed": true
+    },
+    {
+      "name": "no runtime errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

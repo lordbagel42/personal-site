@@ -1,0 +1,54 @@
+[
+  {
+    "id": "26",
+    "desktop": {
+      "overflow": false,
+      "width": 1440,
+      "height": 4918,
+      "brokenImages": [
+        "/brand/hack-club-flag-standalone.svg"
+      ],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Remove the panels",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "RAYGEN Rupe",
+        "There’s aperson inhere, too.",
+        "Good toolsmake room.",
+        "Making isa shared thing.",
+        "A lot of heart.A lot of Hack Club."
+      ],
+      "missingFragments": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390,
+      "height": 6289,
+      "brokenImages": [
+        "/brand/hack-club-flag-standalone.svg"
+      ],
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "label": "Remove the panels",
+          "type": "button"
+        }
+      ],
+      "headings": [
+        "RAYGEN Rupe",
+        "There’s aperson inhere, too.",
+        "Good toolsmake room.",
+        "Making isa shared thing.",
+        "A lot of heart.A lot of Hack Club."
+      ],
+      "missingFragments": []
+    },
+    "errors": []
+  }
+]

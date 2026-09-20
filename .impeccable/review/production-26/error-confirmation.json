@@ -1,0 +1,38 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "status": 404,
+    "visibleStatusLabel": false,
+    "overflow": false,
+    "title": "404 — Raygen Rupe"
+  },
+  {
+    "name": "tablet",
+    "width": 768,
+    "height": 1024,
+    "status": 404,
+    "visibleStatusLabel": false,
+    "overflow": false,
+    "title": "404 — Raygen Rupe"
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "status": 404,
+    "visibleStatusLabel": false,
+    "overflow": false,
+    "title": "404 — Raygen Rupe"
+  },
+  {
+    "name": "narrow",
+    "width": 320,
+    "height": 740,
+    "status": 404,
+    "visibleStatusLabel": false,
+    "overflow": false,
+    "title": "404 — Raygen Rupe"
+  }
+]

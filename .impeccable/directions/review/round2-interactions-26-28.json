@@ -1,0 +1,34 @@
+[
+  {
+    "id": "26",
+    "width": 1440,
+    "panelRevealAndRestore": true
+  },
+  {
+    "id": "27",
+    "width": 1440,
+    "nativeDisclosures": 6
+  },
+  {
+    "id": "28",
+    "width": 1440,
+    "facetSelection": true,
+    "boundedTug": true
+  },
+  {
+    "id": "26",
+    "width": 390,
+    "panelRevealAndRestore": true
+  },
+  {
+    "id": "27",
+    "width": 390,
+    "nativeDisclosures": 6
+  },
+  {
+    "id": "28",
+    "width": 390,
+    "facetSelection": true,
+    "boundedTug": false
+  }
+]

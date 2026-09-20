@@ -1,0 +1,24 @@
+[
+  {
+    "id": "39",
+    "width": 1440,
+    "fourFacetsAndKeyboard": true
+  },
+  {
+    "id": "40",
+    "width": 1440,
+    "compareSliderAndKeyboard": true,
+    "alignedImages": true
+  },
+  {
+    "id": "39",
+    "width": 390,
+    "fourFacetsAndKeyboard": true
+  },
+  {
+    "id": "40",
+    "width": 390,
+    "compareSliderAndKeyboard": true,
+    "alignedImages": true
+  }
+]

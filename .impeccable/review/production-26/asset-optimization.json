@@ -1,0 +1,107 @@
+[
+  {
+    "source": "projects/serv0.png",
+    "optimized": "projects/serv0.webp",
+    "before": 2207652,
+    "after": 751468,
+    "saved": 1456184,
+    "percent_saved": 66.0,
+    "dimensions": [
+      2547,
+      3296
+    ],
+    "rgba_pixel_equality": true,
+    "embedded_xmp_verified": true,
+    "adopted": true
+  },
+  {
+    "source": "projects/serv0-open.png",
+    "optimized": "projects/serv0-open.webp",
+    "before": 2824632,
+    "after": 906484,
+    "saved": 1918148,
+    "percent_saved": 67.9,
+    "dimensions": [
+      2547,
+      3296
+    ],
+    "rgba_pixel_equality": true,
+    "embedded_xmp_verified": true,
+    "adopted": true
+  },
+  {
+    "source": "projects/david.png",
+    "optimized": "projects/david.webp",
+    "before": 502243,
+    "after": 324662,
+    "saved": 177581,
+    "percent_saved": 35.4,
+    "dimensions": [
+      1194,
+      1489
+    ],
+    "rgba_pixel_equality": true,
+    "embedded_xmp_verified": true,
+    "adopted": true
+  },
+  {
+    "source": "projects/monstrosity.png",
+    "optimized": "projects/monstrosity.webp",
+    "before": 2188325,
+    "after": 1416660,
+    "saved": 771665,
+    "percent_saved": 35.3,
+    "dimensions": [
+      2282,
+      1712
+    ],
+    "rgba_pixel_equality": true,
+    "embedded_xmp_verified": true,
+    "adopted": true
+  },
+  {
+    "source": "projects/raygen.png",
+    "optimized": "projects/raygen.webp",
+    "before": 67678,
+    "after": 47436,
+    "saved": 20242,
+    "percent_saved": 29.9,
+    "dimensions": [
+      377,
+      377
+    ],
+    "rgba_pixel_equality": true,
+    "embedded_xmp_verified": true,
+    "adopted": true
+  },
+  {
+    "source": "brand/stardance-logo.png",
+    "optimized": "brand/stardance-logo.webp",
+    "before": 290823,
+    "after": 187132,
+    "saved": 103691,
+    "percent_saved": 35.7,
+    "dimensions": [
+      1649,
+      629
+    ],
+    "rgba_pixel_equality": true,
+    "embedded_xmp_verified": true,
+    "adopted": true
+  },
+  {
+    "source": "brand/outpost-logo.png",
+    "optimized": "brand/outpost-logo.webp",
+    "before": 55873,
+    "after": 19640,
+    "saved": 36233,
+    "percent_saved": 64.8,
+    "dimensions": [
+      1775,
+      595
+    ],
+    "rgba_pixel_equality": true,
+    "embedded_xmp_verified": true,
+    "adopted": true
+  }
+]

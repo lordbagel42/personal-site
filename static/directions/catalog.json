@@ -1,0 +1,364 @@
+{
+  "concepts": [
+    {
+      "id": "01",
+      "round": 1,
+      "name": "Full Tilt",
+      "thesis": "An asymmetrical motorsport poster turns Raygen’s machines into the main event, with hot orange, slanted typography, and a printer that breaks across the composition.",
+      "interaction": "SERV0 arrives in one short motion; the panel button crossfades to the precisely aligned open assembly, while anchor navigation follows machines into Hack Club and Raygen’s story.",
+      "why": "The excitement comes from actual machines and Raygen’s love of making, using racing-poster energy without invented specifications, sponsors, or a services pitch.",
+      "ready": true
+    },
+    {
+      "id": "02",
+      "round": 1,
+      "name": "Object Field",
+      "thesis": "Raygen's machines, avatar, and Hack Club world become a tangible installation arranged across a dark spatial field.",
+      "interaction": "Choose any object to lift it into focus and reveal its story; take SERV0's panels away with a working Look inside control.",
+      "why": "The actual printers and personal artwork carry the identity, with an asymmetric composition that feels like stepping into a maker's head rather than browsing a portfolio grid.",
+      "ready": true
+    },
+    {
+      "id": "03",
+      "round": 1,
+      "name": "Things with motors",
+      "thesis": "An independent maker zine with colliding type, a coral personal note, and a huge real printer as the cover subject.",
+      "interaction": "A tilted pull-tab removes SERV0’s panels with an aligned image crossfade; the cover machine settles into place on arrival.",
+      "why": "The personality comes from Raygen’s own machines, illustrated avatar, and affection for making, with the pace and composition of a small-run creative publication.",
+      "ready": true
+    },
+    {
+      "id": "04",
+      "round": 1,
+      "name": "Open chassis",
+      "thesis": "A personal workbench becomes a tactile machine interface, with enormous controls that reveal the things Raygen makes.",
+      "interaction": "Project selector paddles change the machine on the platen; an orange actuator removes SERV0's panels or reveals DAVID and Stardance notes.",
+      "why": "Vermilion cast surfaces, actual assemblies, and physical-feeling controls turn Raygen's love of making into the way his site behaves.",
+      "ready": true
+    },
+    {
+      "id": "05",
+      "round": 1,
+      "name": "My Little Corner",
+      "thesis": "A midnight personal homepage turns Raygen’s printers, purple cat avatar, and Hack Club life into a welcoming little corner of the internet.",
+      "interaction": "A playful panel toggle reveals SERV0’s aligned open assembly; a miniature site directory leads to DAVID and the real Stardance artwork.",
+      "why": "The narrow personal introduction, enormous informal headline, tilted printer, and small illustrated links bring indie-web personality to a carefully composed modern page.",
+      "ready": true
+    },
+    {
+      "id": "06",
+      "round": 1,
+      "name": "Objects of Obsession",
+      "thesis": "Treat Raygen’s printers as sculptural objects in a stark fashion editorial, with enormous name typography and unapologetic machine crops.",
+      "interaction": "An angled SERV0 makes a single sweeping entrance; the Remove panels control crossfades to its aligned internal assembly, while editorial anchor links lead through DAVID and Hack Club.",
+      "why": "The unusual silhouettes, turquoise hardware, and actual constructions supply the character; Raygen’s name, machines, and daily dedication to Hack Club take the space normally given to a portfolio pitch.",
+      "ready": true
+    },
+    {
+      "id": "07",
+      "round": 1,
+      "name": "Things in Motion",
+      "thesis": "Raygen’s portfolio becomes a widescreen opening sequence, with his actual builds cast as the protagonists.",
+      "interaction": "A three-scene filmstrip and previous/next controls cut between SERV0, DAVID, and Stardance with a brief aperture wipe; scene notes change with the selection, and reduced motion uses instant cuts.",
+      "why": "Centered printer portraits, warm cinematic credits, and a visitor-controlled sequence give the engineering work a personal atmosphere without inventing footage or turning Raygen into a service offering.",
+      "ready": true
+    },
+    {
+      "id": "08",
+      "round": 1,
+      "name": "Working Directory",
+      "thesis": "A personal filesystem where the things Raygen makes are the interface, with a real image viewer beside plainspoken project notes.",
+      "interaction": "Choose projects from the directory, inspect their actual artwork, and toggle SERV0 between its enclosed render and open assembly.",
+      "why": "Acid-yellow directory lettering, a deep green work surface, and source-file structure make an authored home for a hardware builder without imitating an IDE or a hacking terminal.",
+      "ready": true
+    },
+    {
+      "id": "09",
+      "round": 1,
+      "name": "In Assembly",
+      "thesis": "A personal portfolio arranged like an assembly, with Raygen’s name, notes, and navigation orbiting a real machine at its center.",
+      "interaction": "See inside crossfades the precisely aligned SERV0 renders, shifts the presentation plane, and reveals an explanatory leader line and motion note.",
+      "why": "The page makes the act of understanding a printer its opening gesture, then follows Raygen’s mechanical curiosity through DAVID and Hack Club.",
+      "ready": true
+    },
+    {
+      "id": "10",
+      "round": 1,
+      "name": "The Making of Raygen",
+      "thesis": "Tell Raygen’s story as a bold, ink-framed comic made entirely from his real avatar, community artwork, and machines.",
+      "interaction": "A single page-reveal entrance leads through staggered story panels; the SERV0 panel lets readers remove and replace its actual enclosure panels.",
+      "why": "Hack Club and Stardance take the opening spotlight, while printers enter as the story’s next reveal, with expressive comic lettering and original artwork carrying the personality.",
+      "ready": true
+    },
+    {
+      "id": "11",
+      "round": 1,
+      "name": "Lettershift",
+      "thesis": "Raygen’s name becomes a working mechanical assembly: six oversized letter carriages on a shared rail, with room to play.",
+      "interaction": "A bounded entrance seats the lettering; a keyboard-accessible travel slider spreads and rotates its six carriages, and Seat letters returns them to alignment.",
+      "why": "Acid yellow Dela Gothic lettering turns the identity itself into hardware, while actual printer imagery arrives afterward as proof of the same fascination with motion.",
+      "ready": true
+    },
+    {
+      "id": "12",
+      "round": 1,
+      "name": "Objects in the Making",
+      "thesis": "A nocturnal sculpture gallery lets Raygen’s machines hold the room, with quiet museum typography and an intimate glimpse of their maker.",
+      "interaction": "Move between three focused objects with the collection rail or arrow keys; remove SERV0’s panels to reveal its aligned internal assembly.",
+      "why": "The actual printers are treated as objects of fascination, their turquoise and yellow providing the color in a nearly black room, while Raygen’s personality appears in the small, candid maker note.",
+      "ready": true
+    },
+    {
+      "id": "13",
+      "round": 1,
+      "name": "Afterglow",
+      "thesis": "Raygen’s work fills a deep phosphor display that feels like a personal instrument for looking closely at things he has made.",
+      "interaction": "Switch the display between SERV0, DAVID, and Stardance, or remove SERV0’s panels to inspect the aligned internal assembly; a single scan reveal marks each project change.",
+      "why": "The centered, oversized printer and direct physical inspection give the laboratory-screen language a real purpose, while warm personal writing and Raygen’s cat avatar keep the engineer visibly present.",
+      "ready": true
+    },
+    {
+      "id": "14",
+      "round": 1,
+      "name": "Make Yourself at Home",
+      "thesis": "Raygen's portfolio becomes a personal plum-colored desktop, with real projects open in warm, slightly unruly windows.",
+      "interaction": "Open project files from the dock, switch between SERV0 and DAVID, remove SERV0's panels, read Stardance notes, drag or close windows, and tidy the desktop with one click.",
+      "why": "The purple cat avatar, actual printer renders, and Hack Club flag become the contents of Raygen's own little operating system—an inviting place to explore what he makes and cares about.",
+      "ready": true
+    },
+    {
+      "id": "15",
+      "round": 1,
+      "name": "Open Assembly",
+      "thesis": "Open Raygen’s portfolio as a working engineering document, with the machine itself filling the canvas.",
+      "interaction": "Drag and zoom SERV0, blend its enclosure into view, inspect the toolhead, and move down through DAVID and Stardance document sheets.",
+      "why": "Raygen’s love of Onshape and building 3D printers becomes the interface itself, with real assembly imagery and honest engineering properties instead of a conventional portfolio.",
+      "ready": true
+    },
+    {
+      "id": "16",
+      "round": 1,
+      "name": "Working Matter",
+      "thesis": "A fold-out engineering publication turns Raygen’s machines into full-size visual arguments for making things.",
+      "interaction": "A yellow construction tab replaces DAVID’s rendered assembly with a clearly labeled, precise conceptual linkage diagram; the publication continues through SERV0 and Hack Club.",
+      "why": "DAVID leads as a physical artifact, framed by condensed technical-publication typography, a yellow vertical spine, deliberate fold lines, and personal workshop language.",
+      "ready": true
+    },
+    {
+      "id": "17",
+      "round": 1,
+      "name": "Follow the Curiosity",
+      "thesis": "A midnight observatory connects Raygen’s love of making with the real people and characters at the heart of Hack Club.",
+      "interaction": "Stardance’s character trio settles into a bounded opening motion; a fine orbital path connects working navigation to Hack Club, machines, and Raygen.",
+      "why": "Authentic Stardance art becomes the visual protagonist, with warm expressive serif type and personal connections taking precedence over a conventional engineering portfolio.",
+      "ready": true
+    },
+    {
+      "id": "18",
+      "round": 1,
+      "name": "The Things Cabinet",
+      "thesis": "A vivid graphic cabinet makes Raygen's machines, identity, and community into personal objects worth opening.",
+      "interaction": "Pull any drawer handle to unfold its contents; the other drawers close, keeping the cabinet compact and focused.",
+      "why": "The two real printers share a working shelf, the avatar lives in a lavender drawer, and Hack Club and Stardance become cherished objects in Raygen's own collection.",
+      "ready": true
+    },
+    {
+      "id": "19",
+      "round": 1,
+      "name": "Moving Parts",
+      "thesis": "Raygen’s world unfolds as a set of connected architectural panels, each carrying a different part of a life spent making things.",
+      "interaction": "Open the warm chapter spines or use the arrow controls to shift the entire composition; oversized type and real project artwork travel with their panel, while mobile becomes an uninterrupted vertical read.",
+      "why": "The website behaves like a physical mechanism: precise connected movement, exposed printer assemblies, and a warm, emphatic personality rooted in Raygen’s love of building.",
+      "ready": true
+    },
+    {
+      "id": "20",
+      "round": 1,
+      "name": "My Own Little Corner",
+      "thesis": "Raygen’s purple cat portrait anchors a playful blackberry-purple home with buoyant personal lettering and real machines waiting just below.",
+      "interaction": "Turn the oversized portrait to read a short introduction, then explore the printers and remove SERV0’s panels with an accessible toggle.",
+      "why": "The opening belongs to a specific person: their actual avatar, an expressive name, warm asides, and a natural path from personal identity to making things and Hack Club.",
+      "ready": true
+    },
+    {
+      "id": "21",
+      "round": 1,
+      "name": "An Unfinished Thought",
+      "thesis": "A personal letter in plum-black ink, where expressive serif writing and machines in the margins reveal the engineer behind the work.",
+      "interaction": "Lift SERV0’s panels from its margin annotation, then follow the letter into the machines and the people behind them.",
+      "why": "Intimate first-person writing, a cat-avatar signature, and off-axis machine annotations make this feel like Raygen’s own publication rather than a portfolio template.",
+      "ready": true
+    },
+    {
+      "id": "22",
+      "round": 1,
+      "name": "Made to Move",
+      "thesis": "Raygen’s love of making things becomes a tactile, full-width mechanical playground in lilac and electric lime.",
+      "interaction": "Drag the arm’s endpoint to solve a two-link inverse-kinematics pose, or use keyboard-accessible shoulder and elbow sliders with exact forward kinematics; reset returns the opening pose.",
+      "why": "A real mechanism gives visitors a small taste of engineering play before introducing SERV0, DAVID, and Hack Club—without presenting the illustration as a real project.",
+      "ready": true
+    },
+    {
+      "id": "23",
+      "round": 1,
+      "name": "Pen Down",
+      "thesis": "Raygen’s name is a drawing made by a tiny web plotter, turning his love of building machines into the site’s opening gesture.",
+      "interaction": "Replay an authored SVG lettering sequence while a mint pen and purple gantry follow the actual drawn path; reduced-motion visitors receive the completed drawing immediately.",
+      "why": "The portfolio itself becomes a small, playful thing Raygen might make, with warm orange monoline lettering leading into real printer artwork and the Hack Club community.",
+      "ready": true
+    },
+    {
+      "id": "24",
+      "round": 1,
+      "name": "Common Ground",
+      "thesis": "An explorable field map lets Raygen’s machines, tools, and Hack Club contributions reveal who he is through their real connections.",
+      "interaction": "Select a place to illuminate its connecting route and reveal a short footnote; arrow keys move between places, and the map becomes a readable vertical trail on mobile.",
+      "why": "Actual printer renders and official Hack Club artwork inhabit a personal atlas with plum-black ground, citron routes, and outsized lettering instead of conventional portfolio sections.",
+      "ready": true
+    },
+    {
+      "id": "25",
+      "round": 1,
+      "name": "Three Ways In",
+      "thesis": "A branching personal portrait where making, learning, and belonging each open an entirely different world.",
+      "interaction": "Choose a large expressive verb to unfold a new composition, reveal SERV0 beneath its panels, then follow the threads between projects, Stardance, and Hack Club.",
+      "why": "Raygen’s real printers, cat avatar, and communities orbit one another instead of becoming a conventional portfolio or a pitch.",
+      "ready": true
+    },
+    {
+      "id": "26",
+      "round": 2,
+      "name": "A Hand in the Making",
+      "thesis": "Colossal cream RAYGEN behind an oversized SERV0 and lilac RUPE in front, on near-black aubergine. A visual project showcase follows immediately: SERV0 in progress, DAVID, and Monstrosity, before the personal letter and software, makerspace, Outpost, and robotics stories.",
+      "interaction": "Scrolling gently changes the machine’s angle and the name’s position. A keyboard-accessible panel button reveals SERV0’s internal assembly with a controlled wipe. Projects navigation jumps to three illustrated builds with direct repository links; the Stardance bridge connects to software contributions.",
+      "why": "Preserves the enormous layered image, typography, and midnight-purple palette Raygen liked in 26. Makes the work clearer with real project images, prominent names, plain descriptions, and an explicit current-build label while keeping the personal letter and community stories.",
+      "ready": true
+    },
+    {
+      "id": "27",
+      "round": 2,
+      "name": "A Corner, Kept Open",
+      "thesis": "A midnight-purple editorial front page pairs an enormous lavender name and real Monstrosity render with a personal welcome letter. The reading path moves from physical machines to software, then opens onto a warmer purple chapter about shared workshops and community.",
+      "interaction": "Native disclosures open individual SERV0, DAVID, and Monstrosity project stories, plus field notes on software, makerspace responsibility, and Outpost. In-page navigation and project, GitHub, email, and résumé links work without JavaScript.",
+      "why": "Extends My Little Corner’s personal purple palette and the intimate letter with oversized typography and authentic machine imagery. The full portrait includes Svelte and TypeScript, Stardance pull requests, One Stone safety and tooling instruction, VEX shop leadership, and hands-on support for Outpost makers.",
+      "ready": true
+    },
+    {
+      "id": "28",
+      "round": 2,
+      "name": "All These Pieces",
+      "thesis": "A deep-plum magazine cover interleaves enormous cream name lettering with the purple Monstrosity, Raygen’s cat avatar, a software fragment, and official Outpost art. The assembled portrait opens into stories of machines, code, teaching, and community.",
+      "interaction": "Select any cover artifact or the four native facet buttons to change a composed reading area and its chapter link. Mouse and pen users can give artifacts a bounded 24-pixel tug before they snap back; touch and keyboard users can select the same pieces. The surname subtly spreads when the software fragment is selected.",
+      "why": "Combines 06’s image-and-type layering, 05’s purple personal atmosphere, and 11’s moving typography with One Stone safety teaching, Centennial shop leadership, Stardance software contributions, Outpost peer support, and a closing personal letter.",
+      "ready": true
+    },
+    {
+      "id": "29",
+      "round": 2,
+      "name": "Both Sides of Making",
+      "thesis": "A dark plum editorial composition threads the transparent Monstrosity through an enormous name, then treats physical engineering and digital/community work as two readings of one person.",
+      "interaction": "Physical and Digital buttons shift the machine’s visual emphasis and crossfade the opening story; the control also responds to arrow, Home, and End keys. Chapter links lead to the letter, open-source machines, and shared work.",
+      "why": "Oversized layered typography and real hardware carry the favorite object-led direction into a richer portrait, with an intimate letter and substantive sections for Svelte and TypeScript, Stardance contributions, makerspace teaching, robotics leadership, and Outpost peer support.",
+      "ready": true
+    },
+    {
+      "id": "30",
+      "round": 2,
+      "name": "Room to Make",
+      "thesis": "An intimate midnight-purple portrait of Raygen, with monumental lavender lettering wrapped around his real avatar and Hack Club artwork. A personal letter closes a sequence about making space for people, making software, and making machines.",
+      "interaction": "Switch between ‘Things I make’ and ‘People I help make things’: the headline changes, the portrait shrinks aside, SERV0 enters the composition, and the introduction and reading link change. The switch also works with arrow keys, Home, and End.",
+      "why": "Carries the oversized image-and-type confidence of 06 into the personal purple world of 05. Teaching at One Stone and community work lead the opening; Outpost support for 20+ teenagers, VEX shop leadership, Stardance software contributions, and three open-source printers build a fuller portrait before an intimate first-person letter.",
+      "ready": true
+    },
+    {
+      "id": "31",
+      "round": 2,
+      "name": "A Life in the Making",
+      "thesis": "A purple-black personal publication opens with monumental serif lettering layered around the real Monstrosity assembly, then unfolds into an intimate first-person letter with an active margin and an oversized machine folio.",
+      "interaction": "Inline footnotes open résumé annotations in the letter’s margin, with native disclosure controls for each note. Selecting SERV0, DAVID, or Monstrosity changes the full-size artifact, project description, factual record, and source link.",
+      "why": "Extends the intimate letter with a dramatic type-and-machine cover, midnight purple color, and an intentional reading path. Student makerspace responsibility, safety teaching, VEX shop leadership, Svelte/TypeScript, Stardance contributions, and Outpost peer support make the person as present as the printers.",
+      "ready": true
+    },
+    {
+      "id": "32",
+      "round": 2,
+      "name": "Drawn to Making",
+      "thesis": "Real Archivo letterforms are plotted in cream and lilac above an oversized purple Monstrosity, with a quiet personal letter carrying the reader into the human side of making.",
+      "interaction": "Draw my name traces genuine glyph contours in a six-second sequence; a tiny nib lifts between contours and a final fill completes the identity. Finish instantly, follow project links, or read the full personal letter. Reduced-motion visitors retain the completed name.",
+      "why": "Refines 23’s plotting idea without a cartoon machine, builds on 06’s huge type and genuine artifact composition, and combines 05’s midnight purple with 21’s intimate writing. Engineering, Stardance software, makerspace teaching, VEX shop leadership, and Outpost peer support each receive substantive space.",
+      "ready": true
+    },
+    {
+      "id": "33",
+      "round": 2,
+      "name": "In Other Words",
+      "thesis": "Monumental lavender name lettering opens a midnight-purple personal publication. Four precise typographic reels turn MAKE into CODE, SHOW, or HELP, introducing the different ways Raygen builds things.",
+      "interaction": "Choose hands, code, teaching, or together to roll each letter into a new word and reveal a related story. The name responds with a restrained typographic shift. Tabs support arrow keys, Home, and End, with direct links into the full stories.",
+      "why": "Evolves Lettershift through finished type and deliberate motion, pairs it with the purple atmosphere of My Little Corner, and gives real space to software, One Stone teaching, VEX shop leadership, Outpost support, and a personal closing letter. Actual Monstrosity, SERV0, DAVID, Stardance, and Outpost artwork anchor the content.",
+      "ready": true
+    },
+    {
+      "id": "34",
+      "round": 2,
+      "name": "A Small Motion",
+      "thesis": "An oversized lilac name and a real purple machine open a quiet, tactile portrait, followed by a precise slider-crank and an unfolding story about making things and helping people.",
+      "interaction": "Drag the peach crank joint, turn its keyboard-accessible angle slider, or reset the mechanism. A rigid connecting rod translates the crosshead with exact slider-crank geometry.",
+      "why": "Keeps the beloved image-and-type overlap and midnight-purple intimacy, adds a restrained mechanical signature, and gives makerspace teaching, VEX leadership, Stardance software, and Outpost support room alongside the printers.",
+      "ready": true
+    },
+    {
+      "id": "35",
+      "round": 2,
+      "name": "Still Becoming",
+      "thesis": "A midnight-purple personal story, opening with monumental lowercase lettering and Monstrosity, then unfolding as a continuous illustrated reading spread.",
+      "interaction": "Ordinary scrolling changes the sticky artwork and active chapter on desktop. Chapter links jump through the story; mobile places each illustration beside its own words.",
+      "why": "Combines Objects of Obsession’s image-and-type layering, the purple personal corner, and an unfinished letter with substantive chapters about shop leadership, makerspace teaching, software, machines, and helping other Hack Club builders.",
+      "ready": true
+    },
+    {
+      "id": "36",
+      "round": 2,
+      "name": "The Good Loop",
+      "thesis": "A nocturnal editorial field guide to Raygen: an oversized serif thought opens onto a precise triangular relationship between learning, making, and passing knowledge on. Deep plum chapters connect a personal letter, physical machines, software, and the people around them.",
+      "interaction": "Choose Learn it, Make it, or Pass it on to trace a different side of the triangle and switch the real artwork and personal context. Arrow keys, Home, and End also navigate the three states; the complete story continues below.",
+      "why": "The purple atmosphere and intimate letter develop the user's favorite personal qualities, while the object typography returns later around SERV0. One Stone tooling and safety, VEX shop responsibility, Stardance pull requests, and Outpost support make teaching and shared understanding central to the portrait.",
+      "ready": true
+    },
+    {
+      "id": "37",
+      "round": 2,
+      "name": "Open Rooms",
+      "thesis": "A personal exhibition with four expansive rooms: sculptural hardware, playful software artwork, community stories, and a quiet personal letter. Huge lavender type and DAVID form the opening on charcoal.",
+      "interaction": "A sticky four-room navigation tracks the current chapter while every room stays in ordinary scroll flow. A keyboard-accessible hardware selector swaps three real machines and their stories, with restrained transitions and reduced-motion support.",
+      "why": "Keeps the beautiful type-and-object relationship and purple atmosphere, while giving Stardance software contributions, One Stone teaching, Outpost support, and VEX shop leadership their own compositions. The ending leaves room for Raygen's voice.",
+      "ready": true
+    },
+    {
+      "id": "38",
+      "round": 2,
+      "name": "A Common Thread",
+      "thesis": "A plum personal folio follows one continuous line through making, coding, teaching, and helping. A bold name sits beside precise looping geometry; generous editorial chapters trace those ideas into real work.",
+      "interaction": "Move a range control or choose one of four story stops to follow a marker along a true continuous SVG path. Each stop previews a different facet and links to its full chapter. Native range keys provide the keyboard equivalent.",
+      "why": "Uses the warmth of the purple favorite, a real mechanical interaction, personal writing, and authentic hardware and Hack Club artwork. The One Stone makerspace, VEX shop, Stardance software contributions, and Outpost support make the portrait broader than a printer gallery.",
+      "ready": true
+    },
+    {
+      "id": "39",
+      "round": 2,
+      "name": "A Few Ways In",
+      "thesis": "A midnight-purple exhibition folio led by a large typographic index. Four editorial plates introduce making, code, teaching, and community before unfolding into a complete personal story.",
+      "interaction": "Choose a facet or use arrow keys, Home, and End while the index is focused. The image, title, description, and chapter link turn together in a brief page-reveal transition; the full story remains readable below.",
+      "why": "Keeps the purple warmth, expressive typography, actual project imagery, and personal letter of the favorites, while giving One Stone teaching, VEX shop leadership, Stardance software contributions, and Outpost support their own generous space.",
+      "ready": true
+    },
+    {
+      "id": "40",
+      "round": 2,
+      "name": "A Little More Myself",
+      "thesis": "An intimate aubergine personal portrait: one sweeping mixed-type name, a full-size SERV0, and a quiet letter that opens into machines, software, and people.",
+      "interaction": "A keyboard-accessible comparison slider peels a precise vertical section between the actual aligned SERV0 renders, revealing its internals; editorial anchors carry the story through the full page.",
+      "why": "Combines the loved type-and-object relationship with purple warmth and a personal letter, while giving real space to Stardance software, Outpost support, One Stone teaching, and VEX shop leadership.",
+      "ready": true
+    }
+  ]
+}

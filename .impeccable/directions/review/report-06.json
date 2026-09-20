@@ -1,0 +1,18 @@
+[
+  {
+    "id": "06",
+    "desktop": {
+      "overflow": false,
+      "title": "Raygen Rupe — Objects of obsession",
+      "buttons": [
+        "Remove panels"
+      ],
+      "images": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  }
+]

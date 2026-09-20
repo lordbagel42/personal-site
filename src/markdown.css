@@ -1,98 +1,271 @@
-@reference "./app.css";
-
-article.markdown h1 {
-	@apply scroll-m-20 text-6xl font-extrabold tracking-tight text-balance;
+/* Article content inherits the same ink, cream, and lilac as the portfolio. */
+.markdown {
+	color: var(--cream);
+	font:
+		18px/1.85 Manrope,
+		sans-serif;
+	overflow-wrap: break-word;
 }
 
-article.markdown h2 {
-	@apply mt-8 scroll-m-20 border-b pb-2 text-5xl font-semibold tracking-tight transition-colors first:mt-0;
+.markdown > :first-child {
+	margin-top: 0;
+}
+.markdown > :last-child {
+	margin-bottom: 0;
+}
+.markdown p {
+	margin: 0 0 1.5em;
+}
+.markdown :is(h1, h2, h3, h4, h5, h6) {
+	font-family: Archivo, sans-serif;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: -0.03em;
+	text-wrap: balance;
+	scroll-margin-top: 30px;
+}
+.markdown h1 {
+	font-size: 2.7em;
+	margin: 1.5em 0 0.7em;
+}
+.markdown h2 {
+	font-size: 2.1em;
+	margin: 1.9em 0 0.8em;
+}
+.markdown h3 {
+	font-size: 1.55em;
+	margin: 1.9em 0 0.75em;
+}
+.markdown h4 {
+	font-size: 1.22em;
+	margin: 1.8em 0 0.7em;
+}
+.markdown :is(h5, h6) {
+	font-size: 1em;
+	margin: 1.8em 0 0.6em;
+}
+.markdown h6 {
+	color: var(--soft);
+}
+.markdown a {
+	color: var(--lilac);
+	text-decoration: underline;
+	text-underline-offset: 4px;
+}
+.markdown a:hover {
+	color: var(--cream);
+}
+.markdown strong {
+	font-weight: 750;
+}
+.markdown em {
+	font-style: italic;
+}
+.markdown :is(s, del) {
+	color: var(--soft);
+}
+.markdown mark {
+	background: var(--lilac);
+	color: var(--ink);
+	padding: 0 0.14em;
+}
+.markdown :is(ul, ol) {
+	padding-left: 1.45em;
+	margin: 1.5em 0;
+}
+.markdown ul {
+	list-style: disc;
+}
+.markdown ol {
+	list-style: decimal;
+}
+.markdown li {
+	padding-left: 0.2em;
+	margin-block: 0.45em;
+}
+.markdown li::marker {
+	color: var(--lilac);
+}
+.markdown li > :is(ul, ol) {
+	margin-block: 0.4em;
+}
+.markdown li p {
+	margin-block: 0.5em;
+}
+.markdown .task-list-item {
+	list-style: none;
+}
+.markdown input[type='checkbox'] {
+	accent-color: var(--lilac);
+	margin-right: 0.5em;
+}
+.markdown blockquote {
+	border-left: 1px solid var(--lilac);
+	margin: 2em 0;
+	padding: 0.15em 0 0.15em 1.4em;
+	color: var(--soft);
+	font-size: 1.08em;
+}
+.markdown blockquote > :last-child {
+	margin-bottom: 0;
+}
+.markdown blockquote blockquote {
+	margin-block: 1em;
+}
+.markdown hr {
+	border: 0;
+	border-top: 1px solid var(--line);
+	margin: 3em 0;
+}
+.markdown :is(img, video) {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 2em auto;
+}
+.markdown figure {
+	margin: 2.2em 0;
+}
+.markdown figure img {
+	margin: 0;
+}
+.markdown figcaption {
+	color: var(--soft);
+	font-size: 0.75em;
+	line-height: 1.7;
+	margin-top: 0.9em;
+}
+.markdown code {
+	font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+	font-size: 0.84em;
+}
+.markdown :not(pre) > code {
+	background: #2b2235;
+	color: var(--lilac);
+	padding: 0.14em 0.35em;
+	border-radius: 3px;
+	overflow-wrap: anywhere;
+}
+.markdown pre {
+	background: #211a29 !important;
+	color: var(--cream);
+	font-size: 0.92em;
+	line-height: 1.8;
+	padding: 25px 28px;
+	margin: 2em 0;
+	overflow-x: auto;
+	tab-size: 2;
+	border-radius: 4px;
+}
+.markdown pre code {
+	display: block;
+	min-width: max-content;
+}
+.markdown table {
+	display: block;
+	max-width: 100%;
+	width: max-content;
+	overflow-x: auto;
+	border-collapse: collapse;
+	font-size: 0.86em;
+	line-height: 1.65;
+	margin: 2em 0;
+}
+.markdown :is(th, td) {
+	padding: 14px 17px;
+	border: 1px solid var(--line);
+	min-width: 110px;
+	text-align: left;
+}
+.markdown th {
+	background: #27202f;
+	font-weight: 700;
+}
+.markdown td {
+	color: var(--soft);
+}
+.markdown [align='center'] {
+	text-align: center;
+}
+.markdown [align='right'] {
+	text-align: right;
+}
+.markdown .table-wrapper {
+	max-width: 100%;
+	overflow-x: auto;
+	margin: 2em 0;
+}
+.markdown .table-wrapper table {
+	margin: 0;
+}
+.markdown sup {
+	line-height: 0;
+}
+.markdown sup a {
+	font-size: 0.78em;
+	padding: 0 0.2em;
+}
+.markdown .footnotes {
+	border-top: 1px solid var(--line);
+	margin-top: 3em;
+	padding-top: 1em;
+	font-size: 0.8em;
+	color: var(--soft);
+}
+.markdown .footnotes :is(ol, p) {
+	margin-block: 0.6em;
+}
+.markdown .footnotes li {
+	padding-left: 0.5em;
+}
+.markdown .footnote-backref {
+	text-decoration: none;
+	padding-inline: 0.3em;
+}
+.markdown details {
+	padding: 1.1em 0;
+	border-block: 1px solid var(--line);
+	margin: 2em 0;
+}
+.markdown summary {
+	color: var(--lilac);
+	cursor: pointer;
+}
+.markdown details[open] summary {
+	margin-bottom: 1em;
+}
+.markdown :is(kbd, samp) {
+	font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+	font-size: 0.8em;
+}
+.markdown kbd {
+	border: 1px solid var(--line);
+	border-radius: 3px;
+	padding: 0.1em 0.4em;
 }
 
-article.markdown h3 {
-	@apply mt-6 scroll-m-20 text-3xl font-semibold tracking-tight;
-}
-
-article.markdown h4 {
-	@apply mt-4 scroll-m-20 text-xl font-semibold tracking-tight;
-}
-
-article.markdown h5 {
-	@apply mt-4 scroll-m-20 text-base font-semibold tracking-tight;
-}
-
-article.markdown h6 {
-	@apply mt-4 scroll-m-20 text-sm font-medium tracking-tight;
-}
-
-article.markdown p {
-	@apply leading-7 [&:not(:first-child)]:mt-4;
-}
-article.markdown hr {
-	@apply my-4 border-b;
-}
-article.markdown a {
-	@apply font-medium text-primary underline underline-offset-4;
-}
-
-article.markdown blockquote {
-	@apply mt-4 border-l-2 pl-6 italic;
-}
-
-article.markdown ul {
-	@apply my-4 ml-8 list-disc [&>li]:mt-2;
-}
-
-article.markdown table {
-	@apply w-full;
-}
-
-article.markdown thead tr {
-	@apply m-0 border-t p-0 even:bg-muted;
-}
-
-article.markdown th {
-	@apply border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right;
-}
-
-article.markdown tbody tr {
-	@apply m-0 border-t p-0 even:bg-muted;
-}
-
-article.markdown td {
-	@apply border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right;
-}
-
-article.markdown div:has(table),
-article.markdown .table-wrapper {
-	@apply my-4 w-full overflow-y-auto;
-}
-article.markdown ol {
-	@apply my-4 ml-8 list-decimal [&>li]:mt-2;
-}
-article.markdown .footnotes {
-	@apply mt-12 border-t pt-4;
-}
-
-article.markdown .footnotes ol {
-	@apply pl-4;
-}
-
-article.markdown .footnotes li {
-	@apply mt-0 text-sm text-muted-foreground;
-}
-
-article.markdown .footnotes li p {
-	@apply inline;
-}
-
-article.markdown .footnotes a {
-	@apply inline-block no-underline;
-}
-
-article.markdown sup a {
-	@apply rounded-md bg-muted px-1.5 py-0.5 font-mono text-xs text-muted-foreground no-underline;
-}
-
-article.markdown .shiki {
-	@apply rounded-md bg-muted p-4;
+@media (max-width: 600px) {
+	.markdown {
+		font-size: 16px;
+		line-height: 1.85;
+	}
+	.markdown h1 {
+		font-size: 2.3em;
+	}
+	.markdown h2 {
+		font-size: 1.9em;
+	}
+	.markdown h3 {
+		font-size: 1.45em;
+	}
+	.markdown pre {
+		padding: 18px;
+		font-size: 0.88em;
+	}
+	.markdown blockquote {
+		padding-left: 1em;
+	}
+	.markdown :is(th, td) {
+		padding: 11px 13px;
+	}
 }

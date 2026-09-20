@@ -1,0 +1,12 @@
+[
+  {
+    "viewport": 1440,
+    "posesTested": 273,
+    "failures": []
+  },
+  {
+    "viewport": 390,
+    "posesTested": 273,
+    "failures": []
+  }
+]

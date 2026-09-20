@@ -1,0 +1,424 @@
+[
+  {
+    "id": "22",
+    "options": {},
+    "results": [
+      {
+        "name": "Shoulder changes via keyboard",
+        "pass": true,
+        "details": {
+          "a": "-141",
+          "b": "104",
+          "tip": "translate(622.2444720553383 100.34459817325725)",
+          "x": 737.795556640625,
+          "y": 322.2756774902344,
+          "visible": true,
+          "viewBox": "0 0 1200 500"
+        }
+      },
+      {
+        "name": "Elbow changes via keyboard",
+        "pass": true,
+        "details": {
+          "a": "-141",
+          "b": "103",
+          "tip": "translate(619.4820353807899 96.74452060811865)",
+          "x": 735.4848230600128,
+          "y": 321.4824917274465,
+          "visible": true,
+          "viewBox": "0 -3.2554793918813516 1200 503.25547939188135"
+        }
+      },
+      {
+        "name": "Reset restores initial pose",
+        "pass": true,
+        "details": {
+          "a": "-142",
+          "b": "104",
+          "tip": "translate(616.8201613041008 100.09095496054255)",
+          "x": 733.4561523437501,
+          "y": 322.07276611328126,
+          "visible": true,
+          "viewBox": "0 0 1200 500"
+        }
+      },
+      {
+        "name": "Pointer drag moves endpoint to reachable target",
+        "pass": true,
+        "details": {
+          "state": {
+            "a": "-125",
+            "b": "136",
+            "tip": "translate(719.6968407903863 259.9180879470987)",
+            "x": 815.757470703125,
+            "y": 449.93447265625,
+            "visible": true,
+            "viewBox": "0 0 1200 500"
+          },
+          "target": {
+            "x": 816,
+            "y": 450
+          },
+          "error": 0.25122558114491156
+        }
+      },
+      {
+        "name": "Reset is keyboard activatable",
+        "pass": true
+      },
+      {
+        "name": "Allowed extreme pose keeps endpoint visible",
+        "pass": true,
+        "details": {
+          "a": "0",
+          "b": "150",
+          "tip": "translate(624.8333950160459 541)",
+          "x": 736.3916660220709,
+          "y": 599.0957095709571,
+          "visible": true,
+          "viewBox": "0 0 1200 606"
+        }
+      },
+      {
+        "name": "Mobile initial endpoint remains reachable",
+        "pass": true,
+        "details": {
+          "a": "-142",
+          "b": "104",
+          "tip": "translate(616.8201613041008 100.09095496054255)",
+          "x": 200.46656188964843,
+          "y": 378.4983112335205,
+          "visible": true,
+          "viewBox": "0 0 1200 500"
+        }
+      },
+      {
+        "name": "Mobile no horizontal page overflow",
+        "pass": true
+      },
+      {
+        "name": "Mobile keyboard slider works",
+        "pass": true
+      },
+      {
+        "name": "No browser JavaScript errors",
+        "pass": true,
+        "details": []
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "options": {
+      "reducedMotion": "reduce"
+    },
+    "results": [
+      {
+        "name": "Reduced motion scroll and hover transitions disabled",
+        "pass": true
+      },
+      {
+        "name": "Arm remains operable with reduced motion",
+        "pass": true
+      },
+      {
+        "name": "No browser JavaScript errors",
+        "pass": true,
+        "details": []
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "options": {},
+    "results": [
+      {
+        "name": "Replay starts and disables duplicate triggers",
+        "pass": true
+      },
+      {
+        "name": "Plotter head moves during drawing",
+        "pass": true,
+        "details": {
+          "first": "translate(70 314)",
+          "second": "translate(132.90158081054688 204)"
+        }
+      },
+      {
+        "name": "Replay completes with parked pen and restored controls",
+        "pass": true
+      },
+      {
+        "name": "All strokes fully drawn after replay",
+        "pass": true
+      },
+      {
+        "name": "Second replay starts",
+        "pass": true
+      },
+      {
+        "name": "Live reduced-motion change ends animation",
+        "pass": true
+      },
+      {
+        "name": "Mobile replay control visible and no horizontal overflow",
+        "pass": true
+      },
+      {
+        "name": "No browser JavaScript errors",
+        "pass": true,
+        "details": []
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "options": {
+      "reducedMotion": "reduce"
+    },
+    "results": [
+      {
+        "name": "Reduced-motion replay finishes immediately",
+        "pass": true
+      },
+      {
+        "name": "No browser JavaScript errors",
+        "pass": true,
+        "details": []
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "options": {},
+    "results": [
+      {
+        "name": "Map selects making",
+        "pass": true,
+        "details": {
+          "selected": [
+            "making"
+          ],
+          "title": "Making is the point.",
+          "active": 4,
+          "href": "#index"
+        }
+      },
+      {
+        "name": "Map selects onshape",
+        "pass": true,
+        "details": {
+          "selected": [
+            "onshape"
+          ],
+          "title": "Thinking in three dimensions.",
+          "active": 2,
+          "href": "#serv0"
+        }
+      },
+      {
+        "name": "Map selects serv0",
+        "pass": true,
+        "details": {
+          "selected": [
+            "serv0"
+          ],
+          "title": "Small machine. Lots going on.",
+          "active": 2,
+          "href": "#serv0"
+        }
+      },
+      {
+        "name": "Map selects electronics",
+        "pass": true,
+        "details": {
+          "selected": [
+            "electronics"
+          ],
+          "title": "The electrical side of making.",
+          "active": 1,
+          "href": "#index"
+        }
+      },
+      {
+        "name": "Map selects david",
+        "pass": true,
+        "details": {
+          "selected": [
+            "david"
+          ],
+          "title": "A different way to move.",
+          "active": 1,
+          "href": "#david"
+        }
+      },
+      {
+        "name": "Map selects club",
+        "pass": true,
+        "details": {
+          "selected": [
+            "club"
+          ],
+          "title": "Heart and soul, every day.",
+          "active": 2,
+          "href": "#stardance"
+        }
+      },
+      {
+        "name": "Map selects stardance",
+        "pass": true,
+        "details": {
+          "selected": [
+            "stardance"
+          ],
+          "title": "A little work among the stars.",
+          "active": 2,
+          "href": "#stardance"
+        }
+      },
+      {
+        "name": "Map arrow-key selects and focuses next place",
+        "pass": true
+      },
+      {
+        "name": "Map End reaches final place",
+        "pass": true
+      },
+      {
+        "name": "Map Home reaches first place",
+        "pass": true
+      },
+      {
+        "name": "Map pan/zoom available",
+        "pass": null,
+        "details": {
+          "before": null,
+          "after": null,
+          "reason": "No pan or zoom controls/handlers are implemented. Selection map only."
+        },
+        "status": "Not required for this selection-map concept, per root review"
+      },
+      {
+        "name": "Mobile selection making expands adjacent detail",
+        "pass": true,
+        "details": {
+          "selected": "making",
+          "after": true,
+          "display": "block",
+          "title": "Making is the point.",
+          "order": "1",
+          "buttonOrder": "1",
+          "overflow": false
+        }
+      },
+      {
+        "name": "Mobile selection onshape expands adjacent detail",
+        "pass": true,
+        "details": {
+          "selected": "onshape",
+          "after": true,
+          "display": "block",
+          "title": "Thinking in three dimensions.",
+          "order": "2",
+          "buttonOrder": "2",
+          "overflow": false
+        }
+      },
+      {
+        "name": "Mobile selection serv0 expands adjacent detail",
+        "pass": true,
+        "details": {
+          "selected": "serv0",
+          "after": true,
+          "display": "block",
+          "title": "Small machine. Lots going on.",
+          "order": "3",
+          "buttonOrder": "3",
+          "overflow": false
+        }
+      },
+      {
+        "name": "Mobile selection electronics expands adjacent detail",
+        "pass": true,
+        "details": {
+          "selected": "electronics",
+          "after": true,
+          "display": "block",
+          "title": "The electrical side of making.",
+          "order": "5",
+          "buttonOrder": "5",
+          "overflow": false
+        }
+      },
+      {
+        "name": "Mobile selection david expands adjacent detail",
+        "pass": true,
+        "details": {
+          "selected": "david",
+          "after": true,
+          "display": "block",
+          "title": "A different way to move.",
+          "order": "4",
+          "buttonOrder": "4",
+          "overflow": false
+        }
+      },
+      {
+        "name": "Mobile selection club expands adjacent detail",
+        "pass": true,
+        "details": {
+          "selected": "club",
+          "after": true,
+          "display": "block",
+          "title": "Heart and soul, every day.",
+          "order": "6",
+          "buttonOrder": "6",
+          "overflow": false
+        }
+      },
+      {
+        "name": "Mobile selection stardance expands adjacent detail",
+        "pass": true,
+        "details": {
+          "selected": "stardance",
+          "after": true,
+          "display": "block",
+          "title": "A little work among the stars.",
+          "order": "7",
+          "buttonOrder": "7",
+          "overflow": false
+        }
+      },
+      {
+        "name": "Mobile keyboard map navigation works",
+        "pass": true
+      },
+      {
+        "name": "No browser JavaScript errors",
+        "pass": true,
+        "details": []
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "options": {
+      "reducedMotion": "reduce"
+    },
+    "results": [
+      {
+        "name": "Map reduced-motion animations and transitions disabled",
+        "pass": true
+      },
+      {
+        "name": "Map selection works with reduced motion",
+        "pass": true
+      },
+      {
+        "name": "No browser JavaScript errors",
+        "pass": true,
+        "details": []
+      }
+    ]
+  }
+]

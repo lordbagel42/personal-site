@@ -1,0 +1,32 @@
+[
+  {
+    "id": "29",
+    "width": 1440,
+    "modeSwitchAndKeyboard": true
+  },
+  {
+    "id": "30",
+    "width": 1440,
+    "modeSwitchAndKeyboard": true
+  },
+  {
+    "id": "31",
+    "width": 1440,
+    "annotationsAndProjects": true
+  },
+  {
+    "id": "29",
+    "width": 390,
+    "modeSwitchAndKeyboard": true
+  },
+  {
+    "id": "30",
+    "width": 390,
+    "modeSwitchAndKeyboard": true
+  },
+  {
+    "id": "31",
+    "width": 390,
+    "annotationsAndProjects": true
+  }
+]

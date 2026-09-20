@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#211927">
+<title>Raygen Rupe — Pen down</title>
+<style>
+@font-face{font-family:Archivo;src:url('/fonts/archivo.woff2') format('woff2');font-display:swap}
+@font-face{font-family:Manrope;src:url('/fonts/manrope.woff2') format('woff2');font-display:swap}
+:root{--bg:#211927;--ink:#fff1df;--muted:#c5b7ce;--orange:#ff985f;--aqua:#b0ebd9;--purple:#9a79b2;--bed:#16111b}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scrollbar-color:var(--purple) var(--bg)}body{margin:0;background:var(--bg);color:var(--ink);font-family:Manrope,sans-serif;font-size:16px}a{color:inherit;text-decoration-thickness:1px;text-underline-offset:6px}button{font:inherit}::selection{background:var(--orange);color:var(--bed)}:focus-visible{outline:3px solid var(--aqua);outline-offset:6px}header{display:flex;align-items:center;justify-content:space-between;padding:28px 5%;gap:24px}header .identity{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:800;letter-spacing:-.02em}header img{width:40px;height:40px}nav{display:flex;gap:28px;font-size:14px}nav a{text-decoration:none}nav a:hover{text-decoration:underline}.hero{padding:0 3.2%}.plotter{position:relative;padding:38px 36px 24px;border-radius:26px;background:var(--bed);overflow:hidden}.machine-caption{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:0 18px;color:var(--muted);font-size:13px}.machine-caption span:last-child{display:flex;gap:7px;align-items:center}.machine-caption i{display:block;width:7px;height:7px;border-radius:50%;background:var(--aqua)}.drawing{width:100%;height:auto;display:block;margin:10px 0 -10px;overflow:visible}.letter{fill:none;stroke:var(--orange);stroke-width:23;stroke-linecap:round;stroke-linejoin:round}.construction{stroke:#594366;fill:none;stroke-width:1}.rail{fill:#715187}.bolt{fill:var(--bed)}#beam{fill:#76548c;opacity:.8}#head{filter:drop-shadow(0 8px 6px #0005)}.plotter-bottom{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:15px 18px 0}.plot-note{max-width:350px;color:var(--muted);font-size:13px;line-height:1.65;margin:0}button{border:0;cursor:pointer;display:flex;align-items:center;gap:14px;background:var(--aqua);color:var(--bed);border-radius:999px;font-size:15px;font-weight:800;padding:17px 23px;transition:background .18s,transform .18s}button:hover{background:#d0fcea;transform:translateY(-2px)}button:active{transform:translateY(0)}button:disabled{cursor:wait;opacity:.7;transform:none}button svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8}.intro{padding:58px 5.5% 84px;display:grid;grid-template-columns:1fr 1fr;gap:10%;align-items:center}.intro h1{font-family:Archivo,sans-serif;font-size:clamp(34px,4.6vw,66px);font-weight:780;line-height:1.02;letter-spacing:-.035em;margin:0;max-width:600px}.intro h1 span{color:var(--orange)}.intro p{margin:0;max-width:520px;font-size:19px;line-height:1.7}.intro a{color:var(--aqua)}.projects{padding:0 8.5% 90px}.project{display:grid;grid-template-columns:1fr 1.1fr;position:relative;min-height:620px;align-items:center;border-top:1px solid #614b6b;gap:6%;padding:65px 0}.project h2{font-family:Archivo,sans-serif;font-size:clamp(56px,7vw,96px);line-height:1;letter-spacing:-.04em;margin:0 0 20px}.project p{font-size:19px;line-height:1.7;max-width:430px}.project .little{color:var(--muted);font-size:14px;margin-top:28px}.project .image{height:540px;position:relative;display:flex;justify-content:center;align-items:center}.project img{width:100%;height:100%;object-fit:contain}.project .project-arrow{width:45px;height:45px;margin-bottom:30px;stroke:var(--orange);fill:none;stroke-width:2}.project.david{grid-template-columns:1.1fr 1fr}.david .image{background:#353535;border-radius:50% 50% 12px 12px;overflow:hidden;height:570px;padding:10px 20px}.david .copy{padding-left:9%}.community{background:var(--aqua);color:var(--bed);padding:70px 8.5%;display:grid;grid-template-columns:1fr 1fr;gap:12%;align-items:start}.community h2{font-family:Archivo,sans-serif;font-size:clamp(38px,4vw,56px);line-height:1.04;letter-spacing:-.035em;margin:24px 0}.community p{line-height:1.7;font-size:17px}.flag{width:170px;height:auto}.stardance{padding-top:20px}.stardance img{width:260px;max-width:100%;height:auto;background:var(--bed);padding:24px;border-radius:12px}footer{display:flex;justify-content:space-between;padding:32px 8.5%;font-size:13px;color:var(--muted)}footer a{color:var(--ink)}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+@media(min-width:1600px){main,header,footer{max-width:1600px;margin:auto}}
+@media(max-width:650px){header{padding:22px 6%}header .identity{font-size:14px}header img{width:32px;height:32px}nav{gap:18px;font-size:12px}.hero{padding:0 4%}.plotter{padding:25px 6px 22px;border-radius:18px}.machine-caption{padding:0 14px;font-size:10px}.drawing{margin:36px 0 28px;transform:scaleY(1.16)}.plotter-bottom{padding:0 14px;gap:15px;align-items:flex-start;flex-direction:column}.plot-note{font-size:11px;max-width:270px}button{align-self:flex-end;font-size:13px;padding:13px 18px}.intro{padding:40px 6% 55px;display:block}.intro h1{font-size:45px;margin-bottom:27px}.intro p{font-size:16px;line-height:1.75}.projects{padding:0 6% 40px}.project,.project.david{display:flex;flex-direction:column;align-items:stretch;gap:10px;padding:38px 0;min-height:0}.project h2{font-size:62px}.project p{font-size:16px}.project .project-arrow{width:32px;height:32px;margin-bottom:18px}.project .image{height:410px}.project .little{margin-top:18px}.david .image{order:2;height:440px;padding:10px 15px}.david .copy{padding:0}.community{padding:42px 6%;grid-template-columns:1fr;gap:25px}.community h2{font-size:42px}.community p{font-size:16px}.stardance{padding-top:15px}footer{padding:25px 6%;gap:22px;font-size:11px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}button{transition:none}}
+</style>
+</head>
+<body>
+<header>
+<a class="identity" href="#top"><img src="/projects/raygen.png" alt="">Raygen Rupe</a>
+<nav aria-label="Main navigation"><a href="#things">Things I’ve made</a><a href="#people">My people</a></nav>
+</header>
+<main id="top">
+<section class="hero" aria-label="An interactive drawing of Raygen’s name">
+<div class="plotter">
+<div class="machine-caption"><span>A little plotter, in your browser.</span><span><i aria-hidden="true"></i><span id="machine-state">Pen parked</span></span></div>
+<svg class="drawing" viewBox="0 0 1200 410" role="img" aria-labelledby="plot-title plot-desc">
+<title id="plot-title">Raygen</title><desc id="plot-desc">Six orange letters drawn by a mint green pen. Use the replay button to watch the little web plotter write the name.</desc>
+<path class="construction" d="M50 95H1150M50 345H1150M50 80V360M1150 80V360"/>
+<path class="construction" stroke-dasharray="2 8" d="M50 220H1150"/>
+<rect class="rail" x="16" y="14" width="1168" height="15" rx="7"/>
+<circle class="bolt" cx="29" cy="21.5" r="3"/><circle class="bolt" cx="1171" cy="21.5" r="3"/>
+<rect class="rail" x="16" y="386" width="1168" height="15" rx="7"/>
+<circle class="bolt" cx="29" cy="393.5" r="3"/><circle class="bolt" cx="1171" cy="393.5" r="3"/>
+<g id="lettering">
+<path class="letter" d="M70 335V115H145Q193 115 193 170Q193 225 145 225H70M139 225L202 335"/>
+<path class="letter" d="M238 335L284 115H313L360 335M253 265H345"/>
+<path class="letter" d="M399 115L461 225L523 115M461 225V335"/>
+<path class="letter" d="M716 155Q690 109 638 115Q578 115 578 176V272Q578 335 641 335H711V235H655"/>
+<path class="letter" d="M886 115H773V335H886M773 225H866"/>
+<path class="letter" d="M943 335V115L1090 335V115"/>
+</g>
+<rect id="beam" x="1082" y="16" width="16" height="383" rx="6"/>
+<g id="head" transform="translate(1090 115)">
+<path d="M-24-54H24V-5L0 12L-24-5Z" fill="#b0ebd9"/>
+<path d="M-16-45H16M-16-37H16" stroke="#508b7a" stroke-width="3"/>
+<circle cx="0" cy="-18" r="7" fill="#211927"/>
+<path d="M0 12V21" stroke="#fff1df" stroke-width="4" stroke-linecap="round"/>
+</g>
+</svg>
+<div class="plotter-bottom"><p class="plot-note">A name made one line at a time.<br>A small tribute to the machines I love building.</p><button type="button" id="draw"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2 6M20 5v6h-6"/></svg><span>Draw my name again</span></button></div>
+<p id="drawing-status" class="sr-only" aria-live="polite"></p>
+</div>
+</section>
+<section class="intro" aria-labelledby="intro-title"><h1 id="intro-title">Making things<br>is <span>my thing.</span></h1><p>I’m Raygen. Engineer, Onshape enthusiast, and a person who really loves building 3D printers.<br><a href="#things">Here are a few of my favorite things.</a></p></section>
+<section class="projects" id="things" aria-label="Things I’ve made">
+<article class="project"><div class="copy"><svg class="project-arrow" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 8L39 39M8 39H39V8"/></svg><h2>SERV0</h2><p>Small printer. Many moving parts.<br>A compact CoreXY with servo motors and CPAP cooling, designed in Onshape.</p><p class="little">Mechanical design / 3D printing</p></div><div class="image"><img src="/projects/serv0-open.png" alt="SERV0’s turquoise and steel CoreXY assembly, shown without its panels" loading="lazy"></div></article>
+<article class="project david"><div class="image"><img src="/projects/david.png" alt="DAVID, a tall turquoise and yellow printer with three vertical rails and articulated arms" loading="lazy"></div><div class="copy"><h2>DAVID</h2><p>A different way to move.<br>A Delteron 3D printer with three vertical linear rails and articulated arms.</p><p class="little">Mechanical design / 3D printing</p></div></article>
+</section>
+<section class="community" id="people" aria-label="The people behind the making"><div><img class="flag" src="/brand/hack-club-flag-standalone.svg" alt="Hack Club"><h2>Where my<br>heart goes.</h2><p>Hack Club is where I pour my heart and soul every day. Making things means even more when you’re surrounded by people who love it too.</p></div><div class="stardance"><img src="/brand/stardance-logo.png" alt="Stardance"><p>A two-week internship with the Hack Club Stardance hardware team: contributions to review and certification tools, keyboard shortcuts, and timelapse tools.</p></div></section>
+</main>
+<footer><span>Raygen Rupe · Always making something.</span><a href="#top">Back to the little plotter ↑</a></footer>
+<script>
+(()=>{
+const button=document.querySelector('#draw'),label=button.querySelector('span'),paths=[...document.querySelectorAll('.letter')],head=document.querySelector('#head'),beam=document.querySelector('#beam'),state=document.querySelector('#machine-state'),status=document.querySelector('#drawing-status');
+const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
+let running=false;
+const lengths=paths.map(p=>p.getTotalLength());
+function park(){head.setAttribute('transform','translate(1090 115)');beam.setAttribute('x','1082');}
+function finish(){paths.forEach(p=>{p.style.strokeDasharray='none';p.style.strokeDashoffset='0'});park();running=false;button.disabled=false;label.textContent='Draw my name again';state.textContent='Pen parked';status.textContent='Raygen is drawn. The pen is parked.';}
+button.addEventListener('click',()=>{
+if(running)return;
+if(reduced.matches){finish();status.textContent='Raygen is drawn. Motion is reduced to match your preference.';return;}
+running=true;button.disabled=true;label.textContent='Drawing…';state.textContent='Pen down';status.textContent='The plotter is drawing Raygen.';
+paths.forEach((p,i)=>{p.style.strokeDasharray=lengths[i];p.style.strokeDashoffset=lengths[i]});
+const total=lengths.reduce((a,b)=>a+b,0),duration=5100;let start;
+function frame(now){
+if(reduced.matches){finish();return;}
+if(!start)start=now;
+let distance=Math.min((now-start)/duration,1)*total,point=null;
+paths.forEach((p,i)=>{const drawn=Math.max(0,Math.min(lengths[i],distance));p.style.strokeDashoffset=lengths[i]-drawn;if(distance>=0&&distance<=lengths[i])point=p.getPointAtLength(drawn);distance-=lengths[i]});
+if(point){head.setAttribute('transform',`translate(${point.x} ${point.y-21})`);beam.setAttribute('x',point.x-8);}
+if(now-start<duration)requestAnimationFrame(frame);else finish();
+}
+requestAnimationFrame(frame);
+});
+})();
+</script>
+</body>
+</html>

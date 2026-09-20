@@ -1,0 +1,45 @@
+[
+  {
+    "name": "narrow",
+    "width": 320,
+    "height": 740,
+    "overflow": false,
+    "brokenImages": [],
+    "missingFragments": [],
+    "projects": [
+      {
+        "title": "SERV0",
+        "link": "https://link.raygen.dev/serv0",
+        "image": "/projects/serv0-open.png",
+        "visible": true
+      },
+      {
+        "title": "DAVID",
+        "link": "https://link.raygen.dev/delteron",
+        "image": "/projects/david.png",
+        "visible": true
+      },
+      {
+        "title": "Monstrosity",
+        "link": "https://link.raygen.dev/monstrosity",
+        "image": "/projects/monstrosity.png",
+        "visible": true
+      }
+    ],
+    "current": [
+      "project-serv0"
+    ],
+    "panelsOpened": "true",
+    "panelsClosed": "false",
+    "projectsJump": {
+      "hash": "#projects",
+      "top": 24
+    },
+    "reducedMotion": {
+      "drift": "0px",
+      "behavior": "auto",
+      "transition": "0s"
+    },
+    "errors": []
+  }
+]

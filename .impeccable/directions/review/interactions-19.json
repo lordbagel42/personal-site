@@ -1,0 +1,34 @@
+[
+  {
+    "id": "19",
+    "buttons": 6,
+    "successfulClicks": 6,
+    "changed": [
+      {
+        "label": "THE MAKER",
+        "changed": false
+      },
+      {
+        "label": "SERV0",
+        "changed": true
+      },
+      {
+        "label": "DAVID",
+        "changed": true
+      },
+      {
+        "label": "HACK CLUB",
+        "changed": true
+      },
+      {
+        "label": "Previous chapter",
+        "changed": true
+      },
+      {
+        "label": "Next chapter",
+        "changed": true
+      }
+    ],
+    "errors": []
+  }
+]

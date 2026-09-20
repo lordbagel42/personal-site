@@ -1,0 +1,26 @@
+[
+  {
+    "id": "33",
+    "width": 1440,
+    "allFacetsAndKeyboard": true
+  },
+  {
+    "id": "34",
+    "width": 1440,
+    "geometry": true,
+    "sliderAndDrag": true,
+    "reset": true
+  },
+  {
+    "id": "33",
+    "width": 390,
+    "allFacetsAndKeyboard": true
+  },
+  {
+    "id": "34",
+    "width": 390,
+    "geometry": true,
+    "sliderAndDrag": true,
+    "reset": true
+  }
+]

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#261532">
+<title>Raygen Rupe — My own little corner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:Manrope;src:url('/fonts/manrope.woff2') format('woff2');font-display:swap}
+:root{--ink:#261532;--deep:#1d1028;--pink:#efbddd;--lilac:#be8ee4;--paper:#f5e9ce;--muted:#d0b5d6;--line:#6e477d;--yellow:#f8dc81}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:35px}body{margin:0;background:var(--ink);color:var(--paper);font-family:Manrope,sans-serif;font-size:17px;line-height:1.6}::selection{background:var(--yellow);color:var(--ink)}a{color:inherit;text-underline-offset:5px}button{font:inherit;cursor:pointer}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--yellow);outline-offset:7px}img{max-width:100%;display:block}button:disabled{opacity:.5;cursor:default}body{scrollbar-color:var(--lilac) var(--ink)}
+header{max-width:1320px;margin:auto;padding:30px 45px;display:flex;align-items:center;justify-content:space-between;gap:20px}header>a{text-decoration:none;font-weight:800;font-size:18px;letter-spacing:-.03em}nav{display:flex;gap:32px}nav a{font-size:14px;font-weight:700;text-decoration:none;border-bottom:1px solid transparent}nav a:hover{color:var(--yellow);border-color:currentColor}
+.intro{max-width:1220px;min-height:805px;margin:auto;position:relative;padding:20px 40px 62px}.composition{position:relative;max-width:1090px;height:584px;margin:0 auto}h1{font-family:Chango,serif;font-size:clamp(65px,8vw,96px);line-height:1.08;letter-spacing:-.035em;margin:0;font-weight:400;color:var(--pink);text-wrap:balance}h1 span{position:absolute;z-index:2}.first{left:24px;top:46px;transform:rotate(-7deg)}.last{right:5px;bottom:64px;transform:rotate(7deg)}
+.portrait{position:absolute;left:50%;top:127px;width:369px;height:414px;transform:translateX(-50%) rotate(-5deg);border:0;padding:0;background:none;color:var(--ink);perspective:1200px;z-index:1;text-align:left}.portrait-inner{display:block;width:100%;height:100%;position:relative;transform-style:preserve-3d;transition:transform .75s cubic-bezier(.19,1,.22,1)}.portrait[aria-pressed=true] .portrait-inner{transform:rotateY(180deg)}.front,.back{position:absolute;inset:0;display:block;backface-visibility:hidden;background:var(--paper);padding:14px;box-shadow:0 18px 38px #09010e70}.front img{width:341px;height:auto;aspect-ratio:1;object-fit:cover}.front-caption{display:flex;justify-content:space-between;align-items:center;font-size:13px;font-weight:800;padding:12px 3px 0}.turn-icon{width:19px;height:19px;stroke:currentColor;fill:none;stroke-width:1.8}.back{transform:rotateY(180deg);padding:30px;display:flex;flex-direction:column;justify-content:space-between;background:var(--yellow)}.back strong{font-family:Chango,serif;font-size:29px;line-height:1.2;letter-spacing:-.025em}.back span{font-size:16px;line-height:1.6}.portrait:hover .front-caption{text-decoration:underline;text-underline-offset:3px}
+.margin-note{position:absolute;color:var(--muted);font-size:15px;line-height:1.5}.margin-note.left{left:54px;top:292px;transform:rotate(-6deg);max-width:165px}.margin-note.right{right:73px;top:142px;transform:rotate(8deg);max-width:145px}.margin-note strong{color:var(--yellow);font-size:21px;font-weight:800;display:block;margin-bottom:6px}.star{position:absolute;right:35px;top:69px;width:38px;height:38px;fill:var(--yellow);transform:rotate(12deg)}
+.intro-copy{margin:20px auto 0;max-width:605px;text-align:center}.intro-copy p{font-size:21px;line-height:1.55;margin:0 0 25px}.intro-copy a{display:inline-flex;gap:14px;align-items:center;font-size:14px;font-weight:800;color:var(--pink)}.arrow{width:21px;height:21px;stroke:currentColor;stroke-width:1.8;fill:none}.intro-copy a:hover{color:var(--yellow)}
+.machines{background:var(--deep);padding:76px max(6vw,24px) 90px;border-top:1px solid var(--line)}.section-heading{max-width:1120px;margin:auto;display:flex;align-items:end;justify-content:space-between;gap:40px}h2{font-family:Chango,serif;font-weight:400;font-size:clamp(35px,4.7vw,62px);line-height:1.14;letter-spacing:-.035em;margin:0;color:var(--pink);text-wrap:balance}.section-heading>p{font-size:16px;color:var(--muted);max-width:225px;margin:0 0 4px}.project{max-width:1120px;margin:65px auto 0;display:grid;grid-template-columns:1.05fr 1fr;gap:85px;align-items:center}.machine-stage{height:470px;position:relative;background:#392145;display:flex;align-items:center;justify-content:center;border-radius:48% 48% 4px 4px}.machine-stage>img{position:absolute;width:84%;height:95%;object-fit:contain;transition:opacity .35s ease}.machine-stage>img.open{opacity:0}.machine-stage.is-open>img.closed{opacity:0}.machine-stage.is-open>img.open{opacity:1}.machine-stage .switch{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);white-space:nowrap;background:var(--paper);color:var(--ink);border:none;padding:10px 17px;border-radius:24px;font-size:13px;font-weight:800}.switch:hover{background:var(--yellow)}h3{font-family:Chango,serif;font-size:47px;font-weight:400;line-height:1.1;letter-spacing:-.03em;margin:0 0 22px;color:var(--paper)}.project-copy>p{font-size:19px;max-width:36ch;margin:0 0 28px}.project-copy .detail{color:var(--muted);font-size:15px}.project details{border-top:1px solid var(--line);padding:15px 0;max-width:36ch}.project summary{font-size:15px;font-weight:800;cursor:pointer;color:var(--pink)}.project details p{font-size:15px;color:var(--muted);margin-bottom:0}.project.david{grid-template-columns:1fr 1.05fr;margin-top:90px}.david .project-copy{padding-left:30px}.david .machine-stage{border-radius:4px;background:#353535;height:450px;transform:rotate(3deg)}.david .machine-stage>img{position:static;height:100%;width:100%;object-fit:contain}.david h3{color:var(--yellow)}
+.club{max-width:1200px;margin:0 auto;padding:110px 45px 95px;display:grid;grid-template-columns:.85fr 1.15fr;gap:85px;align-items:start}.club-art{position:relative;padding:30px 0 80px}.club-flag{width:340px;transform:rotate(-7deg);margin-left:-7px}.club-stars{width:230px;position:relative;margin:58px 0 0 auto;transform:rotate(9deg)}.club h2{font-size:43px;line-height:1.2}.club p{max-width:45ch;font-size:19px;margin:27px 0}.stardance{width:215px;max-height:90px;object-fit:contain;object-position:left;margin:42px 0 14px}.club .internship{font-size:15px;max-width:49ch;color:var(--muted)}.club a{font-size:14px;font-weight:800;color:var(--pink)}footer{max-width:1230px;margin:auto;padding:30px 45px 40px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;font-size:13px;color:var(--muted)}footer a{color:var(--paper)}
+@keyframes arrive{from{transform:translateX(-50%) rotate(2deg)}to{transform:translateX(-50%) rotate(-5deg)}}.portrait{animation:arrive 1s cubic-bezier(.19,1,.22,1) both}
+@media(max-width:900px){header{padding:25px}.intro{padding-inline:20px}.composition{height:620px}h1{font-size:80px}.first{left:4px;top:40px}.last{right:10px;bottom:30px}.portrait{top:148px;width:330px;height:374px}.front img{width:302px}.margin-note.left{left:12px;top:245px;max-width:100px;font-size:13px}.margin-note.right{right:10px;top:150px;max-width:95px;font-size:13px}.margin-note strong{font-size:17px}.star{display:none}.project{gap:36px}.club{gap:38px}.club h2{font-size:35px}}
+@media(max-width:620px){header{padding:22px 20px}header>a{font-size:16px}nav{gap:18px}nav a{font-size:12px}.intro{min-height:0;padding:0 20px 45px}.composition{height:588px}h1{font-size:57px}.first{top:20px;left:0;transform:rotate(-5deg)}.last{bottom:34px;right:0;font-size:61px;transform:rotate(5deg)}.portrait{top:132px;width:280px;height:325px}.front{padding:12px}.front img{width:256px}.front-caption{font-size:12px;padding-top:11px}.back{padding:23px}.back strong{font-size:25px}.back span{font-size:14px}.margin-note.left{display:none}.margin-note.right{display:none}.margin-note.right strong{display:none}.margin-note.right br{display:none}.intro-copy{margin-top:0}.intro-copy p{font-size:17px;max-width:30ch;margin:0 auto 22px}.intro-copy a{font-size:13px}.machines{padding:47px 23px 62px}.section-heading{display:block}.section-heading>p{margin-top:20px;max-width:28ch;font-size:14px}.project,.project.david{display:flex;flex-direction:column;gap:30px;margin-top:38px;align-items:stretch}.machine-stage{height:385px;max-width:430px;width:100%;margin:auto}.project-copy>p{font-size:17px}.project-copy h3{font-size:38px;margin-bottom:17px}.project.david{margin-top:64px}.david .project-copy{padding:0;order:2}.david .machine-stage{height:380px;max-width:calc(100% - 15px);order:1}.club{padding:55px 25px;display:flex;flex-direction:column;gap:30px}.club-art{padding:5px 0 0;display:flex;align-items:center;gap:25px;width:100%}.club-flag{width:190px;margin:0}.club-stars{width:100px;margin:0;transform:rotate(9deg)}.club h2{font-size:34px}.club p{font-size:17px}.stardance{margin-top:30px}footer{padding:25px;flex-wrap:wrap}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body id="top">
+<header><a href="#top">Raygen's corner.</a><nav aria-label="Main navigation"><a href="#machines">My machines</a><a href="#hack-club">Hack Club</a></nav></header>
+<main>
+<section class="intro" aria-labelledby="name">
+  <div class="composition">
+    <h1 id="name"><span class="first">Raygen</span> <span class="last">Rupe.</span></h1>
+    <p class="margin-note left"><strong>Hi, hello.</strong>You found my little<br>part of the internet.</p>
+    <p class="margin-note right"><strong>I make things.</strong>And then I make<br>some more things.</p>
+    <svg class="star" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 0 25 15 40 20 25 25 20 40 15 25 0 20 15 15Z"/></svg>
+    <button class="portrait" type="button" aria-pressed="false" aria-label="Turn the portrait to read about Raygen">
+      <span class="portrait-inner">
+        <span class="front"><img src="/projects/raygen.png" alt="Raygen's purple illustrated cat avatar" width="377" height="377"><span class="front-caption"><span>Turn the portrait</span><svg class="turn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8a8 8 0 1 1-1 7M5 3v5h5"/></svg></span></span>
+        <span class="back" aria-hidden="true"><strong>CAD.<br>Electronics.<br>Things that<br>move.</strong><span>I'm an engineer who loves making things. Especially 3D printers.</span><span>Turn me back over</span></span>
+      </span>
+    </button>
+  </div>
+  <div class="intro-copy"><p>An engineer, a maker, and a very big fan of building 3D printers. This is where my things live.</p><a href="#machines">Come have a look <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v17m-6-6 6 6 6-6"/></svg></a></div>
+</section>
+<section class="machines" id="machines" aria-labelledby="machines-title">
+  <div class="section-heading"><h2 id="machines-title">Things that<br>make things.</h2><p>3D printers, from the Onshape model onward.</p></div>
+  <article class="project">
+    <div class="machine-stage" id="serv0-stage"><img class="closed" src="/projects/serv0.png" alt="SERV0, a compact enclosed turquoise 3D printer" loading="lazy"><img class="open" src="/projects/serv0-open.png" alt="SERV0 with its panels removed, showing its internal assembly" loading="lazy" aria-hidden="true"><button class="switch" type="button" aria-pressed="false">Take the panels off</button></div>
+    <div class="project-copy"><h3>SERV0</h3><p>A compact CoreXY printer with servo motors and CPAP cooling.</p><p class="detail">Designed in Onshape. A whole lot of engineering in a small footprint.</p><details><summary>A closer look</summary><p>SERV0 pairs a CoreXY motion system with servo motors. Use the panel control to look through the enclosure and explore the assembly.</p></details></div>
+  </article>
+  <article class="project david">
+    <div class="project-copy"><h3>DAVID</h3><p>Three rails. Articulated arms. A very different way to move.</p><p class="detail">A Delteron 3D printer built around three vertical linear rails and articulated arms.</p><details><summary>What makes it different?</summary><p>The Delteron arrangement gives DAVID its distinctive tall shape and articulated motion system.</p></details></div>
+    <div class="machine-stage"><img src="/projects/david.png" alt="DAVID, a tall turquoise and yellow Delteron 3D printer with articulated arms" loading="lazy"></div>
+  </article>
+</section>
+<section class="club" id="hack-club" aria-labelledby="club-title">
+  <div class="club-art"><img class="club-flag" src="/brand/hack-club-flag-standalone.svg" alt="Hack Club" loading="lazy"><img class="club-stars" src="/brand/stardance-stars.png" alt="Stardance's three colorful star characters" loading="lazy"></div>
+  <div><h2 id="club-title">A lot of my heart<br>is here.</h2><p>Hack Club is where I pour my heart and soul every day. Making things means even more when you're surrounded by people who care about it, too.</p><img class="stardance" src="/brand/stardance-logo.png" alt="Stardance" loading="lazy"><p class="internship">During a two-week internship with the Stardance hardware team, I contributed to review and certification tools, keyboard shortcuts, and timelapse tools.</p><a href="https://hackclub.com/" target="_blank" rel="noreferrer">Visit Hack Club</a></div>
+</section>
+</main>
+<footer><span>Raygen Rupe. A person who makes things.</span><a href="#top">Back to my face</a></footer>
+<script>
+const portrait=document.querySelector('.portrait');
+portrait.addEventListener('click',()=>{
+ const flipped=portrait.getAttribute('aria-pressed')!=='true';
+ portrait.setAttribute('aria-pressed',String(flipped));
+ portrait.setAttribute('aria-label',flipped?'Turn the portrait back to Raygen’s avatar':'Turn the portrait to read about Raygen');
+ portrait.querySelector('.front').setAttribute('aria-hidden',String(flipped));
+ portrait.querySelector('.back').setAttribute('aria-hidden',String(!flipped));
+});
+const stage=document.querySelector('#serv0-stage'),toggle=stage.querySelector('button');
+toggle.addEventListener('click',()=>{
+ const open=stage.classList.toggle('is-open');
+ toggle.setAttribute('aria-pressed',String(open));
+ toggle.textContent=open?'Put the panels back':'Take the panels off';
+ stage.querySelector('.closed').setAttribute('aria-hidden',String(open));
+ stage.querySelector('.open').setAttribute('aria-hidden',String(!open));
+});
+</script>
+</body>
+</html>

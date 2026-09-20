@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#1c1527">
+<title>Raygen Rupe — A Common Thread</title>
+<style>
+@font-face{font-family:Archivo;src:url('/fonts/archivo.woff2') format('woff2');font-weight:100 900;font-display:swap}
+@font-face{font-family:Manrope;src:url('/fonts/manrope.woff2') format('woff2');font-weight:200 800;font-display:swap}
+:root{--bg:#1c1527;--paper:#f4ecd9;--muted:#c2b4ce;--purple:#c7a9fa;--line:#715980;--orange:#fbc99d;--gutter:clamp(24px,5vw,80px)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scrollbar-color:#a58ab9 var(--bg)}body{margin:0;background:var(--bg);color:var(--paper);font-family:Manrope,sans-serif;line-height:1.6}::selection{background:var(--orange);color:var(--bg)}a{color:inherit;text-underline-offset:5px;text-decoration-thickness:1px}button,input{font:inherit}button,a,input{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--orange);outline-offset:7px}img{max-width:100%;height:auto}button{color:inherit}button:not(:disabled),input[type=range]{cursor:pointer}button{border:0}h1,h2,h3,p{margin:0}h1,h2,h3{font-family:Archivo,sans-serif;font-weight:650;line-height:.94;letter-spacing:-.035em}button:disabled{cursor:default}p{max-width:65ch}svg{display:block}.skip{position:fixed;left:20px;top:-100px;background:var(--paper);color:var(--bg);padding:10px 18px;z-index:99}.skip:focus{top:20px}.site-head{display:flex;align-items:center;justify-content:space-between;padding:28px var(--gutter);font-size:14px;border-bottom:1px solid #493b56}.home{text-decoration:none;font-weight:800}.home span{font-weight:400;color:var(--muted);margin-left:14px}.site-head nav{display:flex;gap:30px}.site-head nav a{text-decoration:none}.site-head nav a:hover{text-decoration:underline}main{position:relative}.continuation{position:absolute;inset:0 auto auto 0;width:100%;pointer-events:none;overflow:visible}.continuation path{fill:none;stroke:var(--line);stroke-width:1}.hero{position:relative;display:grid;grid-template-columns:1.06fr .94fr;gap:4vw;padding:68px var(--gutter) 90px;max-width:1600px;margin:auto;min-height:860px}.intro{position:relative;z-index:2}.intro h1{font-size:clamp(86px,10.4vw,152px);font-weight:700;line-height:.87}.intro h1 span{display:block;color:var(--purple)}.intro-lead{font-size:clamp(22px,2.35vw,34px);line-height:1.3;max-width:18ch;margin-top:32px;letter-spacing:-.025em}.intro-note{font-size:15px;line-height:1.7;max-width:34ch;color:var(--muted);margin-top:22px}.thread-control{margin-top:42px;max-width:410px}.control-title{display:flex;justify-content:space-between;align-items:baseline;gap:20px;font-size:13px}.control-title label{font-weight:750}.control-title span{color:var(--muted)}input[type=range]{width:100%;appearance:none;height:28px;background:transparent;margin:14px 0 10px;accent-color:var(--orange);touch-action:pan-y}input[type=range]::-webkit-slider-runnable-track{height:2px;background:var(--line)}input[type=range]::-moz-range-track{height:2px;background:var(--line)}input[type=range]::-webkit-slider-thumb{appearance:none;width:18px;height:18px;border-radius:50%;border:4px solid var(--bg);outline:1px solid var(--orange);background:var(--orange);margin-top:-8px}input[type=range]::-moz-range-thumb{width:10px;height:10px;border-radius:50%;border:4px solid var(--bg);outline:1px solid var(--orange);background:var(--orange)}.thread-readout{min-height:115px;border-top:1px solid #493b56;padding-top:15px}.thread-readout p{font-size:14px;line-height:1.65;color:var(--muted)}.thread-readout a{display:inline-flex;gap:18px;align-items:center;margin-top:12px;font-size:14px;font-weight:700}.arrow{width:19px;height:15px;display:inline-block;vertical-align:middle}.thread{position:relative;align-self:start;margin-top:0;width:100%;max-width:540px;aspect-ratio:520/620}.thread-svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}.wire{fill:none;stroke:var(--purple);stroke-width:2;vector-effect:non-scaling-stroke}.wire-node{fill:var(--bg);stroke:var(--purple);stroke-width:2}.wire-marker{fill:var(--orange);stroke:var(--bg);stroke-width:6}.stop{position:absolute;background:var(--bg);padding:6px 10px;text-align:left;transition:color .15s ease;white-space:nowrap;font-family:Archivo,sans-serif;font-size:clamp(31px,3.1vw,45px);font-weight:600;letter-spacing:-.035em;line-height:1}.stop:hover,.stop[aria-pressed=true]{color:var(--orange)}.stop small{display:block;font:12px/1.5 Manrope,sans-serif;color:var(--muted);letter-spacing:0;margin-top:5px}.stop-build{left:10%;top:7%}.stop-code{left:38%;top:33%}.stop-teach{left:10%;top:59%}.stop-help{left:41%;top:84%}.thread-printer{position:absolute;top:-6%;right:5%;height:31%;width:27%;object-fit:contain;pointer-events:none;transform:rotate(8deg)}.thread-star{position:absolute;left:12%;top:35%;width:17%;pointer-events:none}.thread-avatar{position:absolute;top:59%;right:11%;width:15%;transform:rotate(-8deg);pointer-events:none}.thread-end{position:absolute;width:1px;background:var(--line);height:150px;top:93%;left:6.15%}.bridge{padding:8px var(--gutter) 80px;max-width:1600px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:5vw}.bridge p{font-size:clamp(26px,3vw,44px);line-height:1.32;letter-spacing:-.035em;max-width:30ch;grid-column:1/-1;width:74%;margin-left:12%}.bridge em{font-style:normal;color:var(--purple)}.chapters{position:relative;padding-left:var(--gutter);padding-right:var(--gutter);max-width:1600px;margin:0 auto}.chapters:before{content:'';position:absolute;top:0;bottom:0;left:var(--gutter);width:1px;background:var(--line)}.chapter{position:relative;padding:64px 0 100px clamp(30px,6vw,94px);scroll-margin-top:30px}.chapter:before{content:'';position:absolute;width:13px;height:13px;border:1px solid var(--purple);background:var(--bg);border-radius:50%;top:78px;left:-7px}.chapter:after{content:'';position:absolute;top:84px;left:7px;width:clamp(15px,3vw,46px);height:1px;background:var(--line)}.chapter h2{font-size:clamp(46px,6.15vw,88px);max-width:13ch}.chapter h2 span{color:var(--purple)}.body-copy{font-size:17px;line-height:1.8;color:var(--muted)}.body-copy p+p{margin-top:22px}.body-copy a{color:var(--paper)}.machine-layout{display:grid;grid-template-columns:.94fr 1.06fr;gap:5vw;align-items:center}.machine-visual{grid-column:2;grid-row:1/3;position:relative}.machine-visual img{display:block;width:100%;height:590px;object-fit:contain}.machine-visual figcaption{font-size:12px;color:var(--muted);text-align:right}.machine-layout .body-copy{margin-top:34px;max-width:36ch}.project-link{display:inline-flex;align-items:center;gap:16px;font-size:15px;margin-top:25px;font-weight:650}.other-things{display:flex;gap:48px;margin-top:70px;padding-top:30px;border-top:1px solid #493b56}.other-things article{flex:1}.other-things h3{font-size:30px;line-height:1.1}.other-things p{font-size:14px;line-height:1.75;color:var(--muted);margin-top:13px;max-width:45ch}.other-things a{display:inline-block;margin-top:15px;font-size:13px}.software{background:#251a34;margin-right:calc(-1 * var(--gutter));padding-right:var(--gutter);margin-top:35px}.software:before{background:#251a34}.software-grid{display:grid;grid-template-columns:1fr .8fr;gap:8vw;align-items:start}.software h2{max-width:13ch}.software .body-copy{max-width:38ch;margin-top:32px}.stardance-image{margin-top:60px;transform:rotate(-8deg)}.software-note{font-size:14px;color:var(--muted);margin-top:26px;max-width:34ch}.software-note strong{color:var(--paper);font-weight:650}.software-caption{border-top:1px solid #574363;margin-top:50px;padding-top:22px;font-size:14px;display:flex;justify-content:space-between;gap:20px;color:var(--muted)}.teach{padding-top:100px}.teach:before{top:114px}.teach:after{top:120px}.teach-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:8vw}.teach h2{max-width:12ch}.teach .body-copy{padding-top:9px}.school{display:flex;justify-content:space-between;gap:24px;font-size:13px;color:var(--purple);padding-top:24px;margin-top:32px;border-top:1px solid #493b56}.teach .second-paragraph{margin-top:36px}.people{padding-top:85px;padding-bottom:105px}.people:before{top:99px}.people:after{top:105px}.people-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:6vw;align-items:center}.outpost{padding:25px 0}.outpost img{display:block;width:100%}.people-copy h2{font-size:clamp(44px,5.25vw,76px);max-width:12ch}.people-copy .body-copy{margin-top:30px;max-width:37ch}.letter{position:relative;max-width:1600px;margin:auto;padding:80px calc(var(--gutter) + clamp(30px,6vw,94px)) 95px;background:#30213d}.letter-header{display:flex;align-items:center;gap:17px;margin-bottom:35px;font-size:14px;color:var(--purple)}.letter-header img{width:56px;height:56px;object-fit:contain}.letter p{font-size:clamp(25px,3vw,43px);line-height:1.4;letter-spacing:-.03em;max-width:28ch}.letter p+p{margin-top:30px}.letter .signature{font-family:Archivo,sans-serif;font-size:23px;margin-top:40px;color:var(--purple);font-weight:600}.footer{padding:48px var(--gutter) 35px;max-width:1600px;margin:auto}.footer-top{display:flex;justify-content:space-between;align-items:baseline;gap:40px;padding-bottom:45px}.footer h2{font-size:clamp(50px,7vw,100px);font-weight:650}.footer-links{display:flex;gap:24px;font-size:14px;flex-wrap:wrap}.footer-bottom{display:flex;justify-content:space-between;gap:20px;padding-top:22px;border-top:1px solid #493b56;font-size:12px;color:var(--muted)}
+@media(min-width:1600px){.hero{min-height:890px}}
+@media(max-width:900px){.hero{grid-template-columns:1.05fr .95fr;gap:3vw;padding-top:50px;min-height:740px}.intro h1{font-size:11.5vw}.intro-lead{font-size:26px}.thread{margin-top:55px}.thread-readout{min-height:138px}.stop{font-size:28px}.stop small{font-size:12px}.thread-printer{height:29%}.bridge p{width:85%;margin-left:6%}.machine-visual{margin:0}.machine-visual img{height:450px}.machine-layout{gap:3vw}.body-copy{font-size:15px}.software-grid{gap:4vw}.teach-grid{gap:5vw}.people-grid{gap:4vw}.footer-top{align-items:flex-start;flex-direction:column;gap:28px}.footer-links{font-size:13px}}
+@media(max-width:620px){:root{--gutter:24px}.site-head{padding:22px 24px}.site-head nav{gap:20px;font-size:12px}.home{font-size:13px}.home span{display:none}.hero{display:block;padding-top:40px;padding-bottom:28px;min-height:0}.intro h1{font-size:clamp(80px,24vw,128px);display:flex;gap:.19em;line-height:.92;flex-wrap:wrap}.intro h1 span{display:inline}.intro-lead{font-size:26px;max-width:21ch;margin-top:24px}.intro-note{font-size:14px;max-width:36ch;margin-top:18px}.thread-control{margin-top:30px;max-width:none}.thread-readout{min-height:110px}.control-title{font-size:12px}.thread{width:100%;max-width:400px;margin:12px auto 18px}.stop{font-size:31px}.stop small{font-size:12px}.thread-end{height:48px}.thread-printer{top:-2%;height:28%}.bridge{padding-top:28px;padding-bottom:35px}.bridge p{width:100%;margin:0;font-size:28px}.chapter{padding-top:46px;padding-bottom:55px;padding-left:29px}.chapter:before{top:60px;width:11px;height:11px;left:-5px}.chapter:after{top:65px;left:6px;width:12px}.chapter h2{font-size:47px;max-width:13ch}.machine-layout{display:flex;flex-direction:column;align-items:stretch;gap:0}.machine-visual{margin:30px -15px 0 -10px;order:2}.machine-visual img{height:370px}.machine-visual figcaption{text-align:center;font-size:12px}.machine-layout .body-copy{margin-top:24px;order:1;max-width:none}.other-things{display:block;margin-top:37px;padding-top:25px}.other-things article+article{margin-top:28px}.other-things h3{font-size:28px}.other-things p{font-size:14px}.software{margin-top:0}.software-grid{display:block}.software .body-copy{margin-top:24px}.stardance-image{margin-top:35px;max-width:250px;transform:rotate(-5deg)}.software-note{font-size:13px;margin-top:25px}.software-caption{display:block;margin-top:30px;padding-top:20px}.software-caption span{display:block;margin-top:12px}.teach-grid{display:block}.teach .body-copy{margin-top:25px;padding:0}.school{font-size:12px;gap:12px}.teach .second-paragraph{margin-top:27px}.people-grid{display:flex;flex-direction:column;gap:20px;align-items:stretch}.outpost{padding:0;order:2;margin:0}.people-copy{order:1}.people-copy h2{font-size:47px}.people-copy .body-copy{margin-top:24px}.letter{padding:42px 32px 48px}.letter p{font-size:27px;line-height:1.45}.letter-header{margin-bottom:28px;font-size:13px}.letter-header img{width:44px;height:44px}.letter .signature{font-size:21px;margin-top:28px}.footer{padding-top:40px}.footer h2{font-size:52px}.footer-top{gap:25px;padding-bottom:30px}.footer-links{gap:15px 24px}.footer-bottom{font-size:12px;flex-direction:column;gap:10px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head"><a class="home" href="#top">Raygen Rupe<span>Engineer. Maker. Student.</span></a><nav aria-label="Main"><a href="#letter">About me</a><a href="https://link.raygen.dev">Elsewhere</a></nav></header>
+<main id="main">
+<svg class="continuation" aria-hidden="true"><path id="continuation-path"/></svg>
+<section class="hero" id="top" aria-labelledby="name">
+<div class="intro">
+<h1 id="name">Raygen <span>Rupe.</span></h1>
+<p class="intro-lead">I make things.<br>And help other people make theirs.</p>
+<p class="intro-note">Printers, software, a makerspace full of students. There’s a common thread.</p>
+<div class="thread-control">
+<div class="control-title"><label for="thread-progress">Follow the thread</label><span>Move through my work</span></div>
+<input id="thread-progress" type="range" min="0" max="1000" step="1" value="0" aria-valuetext="Making things: custom printers and Onshape">
+<div class="thread-readout"><p id="thread-description" aria-live="polite">Making a machine means working through the whole thing: the model, the motion, and the code that moves it.</p><a id="thread-link" href="#making"><span>Things I’ve built</span><svg class="arrow" viewBox="0 0 20 16" aria-hidden="true"><path d="M1 8h16M11 2l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a></div>
+</div>
+</div>
+<div class="thread" data-stop="0" aria-label="One continuous line through four parts of my work">
+<svg class="thread-svg" viewBox="0 0 520 620" aria-hidden="true"><path id="thread-path" class="wire" d="M32 78H370C478 78 478 238 370 238H150C42 238 42 398 150 398H370C478 398 478 558 370 558H32"/><circle class="wire-node" cx="32" cy="78" r="6"/><circle class="wire-node" cx="32" cy="558" r="6"/><circle id="thread-marker" class="wire-marker" cx="32" cy="78" r="10"/></svg>
+<img class="thread-printer" src="/projects/serv0.png" alt="" width="2547" height="3296">
+<img class="thread-star" src="/brand/stardance-stars.png" alt="" width="411" height="147">
+<img class="thread-avatar" src="/projects/raygen.png" alt="" width="377" height="377">
+<button class="stop stop-build" type="button" data-stop="0" aria-pressed="true">Making<small>From an idea to an object</small></button>
+<button class="stop stop-code" type="button" data-stop="1" aria-pressed="false">Coding<small>The parts you can’t hold</small></button>
+<button class="stop stop-teach" type="button" data-stop="2" aria-pressed="false">Teaching<small>More hands in the workshop</small></button>
+<button class="stop stop-help" type="button" data-stop="3" aria-pressed="false">Helping<small>Someone else’s next step</small></button>
+
+</div>
+</section>
+<div class="bridge"><p>I’m an engineer in Boise, Idaho. Making things is the core of who I am. <em>It also connects me to the people I care about.</em></p></div>
+<div class="chapters">
+<section class="chapter making" id="making" aria-labelledby="making-title">
+<div class="machine-layout"><h2 id="making-title">An idea,<br>with <span>moving parts.</span></h2>
+<figure class="machine-visual"><img src="/projects/serv0-open.png" alt="SERV0 with its panels removed, revealing its compact CoreXY mechanism" width="2547" height="3296" loading="lazy"><figcaption>SERV0, shown at Open Sauce 2026</figcaption></figure>
+<div class="body-copy"><p>I love building 3D printers. Onshape is where I work through the shapes, fits, and mechanisms.</p><p>SERV0 is my custom take on the Voron V0.2: servo motors, steel panels, CPAP cooling, and firmware integration to make it all work together.</p><a class="project-link" href="https://link.raygen.dev/serv0">Inside SERV0 <svg class="arrow" viewBox="0 0 20 16" aria-hidden="true"><path d="M1 8h16M11 2l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a></div></div>
+<div class="other-things"><article><h3>DAVID</h3><p>Three vertical rails. Articulated arms. A very different way to move a toolhead. I designed and built this Delteron in under three weeks, then brought it to RMRRF 2026.</p><a href="https://link.raygen.dev/david">Explore the mechanism</a></article><article><h3>Monstrosity</h3><p>A double H-bot printer with a first iteration made in a 24-hour sprint. Another twelve hours of work brought it to its final form.</p><a href="https://link.raygen.dev/monstrosity">See the build</a></article></div>
+</section>
+<section class="chapter software" id="software" aria-labelledby="software-title">
+<div class="software-grid"><div><h2 id="software-title">Some things<br>are made<br>of <span>software.</span></h2><div class="body-copy"><p>I work in Svelte and TypeScript, too. At Hack Club Stardance, I contributed more than ten pull requests improving timelapse and hardware workflows.</p><p>There’s a different kind of satisfaction in helping a whole team’s work move forward.</p><a class="project-link" href="https://github.com/lordbagel42">My work on GitHub <svg class="arrow" viewBox="0 0 20 16" aria-hidden="true"><path d="M1 8h16M11 2l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a></div></div><div><img class="stardance-image" src="/brand/stardance-logo.png" width="1649" height="629" alt="Stardance" loading="lazy"><p class="software-note"><strong>On both sides of the screen.</strong><br>I also spent two weeks interning with the Stardance hardware team.</p></div></div>
+<div class="software-caption"><a href="https://stardance.hackclub.com">Hack Club Stardance</a><span>Assistant Developer · June–September 2026</span></div>
+</section>
+<section class="chapter teach" id="teaching" aria-labelledby="teach-title">
+<div class="teach-grid"><h2 id="teach-title">Knowing how.<br><span>Showing how.</span></h2><div class="body-copy"><p>At One Stone, I’m the student point of contact for the makerspace. I develop and teach safety protocols, and help students learn how to use the tooling.</p><div class="school"><span>One Stone, Boise</span><span>2025–2027</span></div><p class="second-paragraph">Before that, at Centennial High, I had the autonomy to run our VEX Robotics Competition shop. Our team took a local competition win.</p><div class="school"><span>Centennial High</span><span>2023–2024</span></div></div></div>
+</section>
+<section class="chapter people" id="people" aria-labelledby="people-title">
+<div class="people-grid"><figure class="outpost"><img src="/brand/outpost-logo.png" width="1775" height="595" alt="Hack Club Outpost, July 14–20 in San Francisco, California" loading="lazy"></figure><div class="people-copy"><h2 id="people-title">Their idea.<br><span>A hand from me.</span></h2><div class="body-copy"><p>At Hack Club Outpost, I helped more than twenty teenagers design, engineer, and debug their projects during the hackathon.</p><p>I also resolved over half of the submitted help-desk queries. Sometimes making things means helping someone get unstuck.</p><a class="project-link" href="https://outpost.hackclub.com">A little more about Outpost <svg class="arrow" viewBox="0 0 20 16" aria-hidden="true"><path d="M1 8h16M11 2l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a></div></div></div>
+</section>
+</div>
+<section class="letter" id="letter" aria-label="A note from Raygen"><div class="letter-header"><img src="/projects/raygen.png" alt="Raygen’s illustrated purple cat avatar" width="377" height="377" loading="lazy"><span>A small note, while you’re here.</span></div><p>Hack Club is where I pour my heart and soul every day. I get to build, work through problems, and be around other people who care about making things.</p><p>I’d like this corner of the internet to keep growing with me. More things I’ve built. Eventually, some things I’ve written.</p><p class="signature">— Raygen</p></section>
+</main>
+<footer class="footer"><div class="footer-top"><h2>More threads.</h2><div class="footer-links"><a href="https://link.raygen.dev">All my links</a><a href="https://rxresu.me/raygenrrupe/resume">Résumé</a><a href="mailto:raygenrrupe@gmail.com">Email me</a></div></div><div class="footer-bottom"><span>Raygen Rupe · Boise, Idaho</span><a href="#top">Back to the beginning</a></div></footer>
+<script>
+(() => {
+  const path = document.querySelector('#thread-path');
+  const marker = document.querySelector('#thread-marker');
+  const range = document.querySelector('#thread-progress');
+  const description = document.querySelector('#thread-description');
+  const link = document.querySelector('#thread-link');
+  const scene = document.querySelector('.thread');
+  const buttons = [...document.querySelectorAll('button[data-stop]')];
+  const stops = [
+    {point: [32, 78], label: 'Making things: custom printers and Onshape', text: 'Making a machine means working through the whole thing: the model, the motion, and the code that moves it.', link: '#making', action: 'Things I’ve built'},
+    {point: [260, 238], label: 'Coding: Svelte, TypeScript, and Stardance', text: 'At Stardance, more than ten of my pull requests improved timelapse and hardware workflows for other makers.', link: '#software', action: 'The software side'},
+    {point: [170, 398], label: 'Teaching: the One Stone makerspace', text: 'I’m the student point of contact for the One Stone makerspace, teaching safety and helping students use its tools.', link: '#teaching', action: 'Passing it along'},
+    {point: [32, 558], label: 'Helping: projects and people at Outpost', text: 'At Outpost, I helped more than twenty teenagers work through the design, engineering, and debugging of their projects.', link: '#people', action: 'The people around it'}
+  ];
+  const length = path.getTotalLength();
+  // Locate each real story stop on the one continuous cubic path.
+  const fractions = stops.map(({point}) => {
+    let best = 0, distance = Infinity;
+    for (let i = 0; i <= 2000; i++) {
+      const p = path.getPointAtLength(length * i / 2000);
+      const d = (p.x - point[0]) ** 2 + (p.y - point[1]) ** 2;
+      if (d < distance) { best = i / 2000; distance = d; }
+    }
+    return best;
+  });
+  let current = -1;
+  const update = (fraction, forcedIndex) => {
+    const point = path.getPointAtLength(fraction * length);
+    marker.setAttribute('cx', String(point.x));
+    marker.setAttribute('cy', String(point.y));
+    const index = forcedIndex ?? fractions.reduce((nearest, value, i) => Math.abs(value - fraction) < Math.abs(fractions[nearest] - fraction) ? i : nearest, 0);
+    range.setAttribute('aria-valuetext', stops[index].label);
+    if (index === current) return;
+    current = index;
+    scene.dataset.stop = String(index);
+    description.textContent = stops[index].text;
+    link.href = stops[index].link;
+    link.querySelector('span').textContent = stops[index].action;
+    buttons.forEach((button, i) => button.setAttribute('aria-pressed', String(i === index)));
+  };
+  range.addEventListener('input', () => update(Number(range.value) / 1000));
+  buttons.forEach((button, index) => button.addEventListener('click', () => {
+    range.value = String(Math.round(fractions[index] * 1000));
+    update(fractions[index], index);
+  }));
+  const main = document.querySelector('main');
+  const connector = document.querySelector('.continuation');
+  const connectorPath = document.querySelector('#continuation-path');
+  const paintContinuation = () => {
+    const origin = main.getBoundingClientRect();
+    const wire = document.querySelector('.thread-svg').getBoundingClientRect();
+    const hero = document.querySelector('.hero').getBoundingClientRect();
+    const chapters = document.querySelector('.chapters');
+    const chapterBox = chapters.getBoundingClientRect();
+    const x = wire.left - origin.left + wire.width * 32 / 520;
+    const y = wire.top - origin.top + wire.height * 558 / 620;
+    const turn = hero.bottom - origin.top - 15;
+    const rail = chapterBox.left - origin.left + parseFloat(getComputedStyle(chapters).paddingLeft);
+    const end = chapterBox.top - origin.top;
+    const radius = Math.min(14, (turn - y) / 2);
+    connector.setAttribute('viewBox', `0 0 ${origin.width} ${end + 2}`);
+    connector.style.height = `${end + 2}px`;
+    connectorPath.setAttribute('d', `M${x} ${y}V${turn - radius}Q${x} ${turn} ${x - radius} ${turn}H${rail + radius}Q${rail} ${turn} ${rail} ${turn + radius}V${end}`);
+  };
+  new ResizeObserver(paintContinuation).observe(main);
+  document.fonts.ready.then(paintContinuation);
+  paintContinuation();
+  update(0, 0);
+})();
+</script>
+</body>
+</html>
