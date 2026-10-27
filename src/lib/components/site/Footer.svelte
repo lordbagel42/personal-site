@@ -10,6 +10,21 @@
 		>
 		<span>Made by Raygen Rupe.<br />Always something in progress.</span>
 	</div>
+	<div class="webring">
+		<a href="https://anicetus.dev/webring">
+			<img
+				src="https://anicetus.dev/webring/img.png"
+				alt="Hardware nerds webring"
+				width="150"
+				loading="lazy"
+			/>
+		</a>
+		<nav aria-label="Hardware nerds webring">
+			<a href="https://anicetus.dev/webring?action=previous">previous</a>
+			<a href="https://anicetus.dev/webring?action=random">random</a>
+			<a href="https://anicetus.dev/webring?action=next">next</a>
+		</nav>
+	</div>
 	<nav aria-label="Footer navigation">
 		<a href={resolve('/blog')}>Writing</a>
 		<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -- public external profile URL -->
@@ -22,6 +37,7 @@
 	.site-footer {
 		padding: 45px var(--pad) 25px;
 		display: flex;
+		flex-wrap: wrap;
 		gap: 30px;
 		align-items: center;
 		justify-content: space-between;
@@ -52,6 +68,23 @@
 		align-items: center;
 		gap: 30px;
 	}
+	.webring {
+		width: 150px;
+	}
+	.webring > a {
+		display: block;
+	}
+	.webring img {
+		display: block;
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		object-position: center;
+	}
+	.webring nav {
+		gap: 0;
+		justify-content: space-around;
+	}
 	@media (max-width: 720px) {
 		.site-footer {
 			padding-top: 39px;
@@ -64,7 +97,7 @@
 		.footer-person img {
 			width: 50px;
 		}
-		nav {
+		.site-footer > nav {
 			gap: 17px;
 			flex-wrap: wrap;
 			justify-content: end;
@@ -78,7 +111,7 @@
 		.footer-person {
 			max-width: none;
 		}
-		nav {
+		.site-footer > nav {
 			justify-content: start;
 		}
 	}
